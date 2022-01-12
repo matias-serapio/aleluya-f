@@ -1,0 +1,45 @@
+.item4{
+    grid-column: 1 / 4;
+}
+
+.item5{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+}
+
+.item6{
+    grid-column: 1 / 4;
+    border: 0px;
+}
+
+.item7{
+    grid-column: 1 / 4;
+    border: 0px;
+}
+
+.item8{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+}
+
+
+
+
+
+.item5 div{
+    grid-row: 2;
+    border: 0px;
+}
+
+.item9 div {
+    grid-row: 2;
+    display: grid;
+    border: 0px;
+}
+
+
+
+
+

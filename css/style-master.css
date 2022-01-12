@@ -1,0 +1,50 @@
+.grid-container{
+    display: grid;
+    background-color: cornsilk;
+    
+  
+}
+
+.grid-container div{
+    display: grid;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    border: 1px solid black;
+ 
+}
+
+.grid-container article{
+    display: grid;
+    background-color: orange;
+    text-align:center;
+    color: white;
+    border: 1px solid black;
+ 
+}
+
+.header1{
+    
+}
+
+.header2{
+    
+}
+
+.header3{
+    
+}
+
+.footer1{
+   
+}
+
+.footer2{
+    
+    
+}
+
+.footer3{
+    
+    
+}
