@@ -1,5 +1,12 @@
+@font-face{
+font-family: 'graviola';
+src: url('./fonts/graviola-soft-heavy-italic.otf');
+}
+
+
 .item4{
     grid-column: 1 / 4;
+    height: 500px;
 }
 
 .item5{
@@ -9,6 +16,17 @@
     
     
 }
+
+.titulo-negro{
+    font-family:'graviola';
+    
+}
+
+.titulo-blanco{
+    font-family:'graviola';
+    color:white;
+}
+
 
 .item6{
     grid-column: 1 / 4;
