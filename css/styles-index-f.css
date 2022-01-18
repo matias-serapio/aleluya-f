@@ -1,7 +1,24 @@
 @font-face{
-font-family: 'graviola';
-src: url('./fonts/graviola-soft-heavy-italic.otf');
+font-family: 'poetsenone-regular';
+src: url('./fonts/poetsenone-regular.ttf');
 }
+
+@font-face{
+font-family: 'araboto';
+src: url('./fonts/araboto-normal-400.ttf');
+    
+}
+
+@font-face{
+font-family: 'araboto-bold';
+src: url('./fonts/araboto-bold-400.ttf');
+    
+}
+
+
+
+
+
 
 
 .item4{
@@ -17,13 +34,45 @@ src: url('./fonts/graviola-soft-heavy-italic.otf');
     
 }
 
+h1{
+    font-size:70px;
+}
+
+h2{
+    font-size:45px;
+}
+
 .titulo-negro{
-    font-family:'graviola';
+    font-family:'poetsenone-regular';
     
 }
 
+
+
+
+
+
 .titulo-blanco{
-    font-family:'graviola';
+    font-family:'poetsenone-regular';
+    color:white;
+}
+
+.texto-negro{
+    font-family:'araboto';
+}
+
+.texto-blanco{
+    font-family:'araboto';
+    color:white;
+}
+
+.texto-negro-bold{
+    font-family:'araboto-bold';
+    
+}
+
+.texto-blanco-bold{
+    font-family:'araboto-bold';
     color:white;
 }
 
@@ -91,7 +140,88 @@ src: url('./fonts/graviola-soft-heavy-italic.otf');
     border: 0px;
 }
 
+.boton2{
+    color: #84341B;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    
+    
 
+    border: 0px;
+    border-radius: 10px;
+    
+    background-color: #F0CB11;
+    
+    
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    
+    border-radius: 30px;
+    
+    margin-top:10px;
+}
 
+.boton3{
+    color: black;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    
+    
 
+    border: 0px;
+    
+    
+    background-color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    
+    border-radius: 30px;
+    border: 0px;
+    margin-top:10px; 
+    
+}
 
+.boton4{
+    
+    color: #84341B;
+    font-family:sans-serif;
+    font-weight:800;
+    font-size: 64px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    
+    border-radius: 30px;
+    border: 0px;
+    
+    
+    background-color: #F0CB11;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+    margin-top:10px;
+    
+}
+
+p{
+    font-size: 30px;
+}
+
+article h4{
+    font-size: 22px;
+}
