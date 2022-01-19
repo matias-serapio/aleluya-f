@@ -16,11 +16,6 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 
-
-
-
-
-
 .item4{
     grid-column: 1 / 4;
     height: 500px;
@@ -140,6 +135,19 @@ h2{
     border: 0px;
 }
 
+
+.article1{
+    display:grid;
+    grid-row: 1 / 2;
+}
+
+.article1 article{
+    grid-column: 2;
+}
+
+
+
+
 .article1 h4{
     text-align:left;
 }
@@ -152,6 +160,19 @@ h2{
     text-align:left;
 }
 
+.article1 h5{
+    font-size:20px;
+}
+
+.article2 h5{
+    font-size:20px;
+}
+
+.article3 h5{
+    font-size:20px;
+}
+
+
 .item11 div{
     grid-row: 2;
     border: 0px;
@@ -163,15 +184,45 @@ h2{
     text-align: left;
 }
 
-.item10 article{
+.item10 article1{
+    display: grid;
     grid-row: 2;
     border: 0px;
 }
+
+.item10 article2{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+.item10 article3{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+.article1{
+    grid-column: 1;
+}
+
+.article2{
+    grid-column: 2;
+}
+
+.article3{
+    grid-column: 3;
+}
+
 
 .item10 div{
     grid-row: 2;
     border: 0px;
 }
+
+
+
+
 
 .boton2{
     color: #84341B;
@@ -260,4 +311,5 @@ p{
 article h4{
     font-size: 22px;
 }
+
 
