@@ -136,13 +136,11 @@ h2{
 }
 
 
-.article1{
-    display:grid;
-    grid-row: 1 / 2;
-}
 
-.article1 article{
-    grid-column: 2;
+.item10 article{
+    justify-content: space-around;
+    display: inline-block;
+    border:0px;
 }
 
 
