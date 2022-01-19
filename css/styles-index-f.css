@@ -1,3 +1,5 @@
+/* Fuentes */
+
 @font-face{
 font-family: 'poetsenone-regular';
 src: url('./fonts/poetsenone-regular.ttf');
@@ -15,6 +17,8 @@ src: url('./fonts/araboto-bold-400.ttf');
     
 }
 
+/* Elementos del GRID */
+
 
 .item4{
     grid-column: 1 / 4;
@@ -29,23 +33,59 @@ src: url('./fonts/araboto-bold-400.ttf');
     
 }
 
-h1{
-    font-size:70px;
+.item6{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
 }
 
-h2{
-    font-size:45px;
+.item7{
+    grid-column: 1 / 4;
 }
+
+.item8{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+}
+
+.item9{
+    grid-column: 1 / 4;
+    
+}
+
+.item10{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+}
+
+.item11{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+}
+
+.article1{
+    grid-column: 1;
+}
+
+.article2{
+    grid-column: 2;
+}
+
+.article3{
+    grid-column: 3;
+}
+
+
+
+/* Fuentes - Color y Tipo */
 
 .titulo-negro{
     font-family:'poetsenone-regular';
     
 }
-
-
-
-
-
 
 .titulo-blanco{
     font-family:'poetsenone-regular';
@@ -72,45 +112,21 @@ h2{
 }
 
 
-.item6{
-    grid-column: 1 / 4;
-    display: grid;
-    border: 0px;
+/* Genéricos */
+
+h1{
+    font-size:70px;
 }
 
-.item7{
-    grid-column: 1 / 4;
+h2{
+    font-size:45px;
 }
 
-.item8{
-    grid-column: 1 / 4;
-    display: grid;
-    border: 0px;
+p{
+    font-size: 30px;
 }
 
-.item9{
-    grid-column: 1 / 4;
-    
-}
-
-.item9 p{
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-
-
-.item10{
-    grid-column: 1 / 4;
-    display: grid;
-    border: 0px;
-}
-
-.item11{
-    grid-column: 1 / 4;
-    display: grid;
-    border: 0px;
-}
+/* Divisiones y Articulos */
 
 .item5 div{
     grid-row: 2;
@@ -118,16 +134,9 @@ h2{
     
 }
 
-
-
 .item6 div{
     grid-row: 2;
     border: 0px;
-}
-
-.item7 p{
-    margin-left: 220px;
-    margin-right: 220px;
 }
 
 .item8 div{
@@ -137,6 +146,58 @@ h2{
 
 
 
+
+.item10 div{
+    grid-row: 2;
+    border: 0px;
+}
+
+.item11 div{
+    grid-row: 2;
+    border: 0px;
+}
+
+.item10 article1{
+    display: grid;
+    grid-row: 2;
+    border: 0px;
+}
+
+.item10 article2{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+.item10 article3{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+
+
+/* Márgenes */
+
+
+.item9 p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.item7 p{
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.item11 p{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+
 .item10 article{
     justify-content: space-around;
     display: inline-block;
@@ -144,6 +205,7 @@ h2{
 }
 
 
+/* Alineaciones y Tamaños */
 
 
 .article1 h4{
@@ -171,56 +233,12 @@ h2{
 }
 
 
-.item11 div{
-    grid-row: 2;
-    border: 0px;
-}
-
-.item11 p{
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: left;
-}
-
-.item10 article1{
-    display: grid;
-    grid-row: 2;
-    border: 0px;
-}
-
-.item10 article2{
-    grid-row: 2;
-    border: 0px;
-    display: grid;
-}
-
-.item10 article3{
-    grid-row: 2;
-    border: 0px;
-    display: grid;
-}
-
-.article1{
-    grid-column: 1;
-}
-
-.article2{
-    grid-column: 2;
-}
-
-.article3{
-    grid-column: 3;
+article h4{
+    font-size: 22px;
 }
 
 
-.item10 div{
-    grid-row: 2;
-    border: 0px;
-}
-
-
-
-
+/* Varios */
 
 .boton2{
     color: #84341B;
@@ -302,12 +320,8 @@ h2{
     
 }
 
-p{
-    font-size: 30px;
-}
 
-article h4{
-    font-size: 22px;
-}
+
+
 
 
