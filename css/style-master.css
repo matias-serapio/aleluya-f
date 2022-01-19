@@ -140,12 +140,46 @@
    
 }
 
+.footer1 h5{
+    color: white;
+    font-family:'araboto';
+}
+
+
+
 .footer2{
-    
+    justify-content: center;
     
 }
 
-.footer3{
+.footer2 img{
+    height: 145px;
+    width: 254px;
     
+   
+}
+
+.footer2 h6{
+    color:white;
+    font-family:'araboto';
+    font-size:13px;
     
+}
+
+
+.footer3 h4{
+    color:white;
+    
+}
+
+.leer-mas{
+    color:#BFD630;
+    font-family:'araboto';
+    font-weight:bold;
+}
+
+.siguenos{
+    color:white;
+    font-family:'araboto';
+    font-weight:bold;
 }
