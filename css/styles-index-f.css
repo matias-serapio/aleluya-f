@@ -20,16 +20,20 @@ src: url('./fonts/araboto-bold-400.ttf');
 /* Elementos del GRID */
 
 
+
+
 .item4{
     grid-column: 1 / 4;
     height: 500px;
+    background:#BC6D2A;
+    
 }
 
 .item5{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
-    
+    background:white;
     
 }
 
@@ -37,33 +41,38 @@ src: url('./fonts/araboto-bold-400.ttf');
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:#BC6D2A;
 }
 
 .item7{
     grid-column: 1 / 4;
+    background:#BC6D2A;
 }
 
 .item8{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:white;
 }
 
 .item9{
     grid-column: 1 / 4;
-    
+    background:#BC6D2A;
 }
 
 .item10{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:white;
 }
 
 .item11{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:#BC6D2A;
 }
 
 .article1{
@@ -127,6 +136,8 @@ p{
 }
 
 /* Divisiones y Articulos */
+
+
 
 .item5 div{
     grid-row: 2;
@@ -265,7 +276,7 @@ article h4{
     border-radius: 30px;
     
     margin-top:10px;
-    box-shadow: 3px 3px 3px 3px #87562D;
+    box-shadow: 3px 3px 0px 3px #87562D;
 }
 
 .boton3{
@@ -292,6 +303,7 @@ article h4{
     border: 0px;
     margin-top:10px; 
     box-shadow: 3px 3px 3px 3px #87562D;
+    
 }
 
 .boton4{
@@ -314,7 +326,7 @@ article h4{
     padding-left: 100px;
     padding-right: 100px;
     
-    box-shadow: 0px 10px 0px 0px #87562D;
+    box-shadow: 3px 20px 10px 3px #87562D;
     
     margin-top:10px;
     

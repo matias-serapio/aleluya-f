@@ -12,34 +12,34 @@
 .header1{
     grid-column: 1;
     z-index: 1;
-    
+    background:#BC6D2A;
 }
 
 .header2{
     grid-column: 2;
     display: grid;
-    
+    background:#BC6D2A;
     
 }
 
 .header3{
     grid-column: 3;
     justify-content: end;
-    
+    background:#BC6D2A;
     
 }
 
 .footer1{
-   
+    background:#874A20;   
 }
 
 .footer2{
     justify-content: center;
-    
+    background:#874A20;    
 }
 
 .footer3{
-    
+    background:#874A20;
 }
 
 .grid-container{
@@ -59,7 +59,7 @@
 .grid-container div{
     
     display: grid;
-    background-color: orangered;
+    
     text-align:center;
     color: black;
     border: 1px solid black;
@@ -70,7 +70,7 @@
 
 .grid-container article{
     display: grid;
-    background-color: orange;
+    
     text-align:center;
     color: black;
     border: 1px solid black;
