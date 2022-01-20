@@ -1,5 +1,6 @@
 /* Fuentes */
 
+
 @font-face{
 font-family: 'poetsenone-regular';
 src: url('./fonts/poetsenone-regular.ttf');
@@ -17,9 +18,8 @@ src: url('./fonts/araboto-bold-400.ttf');
     
 }
 
+
 /* Elementos del GRID */
-
-
 
 
 .item4{
@@ -47,6 +47,8 @@ src: url('./fonts/araboto-bold-400.ttf');
 .item7{
     grid-column: 1 / 4;
     background:#BC6D2A;
+    display:grid;
+    
 }
 
 .item8{
@@ -88,7 +90,6 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 
-
 /* Fuentes - Color y Tipo */
 
 .titulo-negro{
@@ -123,6 +124,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 /* Genéricos */
 
+
 h1{
     font-size:70px;
 }
@@ -135,8 +137,8 @@ p{
     font-size: 30px;
 }
 
-/* Divisiones y Articulos */
 
+/* Divisiones y Articulos */
 
 
 .item5 div{
@@ -150,13 +152,19 @@ p{
     border: 0px;
 }
 
+.item7 div{
+    
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:white;
+     border:0px; 
+}
+
 .item8 div{
     grid-row: 2;
     border: 0px;
 }
-
-
-
 
 .item10 div{
     grid-row: 2;
@@ -187,7 +195,6 @@ p{
 }
 
 
-
 /* Márgenes */
 
 
@@ -196,10 +203,8 @@ p{
     margin-right: 150px;
 }
 
-
 .item7 p{
-    margin-left: 220px;
-    margin-right: 220px;
+  
 }
 
 .item11 p{
@@ -207,7 +212,6 @@ p{
     margin-right: 100px;
     text-align: left;
 }
-
 
 .item10 article{
     justify-content: space-around;
@@ -248,62 +252,73 @@ article h4{
     font-size: 22px;
 }
 
+.circulo2 p{
+    text-align:center;
+    font-size: 25px;
+}
+
 
 /* Varios */
 
-.boton2{
+
+.boton2-shadow1{
+    
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
     font-size: 40px;
     text-decoration:none;
     font-stretch:extra-condensed;
-    
-    
-
     border: 0px;
     border-radius: 10px;
-    
     background-color: #F0CB11;
-    
-    
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 70px;
     padding-right: 70px;
-    
-    
     border-radius: 30px;
+    margin-top:10px;
+    box-shadow: 3px 3px 0px 3px #BFBCBC;
+}
+
+.boton2{
     
+    color: #84341B;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #F0CB11;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 30px;
     margin-top:10px;
     box-shadow: 3px 3px 0px 3px #87562D;
 }
 
 .boton3{
+    
     color: black;
     font-family:sans-serif;
     font-weight:bolder;
     font-size: 40px;
     text-decoration:none;
     font-stretch:extra-condensed;
-    
-    
-
     border: 0px;
-    
-    
     background-color: white;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 70px;
     padding-right: 70px;
-    
-    
     border-radius: 30px;
     border: 0px;
     margin-top:10px; 
-    box-shadow: 3px 3px 3px 3px #87562D;
-    
+    box-shadow: 3px 3px 3px 3px #BFBCBC;
 }
 
 .boton4{
@@ -314,24 +329,32 @@ article h4{
     font-size: 64px;
     text-decoration:none;
     font-stretch:extra-condensed;
-    
     border-radius: 30px;
     border: 0px;
-    
-    
     background-color: #F0CB11;
-    
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 100px;
     padding-right: 100px;
-    
     box-shadow: 3px 20px 10px 3px #87562D;
-    
     margin-top:10px;
-    
 }
 
+
+.circulo2{
+    width: 900px;
+	height: 900px;
+	border-radius: auto%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:0px auto;
+    padding-right:7%;
+    padding-left:7%;
+    padding-top:75px;
+}
 
 
 
