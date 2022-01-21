@@ -34,7 +34,10 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:white;
-    
+    border-bottom-left-radius: 30% 15%;
+    border-bottom-right-radius: 30% 15%;
+    border-top-left-radius: 30% 15%;
+    border-top-right-radius: 30% 15%;
 }
 
 .item6{
@@ -48,7 +51,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     grid-column: 1 / 4;
     background:#BC6D2A;
     display:grid;
-    
+   
 }
 
 .item8{
@@ -56,11 +59,18 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:white;
+    border-bottom-left-radius: 30% 15%;
+    border-bottom-right-radius: 30% 15%;
+    border-top-left-radius: 80% 15%;
+    border-top-right-radius:80% 15%;
+    
+    
 }
 
 .item9{
     grid-column: 1 / 4;
     background:#BC6D2A;
+    
 }
 
 .item10{
@@ -68,6 +78,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:white;
+   
 }
 
 .item11{
@@ -75,6 +86,10 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:#BC6D2A;
+    
+       
+    
+    
 }
 
 .article1{
@@ -158,7 +173,8 @@ p{
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background:white;
-     border:0px; 
+     border:0px;
+    
 }
 
 .item8 div{
@@ -174,6 +190,7 @@ p{
 .item11 div{
     grid-row: 2;
     border: 0px;
+   
 }
 
 .item10 article1{
@@ -356,7 +373,27 @@ article h4{
     padding-top:75px;
 }
 
+.marron1{
+   background-color:#BC6D2A;
+    position:;
+    z-index:0;
+    height: 800px;
+    
+    
+}
+
+.marron2{
+    background-color:#BC6D2A;
+    position:;
+    z-index:0;
+    height: 900px;
+   
+    
+}
 
 
+.blanco{
+    
+}
 
 
