@@ -204,9 +204,9 @@ p{
 
 
 .item10 div{
-    grid-row: 2;
+    grid-column: 2;
     border: 0px;
-    display: block;
+    padding: 40px;
 }
 
 .item11 div{
@@ -258,14 +258,19 @@ p{
     justify-content: space-around;
     display: inline-block;
     border:0px;
+    text-align: start;
 }
+
+
 
 
 
 
 /* Alineaciones y Tamaños */
 
-
+.item10 h5{
+    text-align: center;
+}
 
 
 .article1 h4{
@@ -426,7 +431,7 @@ article h4{
     position:;
     z-index:0;
     height: 900px;
-   
+    
     
 }
 
