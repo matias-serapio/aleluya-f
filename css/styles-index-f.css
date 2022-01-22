@@ -38,6 +38,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     border-bottom-right-radius: 30% 15%;
     border-top-left-radius: 30% 15%;
     border-top-right-radius: 30% 15%;
+    align-items: center;
 }
 
 .item6{
@@ -45,14 +46,14 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:#BC6D2A;
-    
+    align-items: center;
 }
 
 .item7{
     grid-column: 1 / 4;
     background:#BC6D2A;
     display:grid;
-   
+    align-items: center;
 }
 
 .item8{
@@ -64,13 +65,14 @@ src: url('./fonts/araboto-bold-400.ttf');
     border-bottom-right-radius: 30% 15%;
     border-top-left-radius: 80% 15%;
     border-top-right-radius:80% 15%;
-    
+    align-items: center;
     
 }
 
 .item9{
     grid-column: 1 / 4;
     background:#BC6D2A;
+    align-items: center;
 }
 
 .item10{
@@ -86,7 +88,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:#BC6D2A;
-    
+    align-items:center;
        
     
     
@@ -170,6 +172,8 @@ p{
 .item6 div{
     grid-row: 2;
     border: 0px;
+    display:block;
+    padding:40px;
 }
 
 .item7 div{
@@ -187,9 +191,12 @@ p{
 .item8 div{
     grid-row: 2;
     border: 0px;
+    display:block;
+    padding:40px;
 }
 
 .item9 div{
+    border:0px;
     padding: 40px;
 }
 
@@ -199,12 +206,15 @@ p{
 .item10 div{
     grid-row: 2;
     border: 0px;
+    display: block;
 }
 
 .item11 div{
     grid-row: 2;
     border: 0px;
-   
+    display:block;
+    padding:40px;
+    
 }
 
 .item10 article1{
@@ -240,8 +250,7 @@ p{
 
 
 .item11 p{
-    margin-left: 100px;
-    margin-right: 100px;
+   
     text-align: left;
 }
 
@@ -384,6 +393,7 @@ article h4{
     padding-right: 100px;
     box-shadow: 3px 20px 10px 3px #87562D;
     margin-top:10px;
+    
 }
 
 
