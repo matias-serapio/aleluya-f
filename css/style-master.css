@@ -65,7 +65,7 @@
     border: 1px solid black;
     position: static;
     z-index:2;
- 
+    
 }
 
 
@@ -205,6 +205,6 @@
      top: -100px;
      left: -30px;
      z-index:-1;   
-    
+     
     
 }
