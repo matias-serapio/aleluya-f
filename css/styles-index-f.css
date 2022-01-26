@@ -405,7 +405,7 @@ article h4{
 .circulo2{
     width: 900px;
 	height: 900px;
-	border-radius: auto%;
+	border-radius: auto;
 	background: white;
 	display: flex;
 	justify-content: center;
@@ -419,7 +419,6 @@ article h4{
 
 .marron1{
    background-color:#BC6D2A;
-    position:;
     z-index:0;
     height: 800px;
     
@@ -428,7 +427,6 @@ article h4{
 
 .marron2{
     background-color:#BC6D2A;
-    position:;
     z-index:0;
     height: 900px;
     
