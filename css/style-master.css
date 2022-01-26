@@ -240,46 +240,4 @@
     
 }
 
-#bg {
-    width:1190px;
-    height:140px;
-    
-    overflow:hidden;
-    position:absolute;
-    top:4250px;
-    border-radius:20px;
-   
-}
-#bg-bottom {
-    position:absolute;
-    bottom:0px;
-    left:0px;
-    width:600px;
-    height:100px;
-    top:100px;
-    background:#874A20;
-   
-}
-#top {
-    position:absolute;
-    background:#874A20;
-    top:40px;
-    left:-10px;
-    width:0px;
-    height:200px;
-   
-    border-radius:200px;
-   
-}
-#bottom {
-    position:absolute;
-    background:#874A20;
-    top:40px;
-    left:-1px;
-    width:500px;
-    height:100px;
-    
-    border-top-left-radius:60px;
-    border-top-right-radius:100px;
-}
 
