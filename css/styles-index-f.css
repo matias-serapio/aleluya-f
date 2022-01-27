@@ -144,16 +144,42 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 h1{
     font-size:70px;
+    position:relative;
+    z-index:10;
 }
 
 h2{
     font-size:45px;
+    position:relative;
+    z-index:10;
 }
 
 p{
     font-size: 30px;
+    position:relative;
+    z-index:10;
 }
 
+h3{
+    position:relative;
+    z-index:10;
+    
+}
+
+h4{
+   position:relative;
+    z-index:10; 
+}
+
+h5{
+    position:relative;
+    z-index:10;
+}
+
+h6{
+  position:relative;
+    z-index:10;  
+}
 
 /* Div + Art - Padding + Margin */
 
@@ -417,21 +443,7 @@ article h4{
     padding-top:75px;
 }
 
-.marron1{
-   background-color:#BC6D2A;
-    z-index:0;
-    height: 800px;
-    
-    
-}
 
-.marron2{
-    background-color:#BC6D2A;
-    z-index:0;
-    height: 900px;
-    
-    
-}
 
 
 .blanco{
