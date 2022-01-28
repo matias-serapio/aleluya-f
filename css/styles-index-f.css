@@ -24,7 +24,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .item4{
     grid-column: 1 / 4;
-    height: 500px;
+    height:600px;
     background:#BC6D2A;
     
 }
@@ -34,10 +34,6 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:white;
-    border-bottom-left-radius: 30% 15%;
-    border-bottom-right-radius: 30% 15%;
-    border-top-left-radius: 30% 15%;
-    border-top-right-radius: 30% 15%;
     align-items: center;
 }
 
@@ -61,10 +57,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     display: grid;
     border: 0px;
     background:white;
-    border-bottom-left-radius: 30% 15%;
-    border-bottom-right-radius: 30% 15%;
-    border-top-left-radius: 80% 15%;
-    border-top-right-radius:80% 15%;
+  
     align-items: center;
     
 }
@@ -89,7 +82,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     border: 0px;
     background:#BC6D2A;
     align-items:center;
-       
+    padding-bottom:200px   
     
     
 }
@@ -181,6 +174,18 @@ h6{
     z-index:10;  
 }
 
+img{
+    max-width:auto;
+     height:100%:
+}
+
+svg{
+    max-width:auto;
+     height:100%:
+}
+
+
+
 /* Div + Art - Padding + Margin */
 
 
@@ -188,7 +193,8 @@ h6{
     grid-row: 2;
     border: 0px;
     display:block;
-    padding:40px;
+    padding-top:40px;
+  
 }
 
 
@@ -446,7 +452,6 @@ article h4{
 
 
 
-.blanco{
-    
-}
+
+
 

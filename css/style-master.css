@@ -11,8 +11,7 @@
 
 .header1{
     grid-column: 1;
-    z-index: 4;
-    background:#BC6D2A;
+    z-index: 9;
 }
 
 .header2{
@@ -87,7 +86,7 @@
     text-align:center;
     color: black;
     border: 1px solid black;
-    
+
     
 }
 
@@ -198,71 +197,78 @@
 
 a{
   position:relative;
-    z-index:10;  
+    z-index:100;  
 }
 
 p{
      position:relative;
-    z-index:10;
+    z-index:100;
 }
 
 h1{
      position:relative;
-    z-index:10;
+    z-index:100;
 }
 
 h2{
     position:relative;
-    z-index:10; 
+    z-index:100; 
 }
 
 h3{
     position:relative;
-    z-index:10;
+    z-index:100;
     
 }
 
 h4{
    position:relative;
-    z-index:10; 
+    z-index:100; 
 }
 
 h5{
     position:relative;
-    z-index:10;
+    z-index:100;
 }
 
 h6{
   position:relative;
-    z-index:10;  
+    z-index:100;  
 }
 
 img{
-    position:relative;
-    z-index:10;
+    
+    max-width:auto;
+     height:100%:
 }
 
+svg{
+    
+    max-width:auto;
+     height:100%:
+}
 
 /* Varios */
 
 .circulo1 {
-     width: 380px;
-     height: 330px;
+     width: 475px;
+     height: 460px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
-     border-radius: 50%;
+     border-radius: 100%;
      background:#BC6D2A;
      position:absolute;
-     top: -100px;
-     left: -30px;
+     top: -290px;
+     left: -100px;
      z-index:-1;
 }
 
 .header1 img{
-    height: 145px;
-    width: 254px;
-    
-   
+    width:172px;
+    height:97px;
+    position:relative;
+    left:-10px;
+    z-index:19;
 }
 
 .footer2 img{
@@ -272,16 +278,46 @@ img{
    
 }
 
-svg{
-    position:relative;
-    z-index:1;
-     
-}
+
 
 .ondulado-footer{
     width:0px;
     height:0px;
     position:relative;
-    bottom: 570px;
+    bottom: 670px;
+    z-index: 9;
 }
+
+
+
+
+
+
+.footer img{
+    position:relative;
+    z-index:10;
+}
+
+
+
+
+
+.circulo-header{
+    z-index:8;
+    width:0px;
+    height:0px;
+    position:relative;
+    left:-17px;
+    top:-17px;
+}
+
+
+
+.ondulado-header img{
+    width: 100%;
+    height: 840px;
+    position:absolute;
+    z-index:7;
+}
+
 
