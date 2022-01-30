@@ -24,7 +24,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .item4{
     grid-column: 1 / 4;
-    height:600px;
+    height:700px;
     background:#BC6D2A;
     
 }
@@ -139,6 +139,7 @@ h1{
     font-size:70px;
     position:relative;
     z-index:10;
+    font-weight:100;
 }
 
 h2{
@@ -189,12 +190,15 @@ svg{
 /* Div + Art - Padding + Margin */
 
 
+
 .item5 div{
     grid-row: 2;
     border: 0px;
     display:block;
-    padding-top:40px;
-  
+    padding-top:55px;
+    padding-bottom:55px;
+    padding-left:1px;
+    padding-right:20px;
 }
 
 
@@ -339,11 +343,35 @@ article h4{
     font-size: 25px;
 }
 
-.lado-der{
+.lado-der1{
     align-items: center;
 }
 
-.lado-izq{
+.lado-izq1{
+    align-items: center;
+}
+
+.lado-der2{
+    align-items: center;
+}
+
+.lado-izq2{
+    align-items: center;
+}
+
+.lado-der3{
+    align-items: center;
+}
+
+.lado-izq3{
+    align-items: center;
+}
+
+.lado-der4{
+    align-items: center;
+}
+
+.lado-izq4{
     align-items: center;
 }
 
@@ -450,7 +478,10 @@ article h4{
 }
 
 
-
+.item5 img{
+    height:445px;
+    width:445px;
+}
 
 
 
