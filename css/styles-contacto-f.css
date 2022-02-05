@@ -1,0 +1,50 @@
+.mapa{
+    grid-row: 3;
+    position: relative;
+    align-content: space-around;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.item5{
+    grid-column: 1;
+    height: 3000px;
+    grid-row: 2;
+    display: grid;
+    border: 0px;
+    background:white;
+    align-items: center;
+}
+.item6{
+    grid-column: 2;
+    height: 5000px;
+    grid-row: 2;
+    display: grid;
+    border: 0px;
+    background:#BC6D2A;
+    align-items: center;
+}
+
+
+.item5 div{
+    grid-row: 2;
+    border: 0px;
+    display:block;
+    padding-top:55px;
+    padding-bottom:55px;
+    padding-left:1px;
+    padding-right:20px;
+}
+
+
+
+
+
+.item6 div{
+    grid-row: 2;
+    border: 0px;
+    display:block;
+    padding:40px;
+}
+
