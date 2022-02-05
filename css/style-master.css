@@ -367,9 +367,18 @@ svg{
 }
 
 .siguenos img{
-    position: relative;
+
     width:63px;
+}
+
+.iconos-redes div{
+   display:flex;
+    padding-left:0px;
     
+}
+
+.iconos-instagram{
+    padding-right:70px;
 }
 
 .item8 img{
