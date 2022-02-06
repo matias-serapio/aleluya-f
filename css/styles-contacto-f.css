@@ -9,7 +9,7 @@
 
 .item5{
     grid-column: 1;
-    height: 3000px;
+    height: auto;
     grid-row: 2;
     display: grid;
     border: 0px;
@@ -18,7 +18,7 @@
 }
 .item6{
     grid-column: 2;
-    height: 5000px;
+    height: 3000px;
     grid-row: 2;
     display: grid;
     border: 0px;
