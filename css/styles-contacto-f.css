@@ -1,32 +1,39 @@
 .mapa{
-    grid-row: 3;
+    grid-row: 4;
     position: relative;
     align-content: space-around;
     justify-content: space-around;
     justify-items: center;
     align-items: stretch;
 }
-.item4{
-    grid-column: 1 / 4;
-    height:700px;
-    background:#BC6D2A;
+
+.item4 h1{
+    display: flex;
+    padding-top: 300px;
     color: white;
-    
+    /* background: white; */
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 100px;
 }
+
 
 .item5{
     grid-column: 1;
+
     height: auto;
-    grid-row: 2;
+    grid-row: 3;
     display: grid;
     border: 0px;
     background:white;
     align-items: center;
 }
 .item6{
-    grid-column: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     height: 4500px;
-    grid-row: 2;
+    grid-row: 3;
     display: grid;
     border: 0px;
     background:#BC6D2A;
