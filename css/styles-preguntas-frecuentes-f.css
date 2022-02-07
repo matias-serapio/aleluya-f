@@ -27,6 +27,20 @@
     font-size: 100px;
 }
 
+.boton1{
+    border: 1px solid black;
+    height: 50px;
+    width: 121px;
+    
+    background-color: #F0CB11;
+    
+    font-size: x-large;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top:10px;
+}
+
 
 .item5{
     grid-column: 1;
