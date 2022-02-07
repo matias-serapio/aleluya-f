@@ -1,0 +1,131 @@
+.mapa{
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4; */
+    /* grid-row: 4; */
+    /* position: relative; */
+    /* align-content: space-around; */
+    /* justify-content: space-around; */
+    /* justify-items: center; */
+    /* align-items: stretch; */
+    /*position: absolute;*/
+    left: 43px;
+    top: 2376px;
+    filter: drop-shadow(0px -15px 10px rgba(0, 0, 0, 0.25));
+}
+.mapa iframe{
+    width: 1850PX;
+    height: 600px;
+}
+.titulo h1{
+    display: flex;
+    padding-top: 100px;
+    color: white;
+    /* background: white; */
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 100px;
+}
+
+
+.item5{
+    grid-column: 1;
+
+    height: auto;
+    grid-row: 3;
+    display: grid;
+    border: 0px;
+    background:white;
+    align-items: center;
+    padding-top: 300px;
+}
+.item6{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 2000PX;
+    grid-row: 3;
+    display: grid;
+    border: 0px;
+    background: #BC6D2A;
+    align-items: center;
+    padding-top: 300px;
+}
+
+
+.item5 div{
+    grid-row: 2;
+    border: 0px;
+    /* display: block; */
+    /* padding-top: 55px; */
+    /* padding-bottom: 55px; */
+    /* padding-left: 1px; */
+    /* padding-right: 20px; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  
+}
+
+
+
+
+
+.item6 div{
+    display: flex;
+    /* grid-row: 2; */
+    border: 0px;
+    display: block;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user_info{    
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+h1{
+    font-size:70px;
+    position:relative;
+    z-index:10;
+    font-weight:100;
+}
+
+h2{
+    font-size:45px;
+    position:relative;
+    z-index:10;
+}
+
+h3{
+    font-size: 25px;
+    position: relative;
+    z-index: 10;
+} 
+p{
+    font-size: 30px;
+    position:relative;
+    z-index:10;
+}
+
+h3{
+    position:relative;
+    z-index:10;
+    
+}
+
+
+/**Footer*/
+.ondulado-footer img {
+    width: 110%;
+    /* height: 777px; */
+    position: relative;
+    z-index: 9;
+    top: -246px;
+}
