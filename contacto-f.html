@@ -73,11 +73,18 @@
             <form action="enviar.php" method="post" class="form_contact">
                 <h2>Formulario</h2>
                 <div class="user_info">
-                    <label for="names">Nombres *</label>
-                    <input type="text" id="names" name="nombre" required>
+                    <div class="name_nick">
+                        <p>
+                            <label for="names">Nombres *</label>
+                            <input type="text" id="names" name="nombre" required>
+                        </p>
 
-                    <label for="phone">Apellido</label>
-                    <input type="text" id="nickname" name="apellido" required>
+                        <p>
+                            <label for="phone">Apellido</label>
+                            <input type="text" id="nickname" name="apellido" required>
+                        </p>
+
+                    </div>
 
                     <label for="email">E - Mail*</label>
                     <input type="text" id="email" name="correo" required>
@@ -115,7 +122,7 @@
 
 
 
-        </div>
+    </div>
     </div>
     <div class="mapa">Mapa
         <iframe
