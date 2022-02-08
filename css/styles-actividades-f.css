@@ -1,14 +1,18 @@
 .item4{
     grid-column: 1 / 4;
+    height:598px;
+    background:#BC6D2A;
 }
 
 .item5{
     grid-column: 1 / 4;
+    background:#28A5FF;
     
 }
 
 .item6{
     grid-column: 1 / 4;
+    background:#BC6C24;
 }
 
 
@@ -16,6 +20,7 @@
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:#9E4B00;
 }
 
 .item7 div{
@@ -29,6 +34,12 @@
     border: 0px;
 }
 
+.ondulado-header img{
+    height:715px;
+}
 
-
-
+.article2 img{
+ height:603px;
+    
+    
+}
