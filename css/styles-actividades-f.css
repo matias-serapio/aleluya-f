@@ -42,8 +42,10 @@
 
 
 .article2 {
-    
+   
   }
+
+
 
 
 
@@ -70,31 +72,140 @@
 
 .nube{
     height:630px;
+    position:relative;
+    justify-content: center;
 }
 
 .area{
     height:274px;
+    position:relative;
+    
 }
 
 
-.nube-container{
+.nube-container1 {
+  
+   
+   
+}
+
+.nube-texto1{
+  
+}
+
+.nube-container2{
    justify-content: center;
-   position:absolute;
-      padding-left:250px;   
-      padding-top:100px;  
+    
+     
     
 }
 
-.nube-texto{
-   position:absolute;
-    padding-left:200px;
+.nube-texto2{
+  
     
-    padding-top:100px;
-    top:275px;
+}
+
+.nube-container3{
+   justify-content: center;
+   
+}
+
+.nube-texto3{
+   
+    
+}
+
+.nube-container4{
+   justify-content: center;
+   
+       
+    
+}
+
+.nube-texto4{
+  
+    
+}
+
+.nube-container5{
+   justify-content: center;
+   
+    
+}
+
+.nube-texto5{
+  
+  
 }
 
 
 
+/* Fuentes */
 
 
+@font-face{
+font-family: 'poetsenone-regular';
+src: url('./fonts/poetsenone-regular.ttf');
+}
 
+@font-face{
+font-family: 'araboto';
+src: url('./fonts/araboto-normal-400.ttf');
+    
+}
+
+@font-face{
+font-family: 'araboto-bold';
+src: url('./fonts/araboto-bold-400.ttf');
+    
+}
+
+/* Fuentes - Color y Tipo */
+
+.titulo-negro{
+    font-family:'poetsenone-regular';
+    
+}
+
+.titulo-blanco{
+    font-family:'poetsenone-regular';
+    color:white;
+}
+
+.texto-negro{
+    font-family:'araboto';
+}
+
+.texto-blanco{
+    font-family:'araboto';
+    color:white;
+}
+
+.texto-negro-bold{
+    font-family:'araboto-bold';
+    
+}
+
+.texto-blanco-bold{
+    font-family:'araboto-bold';
+    color:white;
+}
+
+.titulo-azul{
+    font-family:'poetsenone-regular';
+    color:#0094FF;
+    font-size: 48px;
+    
+}
+
+.texto-azul{
+    font-family:'poetsenone-regular';
+    color:#0094FF;
+    font-size:24px;
+   
+    
+}
+
+.nube-container1{
+    
+}
