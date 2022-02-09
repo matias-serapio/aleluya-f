@@ -1,14 +1,18 @@
 .item4{
     grid-column: 1 / 4;
+    height:598px;
+    background:#BC6D2A;
 }
 
 .item5{
     grid-column: 1 / 4;
-    
+    background:#28A5FF;
+
 }
 
 .item6{
     grid-column: 1 / 4;
+    background:#BC6C24;
 }
 
 
@@ -16,6 +20,7 @@
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:#9E4B00;
 }
 
 .item7 div{
@@ -28,6 +33,67 @@
     
     border: 0px;
 }
+
+.ondulado-header img{
+    height:715px;
+}
+
+
+
+
+.article2 {
+    
+  }
+
+
+
+.article3{
+   justify-items:end;
+       
+}
+
+
+
+.article4{
+    
+}
+
+
+
+.article5{
+    justify-items: end;
+}
+
+.article6{
+    
+}
+
+.nube{
+    height:630px;
+}
+
+.area{
+    height:274px;
+}
+
+
+.nube-container{
+   justify-content: center;
+   position:absolute;
+      padding-left:250px;   
+      padding-top:100px;  
+    
+}
+
+.nube-texto{
+   position:absolute;
+    padding-left:200px;
+    
+    padding-top:100px;
+    top:275px;
+}
+
+
 
 
 
