@@ -49,21 +49,21 @@
 
 
 
-.article3{
+.article3-SUM{
    justify-items:end;
        
 }
 
 
 
-.article4{
+.article4-SUM{
     
 }
 
 
 
-.article5{
-    justify-items: end;
+.article5-SUM{
+    
 }
 
 
@@ -75,65 +75,53 @@
 }
 
 .area{
-    height:274px;
+    height:229px;
     
     
 }
 
 
-.nube-container1 {
-  
-   
-   
-}
 
-.nube-texto1{
-  
-}
 
-.nube-container2{
-   justify-content: center;
-    
+
+
+.article5-SUM{
      
+    display:block;
+   flex-direction: row;
     
-}
-
-.nube-texto2{
-  
-    
-}
-
-.nube-container3{
-   justify-content: center;
+    position:relative;
+    justify-items: end;
    
 }
 
-.nube-texto3{
-   
+.nube-perfil4-SUM{
+   position:relative;
+    bottom:540px;
+    right:170px;
+    
     
 }
 
-.nube-container4{
-   justify-content: center;
-   
-       
+.nube-texto4-SUM{
+     width:590px;
+    position:relative;
+    bottom:540px;
+    
+    right:0px;
+    
     
 }
 
-.nube-texto4{
-  
-    
-}
+
+
+
+
+
 
 .article6-SUM{
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-   
-    /* DISPLAY: INLINE-BLOCK; */
-    /* TEXT-ALIGN: center; */
    width:0px;
-    /* height: 701px; */
+    
    
     
 }
