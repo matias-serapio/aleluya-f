@@ -66,9 +66,7 @@
     justify-items: end;
 }
 
-.article6{
-    
-}
+
 
 .nube{
     height:630px;
@@ -127,15 +125,41 @@
     
 }
 
-.nube-container5{
-   justify-content: center;
-   
-    
+.article6-SUM{
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    /* DISPLAY: INLINE-BLOCK; */
+    /* TEXT-ALIGN: center; */
+    POSITION: RELATIVE;
+    /* height: 701px; */
+    width: 85%;
 }
 
-.nube-texto5{
-  
-  
+.nube-perfil5-SUM{
+    /*justify-content: center; */
+    /* grid-column: 1; */
+    /* z-index: 2; */
+    position: absolute;
+    /* top: 10px; */
+    /* left: 10px; */
+    /* right: 10px; */
+    /* position: absolute; */
+    top: 40%;
+    left: 30%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.nube-texto5-SUM{
+    /* Z-INDEX: 3; */
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    right: 22%;
+    transform: translate(-40%, -40%);
+    align-items: center;
 }
 
 
