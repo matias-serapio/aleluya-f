@@ -7,7 +7,7 @@
 .item5{
     grid-column: 1 / 4;
     background:#28A5FF;
-    
+
 }
 
 .item6{
@@ -42,4 +42,43 @@
  height:603px;
     
     
+}
+
+
+.article2{
+    
+}
+
+.article3 img{
+    height:603px;
+ 
+}
+
+.article3{
+   justify-items:end;
+       
+}
+
+.article4 img{
+    height:603px;
+}
+
+.article4{
+    
+}
+
+.article5 img{
+    height:603px;
+}
+
+.article5{
+    justify-items: end;
+}
+
+.article6{
+    
+}
+
+.article6 img{
+    height:603px;
 }
