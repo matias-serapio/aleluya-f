@@ -38,38 +38,27 @@
     height:715px;
 }
 
-.article2 img{
- height:603px;
-    
-    
-}
 
 
-.article2{
-    
-}
 
-.article3 img{
-    height:603px;
- 
-}
+.article2 {
+    
+  }
+
+
 
 .article3{
    justify-items:end;
        
 }
 
-.article4 img{
-    height:603px;
-}
+
 
 .article4{
     
 }
 
-.article5 img{
-    height:603px;
-}
+
 
 .article5{
     justify-items: end;
@@ -79,6 +68,33 @@
     
 }
 
-.article6 img{
-    height:603px;
+.nube{
+    height:630px;
 }
+
+.area{
+    height:274px;
+}
+
+
+.nube-container{
+   justify-content: center;
+   position:absolute;
+      padding-left:250px;   
+      padding-top:100px;  
+    
+}
+
+.nube-texto{
+   position:absolute;
+    padding-left:200px;
+    
+    padding-top:100px;
+    top:275px;
+}
+
+
+
+
+
+
