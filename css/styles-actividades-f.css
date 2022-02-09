@@ -41,33 +41,6 @@
 
 
 
-.article2 {
-   
-  }
-
-
-
-
-
-.article3-SUM{
-   justify-items:end;
-       
-}
-
-
-
-.article4-SUM{
-    
-}
-
-
-
-.article5-SUM{
-    
-}
-
-
-
 .nube{
     height:630px;
     
@@ -99,8 +72,8 @@
  
     position:relative;
     bottom:500px;
-    padding-right: 150px;
-    
+    padding-right: 379px;
+    left:150px;
 }
 
 
@@ -108,10 +81,6 @@
 
 .article3-SUM{
      
-    display:block;
-   flex-direction: row;
-    
-    position:relative;
     justify-items: end;
    
 }
@@ -164,11 +133,7 @@
 
 .article5-SUM{
      
-    display:block;
-   flex-direction: row;
-    
-    position:relative;
-    justify-items: end;
+   justify-items:end;
    
 }
 
