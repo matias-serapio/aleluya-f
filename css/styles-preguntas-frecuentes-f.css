@@ -13,7 +13,7 @@
     filter: drop-shadow(0px -15px 10px rgba(0, 0, 0, 0.25));
 }
 .mapa iframe{
-    width: 1850PX;
+    width: 1250PX;
     height: 600px;
 }
 .titulo h1{
@@ -27,18 +27,45 @@
     font-size: 100px;
 }
 
+header{
+    grid-column: 1;
+    z-index: 9;
+    display: flex;
+}
+.header1{
+    grid-column: 1;
+    z-index: 9;
+}
+
+.header2{
+    grid-column: 2;
+    display: grid;
+    background:#77a789;
+    
+}
+
 .boton1{
-    border: 1px solid black;
-    height: 50px;
+    /* border: 1px solid black; */
+    /* height: 50px; */
     width: 121px;
-    
     background-color: #F0CB11;
-    
     font-size: x-large;
     padding: 12px;
     border-radius: 10px;
     border: 0px;
-    margin-top:10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    /* position: absolute; */
+    /* width: 177.6px; */
+    /* height: 75px; */
+    /* left: 1652px; */
+    /* top: 30px; */
+    /* filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.25));*/
 }
 
 
@@ -134,12 +161,70 @@ h3{
     
 }
 
+.ondulado-fondo-body{
+/*position: absolute;*/
+height: 2448px;
+left: -109px;
+top: 1193px;
+width: 1280px;
+bottom: 50px;
+padding-top: 500px;
+}
+.ondulado-fondo-body img{
+    /*position: absolute;*/
+      /* position: absolute; */
+      height: 2448px;
+      /* left: -5px; */
+      /* top: 1097px; */
+      width: 100%;
+      padding-right: 5px;
+}
 
 /**Footer*/
-.ondulado-footer img {
-    width: 110%;
-    /* height: 777px; */
-    position: relative;
+
+footer{
+
+    justify-content: space-around;
+    display: grid;
+    grid-column: 1 / 4;
+    height: 570px;
+    /* background: #894A00;*/
+}
+.footer {
+    justify-content: space-around;
+    display: grid;
+    grid-column: 1 / 4;
+    height: 570px;
+    background: #6feb3f;
+ 
+}
+.ondulado-footer img{
+    width:100%;
+    height:635px;
+    position:relative;
     z-index: 9;
-    top: -246px;
+    top:-635px;
+}
+
+.ondulado-footer{
+    height: -5px;
+    grid-row: 2;
+    /* width: auto; */
+    grid-column: 1 /4;
+}
+.iconos-redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.iconos-redes div {
+    display: flex;
+    padding-left: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
