@@ -1,19 +1,78 @@
 .item4{
     grid-column: 1 / 4;
+    height:600px;
+
 }
 
 .item5{
     grid-column: 1 / 4;
+    background:#BC6C24;
 }
 
 .item6{
     grid-column: 1 / 4;
+    background:#BC6C24;
 }
 
 .item7{
     grid-column: 1 / 4;
+    background:#BC6C24;
 }
 
 .item8{
     grid-column: 1 / 4;
+    background:#BC6C24;
+}
+
+.item9{
+    grid-column: 1 / 4;
+    background:#BC6C24;
+}
+
+.ondulado-header img{
+    height:690px;
+}
+
+
+/* Fuentes */
+
+
+@font-face{
+font-family: 'poetsenone-regular';
+src: url('./fonts/poetsenone-regular.ttf');
+}
+
+@font-face{
+font-family: 'araboto';
+src: url('./fonts/araboto-normal-400.ttf');
+    
+}
+
+@font-face{
+font-family: 'araboto-bold';
+src: url('./fonts/araboto-bold-400.ttf');
+    
+}
+
+/* Fuentes - Color y Tipo */
+
+.titulo-blanco{
+    font-family:'poetsenone-regular';
+    color:white;
+    font-size:60px;
+    font-weight: 100;
+}
+
+.texto-blanco{
+    font-family:'araboto';
+    color:white;
+    font-size: 28px;
+    font-weight:100;
+    line-height:35px;
+}
+
+.item8 .titulo-blanco{
+    
+    background:#BC6C24;
+    text-align: center;
 }
