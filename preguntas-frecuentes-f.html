@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/style-master.css" />
     <link rel="stylesheet" href="./css/styles-preguntas-frecuentes-f.css" />
     <link rel="stylesheet" href="css/font-awesome.css">
-
+    <script src="js/categorias.js"></script>
+	<script src="js/preguntasFrecuentes.js"></script>
 </head>
 
 <body>
@@ -48,23 +49,146 @@
             </ul>
 
         </div>
-
+    
     </header>
 
     <div class="titulo">
         <h1>Preguntas </h1>
         <h1>Frecuentes</h1>
     </div>
-    <div class="ondulado-fondo-body">Mapa
-        <img src=".\img\preguntas-frecuentes/bg-preguntas-frecuentes.png"> 
-     </div>
+
+    <div class="ondulado-fondo-body">
+        <img src=".\img\preguntas-frecuentes/bg-preguntas-frecuentes.png">
+    </div>
+    <div class="presentacion">
+        <h1 class="titulo">
+            Preguntas Frecuentes</h1>
+        <p>En esta sección podrá encontrar respuesta a diversas preguntas relacionadas con las donaciones, los eventos
+            que
+            realizamos y el voluntariado que recibimos con los brazos abiertos..</p>
+    </div>
+
+    <div class="categorias" id="categorias">
+        <div class="categoria activa" data-categoria="Donaciones">
+
+            <p>Donaciones</p>
+        </div>
+        <div class="categoria" data-categoria="Eventos">
+
+            <p>Eventos</p>
+        </div>
+        <div class="categoria" data-categoria="Voluntariado">
+
+            <p>Voluntariado</p>
+        </div>
+
+    </div>
+
+    <div class="preguntas">
+
+        <!-- Preguntas Donaciones -->
+        <div class="contenedor-preguntas activo" data-categoria="Donaciones">
+            <div class="contenedor-pregunta">
+                <p class="pregunta"><img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" />¿Cómo hago para convertirme en un donante mensual? </p>
+                <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia!
+                    Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe
+                    harum. Consectetur, doloribus.adipisicing elit.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿A qué se destinan los fondos? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" /></p>
+                <p class="respuesta">AL MANTENIMIENTO DEL LA INFRAESTRUCTURA DEL HOGAR, 
+                    A LOS ALIMENTOS DE LOS CHICOS, A ÚTILES ESCOLARES y 
+                    las distintas necesidades que surjan en relación al
+                     funcionamiento del Hogar y la comunidad de familias que lo integran.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Qué hacen con las donaciones que no necesitan? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" /></p>
+                <p class="respuesta">AL MANTENIMIENTO DEL LA INFRAESTRUCTURA DEL HOGAR, 
+                    A LOS ALIMENTOS DE LOS CHICOS, A ÚTILES ESCOLARES y 
+                    las distintas necesidades que surjan en relación al
+                     funcionamiento del Hogar y la comunidad de familias que lo integran.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Qué medios de pago puedo utilizar para realizar mi donación? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" /></p>
+                <p class="respuesta">AL MANTENIMIENTO DEL LA INFRAESTRUCTURA DEL HOGAR, 
+                    A LOS ALIMENTOS DE LOS CHICOS, A ÚTILES ESCOLARES y 
+                    las distintas necesidades que surjan en relación al
+                     funcionamiento del Hogar y la comunidad de familias que lo integran.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Qué tipo de donaciones puedo realizar? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" /></p>
+                <p class="respuesta">AL MANTENIMIENTO DEL LA INFRAESTRUCTURA DEL HOGAR, 
+                    A LOS ALIMENTOS DE LOS CHICOS, A ÚTILES ESCOLARES y 
+                    las distintas necesidades que surjan en relación al
+                     funcionamiento del Hogar y la comunidad de familias que lo integran.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Cuéntan con donantes recurrentes? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" /></p>
+                <p class="respuesta">AL MANTENIMIENTO DEL LA INFRAESTRUCTURA DEL HOGAR, 
+                    A LOS ALIMENTOS DE LOS CHICOS, A ÚTILES ESCOLARES y 
+                    las distintas necesidades que surjan en relación al
+                     funcionamiento del Hogar y la comunidad de familias que lo integran.</p>
+            </div>
+        </div>
+
+        <!-- Preguntas Eventos -->
+        <div class="contenedor-preguntas" data-categoria="Eventos">
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Tienen entregas a domicilio? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png" alt="Abrir Respuesta" /></p>
+                <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro
+                    voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci,
+                    perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit.
+                    Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates
+                    soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur,
+                    doloribus.adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum
+                    eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum.
+                    Consectetur, doloribus.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿En cuanto sale el envio a mi país? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png"
+                        alt="Abrir Respuesta" /></p>
+                <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro
+                    voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci,
+                    perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit.
+                    Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates
+                    soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.</p>
+            </div>
+        </div>
+
+        <!-- Preguntas Voluntariado -->
+        <div class="contenedor-preguntas" data-categoria="Voluntariado">
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Como puedo saber si son confiables? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png"
+                        alt="Abrir Respuesta" /></p>
+                <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro
+                    voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci,
+                    perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit.
+                    Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates
+                    soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur,
+                    doloribus.adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum
+                    eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum.
+                    Consectetur, doloribus.</p>
+            </div>
+            <div class="contenedor-pregunta">
+                <p class="pregunta">¿Que pasa con mis datos personales? <img src="./img\preguntas-frecuentes/pestaña-cerrada.png"
+                        alt="Abrir Respuesta" /></p>
+                <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro
+                    voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci,
+                    perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit.
+                    Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates
+                    soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.</p>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 <footer>
-    <div class="ondulado-footer" >
-      
+    <div class="ondulado-footer">
+
         <img src="./img/bg-footer.png">
-          
+
     </div>
 
     <div class="footer">
