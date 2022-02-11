@@ -108,3 +108,9 @@ src: url('./fonts/araboto-bold-400.ttf');
     width:1030px;
 }
 
+/*****************************************************/
+.footer{
+    top: -100px;
+    padding-bottom: 500p;
+    position: relative;
+}

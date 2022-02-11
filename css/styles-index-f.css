@@ -18,7 +18,59 @@ src: url('./fonts/araboto-bold-400.ttf');
     
 }
 
+/******************Tiulo de header*****************************/
+.titulo-body {
+    /* grid-column: 1 / 4; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.titulo-body h1{
+    display: flex;
+    padding-top: 200px;
+    /* color: white; */
+    /* background: #cb5353; */
+    /* font-size: 100px; */
+    /* z-index: 9; */
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-body-superior{
+    grid-column: 1 / 4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+}
+.titulo-body-medio{
+      /* grid-column: 1 / 4; */
+    /* left: 745px; */
+    top: 194px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 82px;
+
+}
+.titulo-body-inferior{
+    /* width: 756px; */
+    /* height: 94px; */
+    /* left: 606px; */
+    top: 281px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+}
+/***********************************************/
 /* Elementos del GRID */
 
 
@@ -181,8 +233,8 @@ img{
 }
 
 svg{
-    max-width:auto;
-     height:100%;
+   /* max-width:auto;
+     height:100%;*/
 }
 
 
@@ -497,4 +549,8 @@ article h4{
     text-align: start;
 }
 
-
+.footer{
+    top: -100px;
+    padding-bottom: 500p;
+    position: relative;
+}
