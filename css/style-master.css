@@ -4,116 +4,23 @@
     padding: 0;
 }
 
-
-
-
-/* Elementos del GRID */
-
 .header1{
     grid-column: 1;
     z-index: 9;
+}
+
+.header1 img{
+    width:172px;
+    height:97px;
+    position:relative;
+    left:-10px;
+    z-index:19;
 }
 
 .header2{
     grid-column: 2;
     display: grid;
     background:#BC6D2A;
-    
-}
-
-.header3{
-    grid-column: 3;
-    justify-content: end;
-    background:#BC6D2A;
-    
-}
-
-.footer{
-    
-    justify-content: space-around;
-    display:grid;
-    grid-column: 1 / 4;
-    height: 570px;
-    background:#894A00;
-}
-
-.footer1{
-  
-  
-    grid-row: 1;
-    display:block;
-    padding:54px;
-    align-items: center;
-    
-}
-
-.footer2{
-    
-    justify-content: center;
-    align-items: center;
-    grid-row: 1;
-    display:block;
-    padding-left:100px;
-}
-
-.footer3{
-    
-    
-   
-    grid-row: 1;
-    display:block; 
-    padding-left:130px;
-    align-items:center;
-}
-
-.grid-container{
-    display: grid;
-    background-color: cornsilk;
-    
-    padding-top: 19.5px;
-   
-    position: relative;
-    
-}
-
-
-.lado-derf{
-    position:relative;
-    left:60px;
-    
-}
-
-.lado-izqf{
-    position:relative;
-    top:35px;
-}
-
-
-
-
-/* Divisiones y Articulos */
-
-
-.grid-container div{
-    
-    display: grid;
-    
-    text-align:center;
-    color: black;
-    
-
-    
-}
-
-
-
-.grid-container article{
-    display: grid;
-    
-    text-align:center;
-    color: black;
-    border: 1px solid black;
-    
 }
 
 .header2 ul{
@@ -128,37 +35,7 @@
     grid-row: 1 / 6;
     justify-content: space-between;
     padding: 15px;
-    
 }
-
-.iconos-redes div{
-    display:grid;
-    grid-row: 3;
-    padding-top:30px;
-}
-
-.container-instagram{
-    position:relative;
-    right:85px;
-}
-
-
-/* Alineaciones y Tamaños */
-
-
-
-.lado-derf h5{
-    text-align: start;
-}
-
-.siguenos{
-   
-}
-
-
-/* Fuentes - Color y Tipo */
-
-
 
 .header2 a{
     color:white;
@@ -166,7 +43,12 @@
     text-decoration: none;
     font-family:sans-serif;
     font-size:14px;
-  
+}
+
+.header3{
+    grid-column: 3;
+    justify-content: end;
+    background:#BC6D2A;   
 }
 
 .header3 a{
@@ -175,17 +57,14 @@
     font-weight:bolder;
     font-size: 25px;
     text-decoration:none;
-    font-stretch:extra-condensed;
-    
+    font-stretch:extra-condensed;  
 }
 
 .header3 p{
     border: 1px solid black;
     height: 50px;
     width: 121px;
-    
-    background-color: #F0CB11;
-    
+    background-color: #F0CB11; 
     font-size: x-large;
     padding: 12px;
     border-radius: 10px;
@@ -193,106 +72,21 @@
     margin-top:10px;
 }
 
-
-.footer1 h5{
-    color: white;
-    font-family:'araboto';
-    font-size:16px;
-}
-
-.footer2 h6{
-    color:white;
-    font-family:'araboto';
-    font-size:13px;
-    
-}
-
-
-
-.footer3 h4{
-    color:white;
-    font-size:22px;
-    text-align: left;
-}
-
-.footer3 h5{
-    text-align: left;
-    font-size:15px;
-    font-weight:100
-}
-
-
-
-.leer-mas{
-    color:#BFD630;
-    font-family:'araboto';
-    font-weight:bold;
-    text-align:left;
-}
-
-.siguenos{
-    color:white;
-    font-family:'araboto';
-    font-weight:bold;
-}
-
-
-/* Genéricos */
-
-a{
-  position:relative;
-    z-index:100;  
-}
-
-p{
-     position:relative;
-    z-index:100;
-}
-
-h1{
-     position:relative;
-    z-index:100;
-}
-
-h2{
+.circulo-header{
+    z-index:8;
+    width:0px;
+    height:0px;
     position:relative;
-    z-index:100; 
+    left:-17px;
+    top:-17px;
 }
 
-h3{
-    position:relative;
-    z-index:100;
-    
+.ondulado-header img{
+    width: 100%;
+    height: 840px;
+    position:absolute;
+    z-index:7;
 }
-
-h4{
-   position:relative;
-    z-index:100; 
-}
-
-h5{
-    position:relative;
-    z-index:100;
-}
-
-h6{
-  position:relative;
-    z-index:100;  
-}
-
-img{
-    
-    max-width:auto;
-     height:100%:
-}
-
-svg{
-    
-    max-width:auto;
-     height:100%:
-}
-
-/* Varios */
 
 .circulo1 {
      width: 475px;
@@ -307,22 +101,108 @@ svg{
      z-index:-1;
 }
 
-.header1 img{
-    width:172px;
-    height:97px;
+.footer{
+    justify-content: space-around;
+    display:grid;
+    grid-column: 1 / 4;
+    height: 570px;
+    background:#894A00;
+}
+
+.footer img{
     position:relative;
-    left:-10px;
-    z-index:19;
+    z-index:10;
+}
+
+.footer1{
+    grid-row: 1;
+    display:block;
+    padding:54px;
+    align-items: center;
+}
+
+
+.footer1 h5{
+    color: white;
+    font-family:'araboto';
+    font-size:16px;
+}
+
+.footer2{ 
+    justify-content: center;
+    align-items: center;
+    grid-row: 1;
+    display:block;
+    padding-left:100px;
 }
 
 .footer2 img{
     height: 234px;
-    width: 403px;
-    
-   
+    width: 403px; 
 }
 
+.footer2 h6{
+    color:white;
+    font-family:'araboto';
+    font-size:13px;  
+}
 
+.footer3{ 
+    grid-row: 1;
+    display:block; 
+    padding-left:130px;
+    align-items:center;
+}
+
+.footer3 h4{
+    color:white;
+    font-size:22px;
+    text-align: left;
+}
+
+.footer3 h5{
+    text-align: left;
+    font-size:15px;
+    font-weight:100
+}
+
+.lado-derf{
+    position:relative;
+    left:60px;  
+}
+
+.lado-derf h5{
+    text-align: start;
+}
+
+.lado-izqf{
+    position:relative;
+    top:35px;
+}
+
+.iconos-redes div{
+    display:grid;
+    grid-row: 3;
+    padding-top:30px;
+}
+
+.container-instagram{
+    position:relative;
+    right:85px;
+}
+
+.leer-mas{
+    color:#BFD630;
+    font-family:'araboto';
+    font-weight:bold;
+    text-align:left;
+}
+
+.siguenos{
+    color:white;
+    font-family:'araboto';
+    font-weight:bold;
+}
 
 .ondulado-footer img{
     width:110%;
@@ -336,61 +216,87 @@ svg{
     height:0px;
 }
 
-
-
-
-.footer img{
-    position:relative;
-    z-index:10;
-}
-
-
-
-
-
-.circulo-header{
-    z-index:8;
-    width:0px;
-    height:0px;
-    position:relative;
-    left:-17px;
-    top:-17px;
-}
-
-
-
-.ondulado-header img{
-    width: 100%;
-    height: 840px;
-    position:absolute;
-    z-index:7;
-}
-
 .siguenos img{
-
     width:63px;
 }
 
 .iconos-redes div{
-   display:flex;
+    display:flex;
     padding-left:0px;
-    
 }
 
 .iconos-instagram{
     padding-right:70px;
 }
 
-.item8 img{
-    width: 533px;
-    height:498px;
+.grid-container{
+    display: grid;
+    background-color: cornsilk;
+    padding-top: 19.5px;
+    position: relative; 
 }
 
-.item8 p{
-    text-align: start;
-    font-size:25px;
+.grid-container div{ 
+    display: grid;
+    text-align:center;
+    color: black;   
 }
 
-.item8 h1{
-    text-align: start;
+.grid-container article{
+    display: grid;
+    text-align:center;
+    color: black;
+    border: 1px solid black;   
+}
+
+/* Genéricos */
+
+a{
+    position:relative;
+    z-index:100;  
+}
+
+p{
+    position:relative;
+    z-index:100;
+}
+
+h1{
+    position:relative;
+    z-index:100;
+}
+
+h2{
+    position:relative;
+    z-index:100; 
+}
+
+h3{
+    position:relative;
+    z-index:100;   
+}
+
+h4{
+    position:relative;
+    z-index:100; 
+}
+
+h5{
+    position:relative;
+    z-index:100;
+}
+
+h6{
+    position:relative;
+    z-index:100;  
+}
+
+img{ 
+    max-width:auto;
+    height:100%:
+}
+
+svg{ 
+    max-width:auto;
+    height:100%:
 }
