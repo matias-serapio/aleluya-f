@@ -1,37 +1,39 @@
+
+
 .item4{
     grid-column: 1 / 4;
-    height:600px;
-
+    height:700px;
 }
 
 .item5{
     grid-column: 1 / 4;
     background:#BC6C24;
-    justify-items: center;
+    
 }
 
 .item6{
     grid-column: 1 / 4;
     background:#BC6C24;
-    justify-items: center;
+    padding-top:100px;
+   
 }
 
 .item7{
     grid-column: 1 / 4;
     background:#BC6C24;
-    justify-items: center;
+    padding-top:100px;
 }
 
 .item8{
     grid-column: 1 / 4;
     background:#BC6C24;
-    justify-items: center;
+    padding-top:100px;
 }
 
 .item9{
     grid-column: 1 / 4;
     background:#BC6C24;
-    justify-items: center;
+    padding-top:100px;
 }
 
 .ondulado-header img{
@@ -74,18 +76,13 @@ src: url('./fonts/araboto-bold-400.ttf');
     font-size: 28px;
     font-weight:100;
     line-height:35px;
-}
-
-.item8 .titulo-blanco{
-    
-    background:#BC6C24;
-    text-align: center;
+  
 }
 
 .item5 img{
     height:560px;
     width:1030px;
-    
+   
 }
 
 .item6 img{
@@ -113,4 +110,103 @@ src: url('./fonts/araboto-bold-400.ttf');
     top: -100px;
     padding-bottom: 500p;
     position: relative;
+}
+
+
+.ubicacion-evento{
+    position:relative;
+     justify-items:center;
+    padding-left:925px;
+    
+}
+
+.ubicacion-evento img{
+    margin-bottom:10px;
+    height:68px;
+    width:52px;
+}
+
+.ubicacion-evento p{
+    line-height:50px;
+}
+
+.evento1{
+    justify-items: center;
+    
+}
+
+.evento2{
+    justify-items: center;
+}
+
+.evento3{
+    justify-items: center;
+}
+
+.evento4{
+    justify-items: center;
+}
+
+.evento5{
+    justify-items: center;
+}
+
+.evento1 h4{
+    text-align: left;
+    width:1100px;
+    margin-top:90px;
+    padding-left:50px;
+    padding-bottom:50px;
+}
+
+.evento2 h4{
+    text-align: left;
+    width:1100px;
+    margin-top:90px;
+    padding-left:50px;
+    padding-bottom:50px;
+}
+
+.evento3 h4{
+    text-align: left;
+    width:1100px;
+    margin-top:90px;
+    padding-left:50px;
+    padding-bottom:50px;
+}
+
+.evento4 h4{
+    text-align: left;
+    width:1100px;
+    margin-top:90px;
+    padding-left:50px;
+    padding-bottom:50px;
+}
+
+.evento5 h4{
+    text-align: left;
+    width:1100px;
+    margin-top:90px;
+    padding-left:50px;
+    padding-bottom:50px;
+}
+
+.evento1 h1{
+    padding-bottom:100px;
+}
+
+.evento2 h1{
+    padding-bottom:100px;
+}
+
+.evento3 h3{
+    padding-bottom:100px;
+}
+
+.evento4 h1{
+    padding-bottom:100px;
+}
+
+.evento5 h1{
+    padding-bottom:100px;
 }
