@@ -6,7 +6,7 @@
 
 
 body {
-    background: #f8fafb;
+    background: #08adff;
     font-family: 'Roboto', sans-serif;
     /* background-image: url(../img/bg-preguntas-frecuentes.png); */
     /* background-repeat: no-repeat; */
@@ -266,10 +266,10 @@ header {
     font-size: 15px;
     font-weight: 100;
     /* position: absolute; */
-    width: 375px;
+    /* width: 375px; */
     /* height: 154px; */
-    left: 1357px;
-    top: 412px;
+    /* left: 1357px; */
+    /* top: 412px; */
     padding: 39px 6px 12px -13px;
 }
 
