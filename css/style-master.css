@@ -8,6 +8,7 @@
 body {
     background: #08adff;
     font-family: 'Roboto', sans-serif;
+    
     /* background-image: url(../img/bg-preguntas-frecuentes.png); */
     /* background-repeat: no-repeat; */
     /* background-size: 1578px 1731px; */
@@ -319,12 +320,14 @@ header {
     background-color: cornsilk;
     padding-top: 19.5px;
     position: relative; 
+    
 }
 
 .grid-container div{ 
     display: grid;
     text-align:center;
-    color: black;   
+    color: black; 
+    
 }
 
 .grid-container article{
