@@ -42,8 +42,9 @@ body {
 }
 
 .titulo-body h1{
-    display: flex;
-    padding-top: 300px;
+    /**********/
+        /* display: flex; */
+    /* padding-top: 300px; */
     color: white;
     /* background: #cb5353; */
     font-size: 100px;
@@ -51,6 +52,13 @@ body {
     justify-content: flex-start;
     align-content: center;
     position: absolute;
+    /* position: absolute; */
+    width: 1190px;
+    /* height: 298px; */
+    left: 33px;
+    top: 592px;
+    background: rgba(40, 40, 40, 0.5);
+    border-radius: 50px;
 }
 /**************No se logro que esto corra*************
 .imagen-de-fondo img{
