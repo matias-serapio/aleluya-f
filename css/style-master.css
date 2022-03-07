@@ -147,7 +147,9 @@ header {
 }
 /***************************************************/
 /*****************FOOTER**************************/
-
+footer{
+    height: 500px;
+}
 .footer {
     justify-content: space-around;
     display: grid;
