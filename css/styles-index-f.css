@@ -40,6 +40,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     align-items: center;
 }
 
+
 .titulo-body-superior{
     grid-column: 1 / 4;
     font-family: Roboto;
@@ -73,6 +74,27 @@ src: url('./fonts/araboto-bold-400.ttf');
 /***********************************************/
 /* Elementos del GRID */
 
+.titulo-body-slider{
+    /*grid-column: 1 / 4;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titulo-body-slider h1{
+    display: flex;
+    padding-top: 200px;
+    color: white;
+    /* background: #cb5353; */
+    /* font-size: 100px; */
+    /* z-index: 9; */
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}
 
 .item4{
     grid-column: 1 / 4;
