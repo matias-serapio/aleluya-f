@@ -199,6 +199,78 @@ form.form_contact input[type="submit"] {
 form.form_contact input[type="submit"]:hover {
     background: #3371B6;
 }
+/*******Modal********/
+.Modal_enviado{
+    top: 0;
+    right: 0;
+    left: 0;
+    /* background-color: #fff; */
+    position: fixed;
+    /* align-content: space-around; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    /* margin: 10px; */
+    /* width: 50%; */
+    align-items: flex-start;
+    padding: 50px 50px 50px 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;  
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.Modal_enviado input[type="submit"] {
+     /* width: 150px; */
+     background: #4091EC;
+     padding: 10px;
+     border: none;
+     border-radius: 25px;
+     align-self: flex-end;
+     color: #fff;
+     font-family: 'Open sans';
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+.Contenedor_modal{
+    background-color: #f5e0cb;
+    position: fixed;
+    /* display: flex; */
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+    align-content: flex-start;
+    align-items: center;
+    width: 600px;
+    max-width: 100%;
+    padding: 25px 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+    text-align: center;
+}
+.Contenedor_modal h1{
+    font-family: 'Open sans';
+    opacity: 0.7;
+    font-size: 30px;
+  
+}
+/**********funciona con el js*******/
+.show {
+    pointer-events: auto;
+    opacity: 1;
+  }
 /**Footer*/
 .ondulado-footer img {
     width: 110%;
@@ -206,4 +278,24 @@ form.form_contact input[type="submit"]:hover {
     position: relative;
     z-index: 9;
     top: -246px;
+
+}
+
+footer{
+position: relative;
+    justify-content: space-around;
+    display: grid;
+    grid-column: 1 / 4;
+    height: 640px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-size: 100% 130%; */
+    /* top: 8.27px; */
+    /* padding-right: 26px; */
+    align-items: center;
+    z-index: 20;
+    bottom: 69px;
+    height: 500px;
 }
