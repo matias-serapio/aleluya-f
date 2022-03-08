@@ -1,35 +1,43 @@
 .item4{
     grid-column: 1 / 4;
+    height:900px;
+    background:#0094FF;
 }
 
 .item5{
     grid-column: 1 / 4;
+    background:white;
 }
 
 .item6{
     grid-column: 1 / 4;
+    background:white;
 }
 
 .item7{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:white;
 }
 
 .item8{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:white;
 }
 
 .item9{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
+    background:white;
 }
 
 .item10{
     grid-column: 1 / 4;
+    background:#08ADFF;
 }
 
 .item7 div{
