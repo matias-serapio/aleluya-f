@@ -21,39 +21,41 @@
     background:white;
 }
 
-.item8{
-    grid-column: 1 / 4;
-    display: grid;
-    border: 0px;
-    background:white;
-}
 
-.item9{
-    grid-column: 1 / 4;
-    display: grid;
-    border: 0px;
-    background:white;
-}
 
 .item10{
     grid-column: 1 / 4;
-    background:#08ADFF;
+    background:#0094FF;
 }
 
 .item7 div{
     grid-row: 2;
     border: 0px;
+   
+}
+
+
+
+.item7 img{
+    height:860px;
+}
+
+.article1{
+    justify-items:end;
+}
+
+.article2{
     
 }
 
-.item8 div{
-    grid-row: 2;
-    border: 0px;
-    
+.article3{
+   justify-items:end;
 }
 
-.item9 div{
-    grid-row: 2;
-    border: 0px;
-    
+.lado-der .subtaller{
+    display:inline-block;
+}
+
+.lado-izq .subtaller{
+    display:inline-block;
 }
