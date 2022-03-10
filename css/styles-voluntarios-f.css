@@ -127,15 +127,67 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .article1-contenido{
     position:relative;
+    right:150px;
     bottom:500px;
 }
 
 .article2-contenido{
     position:relative;
     bottom:500px;
+    
 }
 
 .article3-contenido{
     position:relative;
     bottom:500px;
+    right:150px;
 }
+
+.article1-contenido .texto-blanco{
+    font-size:25px;
+    font-weight: 100;
+    width:500px;
+    line-height:32px;
+}
+
+.article1-contenido .texto-negro-cursiva{
+    font-size:25px;
+    font-weight: 100;
+    width:400px;
+    text-align:justify;
+}
+
+.article2-contenido .texto-blanco{
+    font-size:25px;
+    font-weight: 100;
+    width:500px;
+    line-height:32px;
+}
+
+.article2-contenido .texto-negro-cursiva{
+    font-size:25px;
+    font-weight: 100;
+    width:400px;
+    text-align:justify;
+}
+
+.article3-contenido .texto-blanco{
+    font-size:25px;
+    font-weight: 100;
+    width:500px;
+    line-height:32px;
+}
+
+.article3-contenido .texto-negro-cursiva{
+    font-size:25px;
+    font-weight: 100;
+    width:400px;
+    text-align:justify;
+}
+
+.texto-negro-bold{
+    text-align: left;
+    font-size:26px;
+}
+
+
