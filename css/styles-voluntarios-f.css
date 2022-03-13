@@ -59,6 +59,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     
 }
 
+
 .article2{
     
 }
@@ -72,7 +73,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 .lado-izq .subtaller{
-    display:inline-block;
+   display:inline-block;
 }
 
 .item8 img{
@@ -255,4 +256,36 @@ src: url('./fonts/araboto-bold-400.ttf');
 .article2-contenido .lado-der{
     position:relative;
     left:60px;
+}
+
+.article1-contenido .lado-der .arriba img{
+    height:50px;
+    position:relative;
+    bottom:100px;
+}
+
+.article1-contenido .lado-der .arriba div{
+    display: inline-block;
+    
+    
+}
+
+.article2-contenido .lado-izq .arriba img{
+    height:50px;
+    position:relative;
+    bottom:100px;
+}
+
+.article2-contenido .lado-izq .arriba div{
+    display: inline-block;
+}
+
+.article3-contenido .lado-der .arriba img{
+    height:50px;
+    position:relative;
+    bottom:100px;
+}
+
+.article3-contenido .lado-der .arriba div{
+    display: inline-block;
 }
