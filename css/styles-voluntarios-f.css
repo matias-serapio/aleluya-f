@@ -338,4 +338,4 @@ src: url('./fonts/araboto-bold-400.ttf');
     margin-top:10px;
 }
 
-/* al usar padding con width, se traslada el elemento hacia la ubicacion deseada pero va perdiendo espacio el width. Al usar position relative se traslada a la ubicación deseada y se respeta el espacio. */
+/* al usar padding con width, se traslada el elemento hacia la ubicacion deseada pero va perdiendo espacio el width. Al usar position relative se traslada a la ubicación deseada y se respeta el espacio. Para que no ocupe espacio el padding, aplicarlo en el .item raiz */
