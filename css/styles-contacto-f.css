@@ -119,6 +119,14 @@ h3{
     z-index:10;
     
 }
+/*Body- main**/
+.grid-container{
+    display: grid;
+    background-color: cornsilk;
+    padding-top: 350px;
+    position: relative; 
+    
+}
 
 /* Formulario de contacto*/
 
@@ -140,6 +148,30 @@ form.form_contact .user_info {
     flex-direction: column;
 }
 
+
+form.form_contact .user_info .name_nick label {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    width: 100px;
+    padding-right: 5px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+form.form_contact .user_info .name_nick input {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    width: 50px;
+    padding-right: 5px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 form.form_contact .user_info .name_nick {
     display: flex;
     flex-direction: column;
@@ -151,7 +183,6 @@ form.form_contact .user_info .name_nick {
     align-items: flex-start;
     justify-content: space-between;
 }
-
 form.form_contact label {
     font-weight: 600;
 }
