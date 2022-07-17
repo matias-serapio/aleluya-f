@@ -104,7 +104,7 @@ header {
 
     grid-column: 2;
     display: flex;
-    background: #77a789;
+    /*background: #77a789;*/
     z-index: 3;
     align-items: center;
     flex-wrap: wrap;

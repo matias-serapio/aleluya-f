@@ -43,33 +43,28 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .titulo-body-superior{
     grid-column: 1 / 4;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 82px;
+    top: 170px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 51px;
 }
 .titulo-body-medio{
       /* grid-column: 1 / 4; */
     /* left: 745px; */
-    top: 194px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 70px;
-    line-height: 82px;
-
+    top: 230px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    
 }
 .titulo-body-inferior{
     /* width: 756px; */
     /* height: 94px; */
     /* left: 606px; */
-    top: 281px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 94px;
+    top: 290px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
 }
 /***********************************************/
 /* Elementos del GRID */
