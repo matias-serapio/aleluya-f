@@ -104,7 +104,23 @@ src: url('./fonts/araboto-bold-400.ttf');
     border: 0px;
     background:white;
     align-items: center;
+    height: 525px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 230px;
 }
+
+
+
+.item5 p{
+
+    align-items: center;
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+
 
 .item6{
     grid-column: 1 / 4;
@@ -173,7 +189,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .titulo-negro{
     font-family:'poetsenone-regular';
-    
+    max-width: 550px;
 }
 
 .titulo-blanco{
@@ -203,9 +219,8 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 /* Genéricos - Tamaño - Fuente */
 
-
 h1{
-    font-size:70px;
+    font-size:65px;
     position:relative;
     z-index:10;
     font-weight:100;
@@ -218,7 +233,7 @@ h2{
 }
 
 p{
-    font-size: 30px;
+    font-size: 26px;
     position:relative;
     z-index:10;
 }
@@ -263,15 +278,22 @@ svg{
 .item5 div{
     grid-row: 2;
     border: 0px;
-    display:block;
-    padding-top:55px;
+    display:flex;
+    padding-top:20px;
     padding-bottom:55px;
-    padding-left:1px;
-    padding-right:20px;
+    padding-left:15px;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 
-
+.division-boton{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 .item6 div{
@@ -413,11 +435,13 @@ article h4{
 }
 
 .lado-der1{
-    align-items: center;
+    align-items: flex-start;
 }
 
 .lado-izq1{
-    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
 }
 
 .lado-der2{
@@ -548,8 +572,8 @@ article h4{
 
 
 .item5 img{
-    height:445px;
-    width:445px;
+    height:450px;
+    width:468px;
 }
 
 .item8 img{
