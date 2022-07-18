@@ -92,7 +92,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 .item4{
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     height:700px;
     background:#BC6D2A;
     
@@ -107,7 +107,8 @@ src: url('./fonts/araboto-bold-400.ttf');
     height: 525px;
     text-align: left;
     padding-top: 10px;
-    padding-right: 230px;
+    padding-right: 220px;
+    
 }
 
 
@@ -189,8 +190,11 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .titulo-negro{
     font-family:'poetsenone-regular';
-    max-width: 550px;
-}
+
+}  
+.titulo-texto{
+ max-width: 600px;
+}  
 
 .titulo-blanco{
     font-family:'poetsenone-regular';
@@ -289,6 +293,7 @@ svg{
 
 
 .division-boton{
+    grid-column: 2;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -588,10 +593,4 @@ article h4{
 
 .item8 h1{
     text-align: start;
-}
-
-.footer{
-    top: -100px;
-    padding-bottom: 500p;
-    position: relative;
 }
