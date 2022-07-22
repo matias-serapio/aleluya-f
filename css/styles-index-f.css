@@ -301,12 +301,16 @@ svg{
 }
 
 
+
+
 .item6 div{
     grid-row: 2;
     border: 0px;
     display:block;
     padding:40px;
 }
+
+
 
 .item7 div{
     
@@ -519,6 +523,13 @@ article h4{
     box-shadow: 3px 3px 0px 3px #87562D;
 }
 
+.item6 .division-boton{
+   display: flex;
+   justify-content: right;
+}
+
+
+
 .boton3{
     
     color: black;
@@ -594,3 +605,12 @@ article h4{
 .item8 h1{
     text-align: start;
 }
+
+.item6 .titulo-blanco{
+  display:flex;
+justify-content: right;
+position:relative;
+left:172px;
+}
+
+
