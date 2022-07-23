@@ -164,7 +164,7 @@ src: url('./fonts/araboto-bold-400.ttf');
    
 }
 
-.item11{
+.Ayudanos-div{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
@@ -350,7 +350,7 @@ svg{
     padding: 40px;
 }
 
-.item11 div{
+.Ayudanos-div div{
     grid-row: 2;
     border: 0px;
     display:block;
@@ -376,15 +376,12 @@ svg{
     display: grid;
 }
 
-
 /* Titulos y Parrafos */
-
 
 .item9 p{
     margin-left: 150px;
     margin-right: 150px;
 }
-
 
 
 .item7 .texto-negro{
@@ -395,7 +392,7 @@ svg{
 }
 
 
-.item11 p{
+.Ayudanos-div p{
    
     text-align: left;
 }
