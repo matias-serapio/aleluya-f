@@ -129,6 +129,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     border: 0px;
     background:#BC6D2A;
     align-items: center;
+    
 }
 
 .item7{
@@ -308,6 +309,7 @@ svg{
     border: 0px;
     display:block;
     padding:40px;
+    
 }
 
 
@@ -319,6 +321,8 @@ svg{
      border-radius: 50%;
      background:white;
      border:0px;
+     
+   
     
 }
 
@@ -380,8 +384,13 @@ svg{
     margin-right: 150px;
 }
 
-.item7 p{
-  
+
+
+.item7 .texto-negro{
+  position: relative;
+  bottom:30px;
+  text-align:center;
+  line-height: 30px;
 }
 
 
@@ -548,6 +557,8 @@ article h4{
     border: 0px;
     margin-top:10px; 
     box-shadow: 3px 3px 3px 3px #BFBCBC;
+    position:relative;
+    bottom:60px;
 }
 
 .boton4{
@@ -572,8 +583,8 @@ article h4{
 
 
 .circulo2{
-    width: 900px;
-	height: 900px;
+    width: 780px;
+	height: 780px;
 	border-radius: auto;
 	background: white;
 	display: flex;
@@ -607,10 +618,42 @@ article h4{
 }
 
 .item6 .titulo-blanco{
-  display:flex;
-justify-content: right;
-position:relative;
-left:172px;
+display:flex;
+    justify-content: center;
+    
 }
+
+.item7 img{
+    width:590px;
+    height:250px;
+    position: relative;
+    top:20px;
+}
+
+.item6 .circunferencia{
+    width:1405px;
+    height:480px;
+    position:relative;
+    right:350px;
+    top:315px;
+    
+}
+
+.item6 .foto-ninos{
+    height:400px;
+    position:relative;
+    z-index:1; 
+}
+
+.item6 .texto-negro{
+    
+}
+
+
+
+
+
+
+
 
 
