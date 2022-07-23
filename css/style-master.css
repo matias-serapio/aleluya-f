@@ -18,6 +18,7 @@ body {
     /* height: auto; */
     /* left: -3px; */
     /* top: 0px;*/
+    
 }
 
 .foto-de-fondo-ondulado-header img {
@@ -49,7 +50,7 @@ body {
     top: 592px;
     background: rgba(40, 40, 40, 0.5);
     border-radius: 50px;
-  
+   
 }
 
 /******************************************************/
@@ -215,6 +216,7 @@ footer{
     z-index: 1;
     position: relative;
     top: -100px;
+    
 }
 
 /***************************************************************/
@@ -395,12 +397,14 @@ footer{
     background-color: cornsilk;
     padding-top: 19.5px;
     position: relative;
+    grid-template-columns: 0px auto 0px;
 }
 
 .grid-container div{ 
     display: grid;
     text-align:center;
     color: black; 
+   
     
 }
 
