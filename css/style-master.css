@@ -24,7 +24,7 @@ body {
 .foto-de-fondo-ondulado-header img {
     width: 100%;
     grid-column: 1/4;
-    height: 840px;
+    /*height: 153px;*/
     position: absolute;
     z-index: 1;
 }
@@ -126,7 +126,8 @@ header {
     display: grid;
     grid-row: 1 / 5;
     justify-content: center;
-    padding: 15px;
+    padding-right: 22px;
+    padding-left: 22px
 }
 
 .header2-nav a {
@@ -179,7 +180,7 @@ header {
     align-items: center;
     align-content: space-between;
     text-align: center;
-
+    width: 120px;
 }
 
 .boton-donar  a {
@@ -413,10 +414,6 @@ footer{
 
 /* Genéricos */
 
-a{
-    position:relative;
-    z-index:100;  
-}
 
 p{
     position:relative;
