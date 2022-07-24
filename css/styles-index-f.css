@@ -740,26 +740,47 @@ display:flex;
 
 /***********EXTRAS DE Testimoions***********************/
 
-.item8 div{
+.section-eventos div{
     grid-row: 2;
     border: 0px;
     display:block;
     padding:40px;
 }
 
-.item8 img{
+/* .item8 div{
+    grid-row: 2;
+    border: 0px;
+    display:block;
+    padding:40px;
+} */
+
+.section-eventos  img{
     width: 533px;
     height:498px;
 }
 
-.item8 p{
+/* .item8 img{
+    width: 533px;
+    height:498px;
+} */
+
+.section-eventos  p{
     text-align: start;
     font-size:25px;
 }
 
-.item8 h1{
+/* .item8 p{
+    text-align: start;
+    font-size:25px;
+} */
+
+.section-eventos  h1{
     text-align: start;
 }
+
+/* .item8 h1{
+    text-align: start;
+} */
 
 /********************************************************************/
 
