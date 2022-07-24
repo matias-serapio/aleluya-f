@@ -29,10 +29,24 @@ src: url('./fonts/araboto-bold-400.ttf');
 .grid-container {
     display: grid;
     background-color: cornsilk;
-    padding-top: 56.5px;
+    padding-top:  15%;
     position: relative;
     grid-template-columns: 0px auto 0px;
 }
+
+
+.grid-container article{
+    display: grid;
+    text-align:center;
+    color: black;
+    border: 1px solid black;   
+}
+
+/* .grid-container div{ 
+    display: grid;
+    text-align:center;
+    color: black;     
+} */
 
 /******************Tiulo de header*****************************/
 .titulo-body {
@@ -120,14 +134,19 @@ src: url('./fonts/araboto-bold-400.ttf');
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
-    background:white;
+    background: white;
     align-items: center;
-    height: 525px;
-    text-align: left;
-    padding-top: 10px;
-    padding-right: 220px;
-    height:700px;
-    
+    /* text-align: left; */
+    padding-top: 8%;
+    background-image: url(http://localhost:5500/img/borde-sup-marron.png);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position: bottom;
+    justify-content: start;
+}
+
+.ondulado-Quienes-somos{
+grid-row: 3;
 }
 
 
@@ -213,12 +232,13 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 }  
 .titulo-texto{
- max-width: 600px;
+ /*max-width: 600px;*/
 }  
 
 .titulo-blanco{
     font-family:'poetsenone-regular';
     color:white;
+    text-align: center;
 }
 
 .texto-negro{
@@ -283,11 +303,6 @@ h6{
     z-index:10;  
 }
 
-img{
-    max-width:auto;
-     height:100%;
-}
-
 svg{
    /* max-width:auto;
      height:100%;*/
@@ -308,6 +323,7 @@ svg{
     padding-left:15px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
    
 }
 
@@ -333,16 +349,15 @@ svg{
 
 
 
-.item7 div{
-    
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background:white;
-     border:0px;
-     
-   
-    
+.item7 div{  
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:white;
+    border:0px;
+    display: grid;
+    text-align: center;
+    color: black;
 }
 
 
@@ -357,12 +372,12 @@ svg{
 .item9 div{
     border:0px;
     padding: 40px;
+    
 }
 
-
-
-
 .item10 div{
+    display: grid;
+    text-align:center;
     grid-column: 2;
     border: 0px;
     padding: 40px;
@@ -397,8 +412,8 @@ svg{
 /* Titulos y Parrafos */
 
 .item9 p{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -421,10 +436,6 @@ svg{
     border:0px;
     text-align: start;
 }
-
-
-
-
 
 
 /* Alineaciones y Tamaños */
@@ -468,13 +479,25 @@ article h4{
     font-size: 25px;
 }
 
-.lado-der1{
-    align-items: flex-start;
+.lado-der-imagen-quienes{
+    
+    
+
 }
 
+
+.lado-der-imagen-quienes img{
+    
+    /* height: 90%;
+    width: 95%; */
+    height:450px;
+    width:468px;
+}
+
+
 .lado-izq1{
-    align-items: flex-end;
-    justify-content: flex-end;
+
+    margin-right: 100px;
     
 }
 
@@ -611,12 +634,6 @@ article h4{
     padding-right:7%;
     padding-left:7%;
     padding-top:75px;
-}
-
-
-.item5 img{
-    height:450px;
-    width:468px;
 }
 
 .item8 img{

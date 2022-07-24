@@ -388,32 +388,7 @@ footer{
 /***********************************************************/
 /**********************************************************/
 
-
-.grid-container{
-    display: grid;
-    background-color: cornsilk;
-    padding-top: 19.5px;
-    position: relative;
-    grid-template-columns: 0px auto 0px;
-}
-
-.grid-container div{ 
-    display: grid;
-    text-align:center;
-    color: black; 
-   
-    
-}
-
-.grid-container article{
-    display: grid;
-    text-align:center;
-    color: black;
-    border: 1px solid black;   
-}
-
 /* Genéricos */
-
 
 p{
     position:relative;
@@ -448,11 +423,6 @@ h5{
 h6{
     position:relative;
     z-index:100;  
-}
-
-img{ 
-    max-width:auto;
-    height:100%;
 }
 
 svg{ 
