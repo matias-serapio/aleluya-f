@@ -187,11 +187,11 @@ grid-row: 3;
     
 }
 
-.item9{
+/* .item9{
     grid-column: 1 / 4;
     background:#BC6D2A;
     align-items: center;
-}
+} */
 
 /* .item10{
     grid-column: 1 / 4;
@@ -361,19 +361,19 @@ svg{
 }
 
 
-
+/* 
 .item8 div{
     grid-row: 2;
     border: 0px;
     display:block;
     padding:40px;
-}
+} */
 
-.item9 div{
+/* .item9 div{
     border:0px;
     padding: 40px;
     
-}
+} */
 
 /* .item10 div{
     display: grid;
@@ -411,11 +411,11 @@ svg{
 
 /* Titulos y Parrafos */
 
-.item9 p{
+/* .item9 p{
     margin-left: 10px;
     margin-right: 10px;
 }
-
+ */
 
 .item7 .texto-negro{
   position: relative;
@@ -628,19 +628,6 @@ article h4{
     padding-top:75px;
 }
 
-.item8 img{
-    width: 533px;
-    height:498px;
-}
-
-.item8 p{
-    text-align: start;
-    font-size:25px;
-}
-
-.item8 h1{
-    text-align: start;
-}
 
 .item6 .titulo-blanco{
 display:flex;
@@ -724,6 +711,7 @@ display:flex;
 .section-programa-parrafo{}
 
 .section-programa-btn{}
+/********************************************************************/
 
 .section-eventos{}
 
@@ -743,17 +731,91 @@ display:flex;
 
 .section-eventos-img{}
 
-.section-voluntarios{}
+/***********EXTRAS DE Testimoions***********************/
+.item8 img{
+    width: 533px;
+    height:498px;
+}
 
-.section-voluntarios-divtitulo{}
+.item8 p{
+    text-align: start;
+    font-size:25px;
+}
 
-.section-voluntarios-titulo{}
+.item8 h1{
+    text-align: start;
+}
 
-.section-voluntarios-parrafo{}
+/********************************************************************/
 
-.section-voluntarios-divbtn{}
+.section-voluntarios{
+    grid-column: 1 / 4;
+    background:#BC6D2A;
+    align-items: center;
+}
 
-.section-voluntarios-btn{}
+.section-voluntarios-divtitulo{
+     /*max-width: 600px;*/
+}
+
+.section-voluntarios-titulo{
+    font-family:'poetsenone-regular';
+    color:white;
+    text-align: center;
+}
+
+.section-voluntarios-parrafo{
+    font-family:'araboto-bold';
+    color:white;
+}
+
+.section-voluntarios-divbtn{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-voluntarios-btn{
+    color: #84341B;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #F0CB11;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 30px;
+    margin-top:10px;
+    box-shadow: 3px 3px 0px 3px #87562D;
+}
+/***********EXTRAS DE Testimoions***********************/
+
+.section-voluntarios div{
+    border:0px;
+    padding: 40px;
+    
+}
+/* .item9 div{
+    border:0px;
+    padding: 40px;
+    
+} */
+
+.section-voluntarios p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* .item9 p{
+    margin-left: 10px;
+    margin-right: 10px;
+} */
 
 
 /********************************************************************/
