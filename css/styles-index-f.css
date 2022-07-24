@@ -504,9 +504,9 @@ article h4{
     align-items: center;
 }
 
-.lado-izq3{
+/* .lado-izq3{
     align-items: center;
-}
+} */
 
 /* .lado-der4{
     align-items: center;
@@ -722,7 +722,9 @@ display:flex;
     align-items: center;
 }
 
-.section-eventos-ladoizq{}
+.section-eventos-ladoizq{
+        align-items: center;
+}
 
 .section-eventos-divtitulo{}
 
