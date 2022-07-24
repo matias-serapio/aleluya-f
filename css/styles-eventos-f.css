@@ -210,3 +210,35 @@ src: url('./fonts/araboto-bold-400.ttf');
 .evento5 h1{
     padding-bottom:100px;
 }
+
+
+/* NUEVAS CONVECIONES */
+
+.grid-container-eventos{
+    display: grid;
+    background-color: cornsilk;
+    padding-top:  15%;
+    position: relative;
+    grid-template-columns: 0px auto 0px;
+}
+
+.eventos-examples{
+    grid-column: 1 / 4;
+    background:#BC6C24;
+}
+
+.eventos-examples-divtitle{
+
+}
+
+.evento-title{
+
+}
+
+.evento-img{
+
+}
+
+.evento-text{
+
+}
