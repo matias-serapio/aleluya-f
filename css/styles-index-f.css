@@ -193,13 +193,13 @@ grid-row: 3;
     align-items: center;
 }
 
-.item10{
+/* .item10{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
     background:white;
    
-}
+} */
 
 /* .Ayudanos-div{
     grid-column: 1 / 4;
@@ -375,13 +375,13 @@ svg{
     
 }
 
-.item10 div{
+/* .item10 div{
     display: grid;
     text-align:center;
     grid-column: 2;
     border: 0px;
     padding: 40px;
-}
+} */
 
 /* .Ayudanos-div div{
     grid-row: 2;
@@ -391,7 +391,7 @@ svg{
     
 } */
 
-.item10 article1{
+/* .item10 article1{
     display: grid;
     grid-row: 2;
     border: 0px;
@@ -407,7 +407,7 @@ svg{
     grid-row: 2;
     border: 0px;
     display: grid;
-}
+} */
 
 /* Titulos y Parrafos */
 
@@ -430,19 +430,10 @@ svg{
     text-align: left;
 } */
 
-.item10 article{
-    justify-content: space-around;
-    display: inline-block;
-    border:0px;
-    text-align: start;
-}
+
 
 
 /* Alineaciones y Tamaños */
-
-.item10 h5{
-    text-align: center;
-}
 
 
 .article1 h4{
@@ -764,49 +755,158 @@ display:flex;
 
 .section-voluntarios-btn{}
 
-.section-testimonios{}
 
-.section-testimonios-divtitulo{}
+/********************************************************************/
+.section-testimonios{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+    background:white;
+}
 
-.section-testimonios-titulo{}
+.section-testimonios-divtitulo{
+     /*max-width: 600px;*/
+}
 
-.section-testimonios-articulos{}
+.section-testimonios-titulo{
+    font-family:'poetsenone-regular';
+}
 
-.section-testimonios-art1{}
+.section-testimonios-articulos{
+
+}
+
+.section-testimonios-art1{
+    grid-column: 1;
+}
 
 .section-testimonios-tp1{}
 
-.section-testimonios-nom1{}
+.section-testimonios-nom1{
+    font-family:'araboto-bold';
+}
 
-.section-testimonios-perfil1{}
+.section-testimonios-perfil1{
+    font-family:'araboto-bold';
+}
 
 .section-testimonios-com1{}
 
-.section-testimonios-desc1{}
+.section-testimonios-desc1{
+    font-family:'araboto-bold';
+}
 
-.section-testimonios-art2{}
+.section-testimonios-art2{
+    grid-column: 2;
+}
 
 .section-testimonios-tp2{}
 
-.section-testimonios-nom2{}
+.section-testimonios-nom2{
+    font-family:'araboto-bold';
+}
 
-.section-testimonios-perfil2{}
+.section-testimonios-perfil2{
+    font-family:'araboto-bold';
+}
 
 .section-testimonios-com2{}
 
-.section-testimonios-desc2{}
+.section-testimonios-desc2{
+    font-family:'araboto';
+}
 
-.section-testimonios-art3{}
+.section-testimonios-art3{
+    grid-column: 3;
+}
 
 .section-testimonios-tp3{}
 
-.section-testimonios-nom3{}
+.section-testimonios-nom3{
+    font-family:'araboto-bold';
+}
 
-.section-testimonios-perfil3{}
+.section-testimonios-perfil3{
+    font-family:'araboto-bold';
+}
 
 .section-testimonios-com3{}
 
-.section-testimonios-desc3{}
+.section-testimonios-desc3{
+    font-family:'araboto';
+}
+
+/***********EXTRAS DE Testimoions***********************/
+
+.section-testimonios div{
+    display: grid;
+    text-align:center;
+    grid-column: 2;
+    border: 0px;
+    padding: 40px;
+}
+
+/* .item10 div{
+    display: grid;
+    text-align:center;
+    grid-column: 2;
+    border: 0px;
+    padding: 40px;
+} */
+
+.section-testimonios article{
+    justify-content: space-around;
+    display: inline-block;
+    border:0px;
+    text-align: start;
+}
+
+/* .item10 article{
+    justify-content: space-around;
+    display: inline-block;
+    border:0px;
+    text-align: start;
+} */
+
+.item10 h5{
+    text-align: center;
+}
+
+.section-testimonios .section-testimonios-art1{
+    display: grid;
+    grid-row: 2;
+    border: 0px;
+}
+
+/* .item10 article1{
+    display: grid;
+    grid-row: 2;
+    border: 0px;
+} */
+
+.section-testimonios .section-testimonios-art2{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+.item10 article2{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+.section-testimonios .section-testimonios-art3{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+}
+
+/* .item10 article3{
+    grid-row: 2;
+    border: 0px;
+    display: grid;
+} */
 
 /********************************************************************/
 .section-ayudanos{
@@ -867,7 +967,6 @@ display:flex;
     box-shadow: 3px 20px 10px 3px #87562D;
     margin-top:10px;
 }
-
 
 /***********EXTRAS DE AYUDANOs***********************/
 
