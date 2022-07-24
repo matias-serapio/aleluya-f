@@ -201,7 +201,7 @@ grid-row: 3;
    
 }
 
-.Ayudanos-div{
+/* .Ayudanos-div{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
@@ -210,7 +210,7 @@ grid-row: 3;
     padding-bottom:200px   
     
     
-}
+} */
 
 .article1{
     grid-column: 1;
@@ -383,13 +383,13 @@ svg{
     padding: 40px;
 }
 
-.Ayudanos-div div{
+/* .Ayudanos-div div{
     grid-row: 2;
     border: 0px;
     display:block;
     padding:40px;
     
-}
+} */
 
 .item10 article1{
     display: grid;
@@ -424,11 +424,11 @@ svg{
   line-height: 30px;
 }
 
-
+/* 
 .Ayudanos-div p{
    
     text-align: left;
-}
+} */
 
 .item10 article{
     justify-content: space-around;
@@ -517,13 +517,13 @@ article h4{
     align-items: center;
 }
 
-.lado-der4{
+/* .lado-der4{
     align-items: center;
-}
+} */
 
-.lado-izq4{
+/* .lado-izq4{
     align-items: center;
-}
+} */
 
 
 
@@ -619,6 +619,7 @@ article h4{
     margin-top:10px;
     
 }
+
 
 
 .circulo2{
@@ -807,24 +808,94 @@ display:flex;
 
 .section-testimonios-desc3{}
 
-.section-ayudanos{}
+/********************************************************************/
+.section-ayudanos{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+    background:#BC6C24;
+    align-items:center;
+    padding-bottom:200px   
+    
+}
 
-.section-ayudanos-ladoizq{}
+.section-ayudanos-ladoizq{
+    align-items: center;
+}
 
-.section-ayudanos-divtitulo{}
+.section-ayudanos-divtitulo{
+     /*max-width: 600px;*/
+}
 
-.section-ayudanos-titulo{}
+.section-ayudanos-titulo{
+    font-family:'poetsenone-regular';
+    color:white;
+    text-align: center;
+}
 
-.section-ayudanos-parrafo{}
+.section-ayudanos-parrafo{
+    font-family:'araboto-bold';
+    color:white;
+}
 
-.section-ayudanos-ladoder{}
+.section-ayudanos-ladoder{
+    align-items: center;
+}
 
-.section-ayudanos-divbtn{}
+.section-ayudanos-divbtn{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 
-.section-ayudanos-btn{}
+.section-ayudanos-btn{
+    color: #84341B;
+    font-family:sans-serif;
+    font-weight:800;
+    font-size: 64px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #F0CB11;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 3px 20px 10px 3px #87562D;
+    margin-top:10px;
+}
 
 
+/***********EXTRAS DE AYUDANOs***********************/
 
+.section-ayudanos div{
+    grid-row: 2;
+    border: 0px;
+    display:block;
+    padding:40px;
+    
+}
+
+/* .Ayudanos-div div{
+    grid-row: 2;
+    border: 0px;
+    display:block;
+    padding:40px;
+    
+} */
+
+.section-ayudanos p{
+   
+    text-align: left;
+}
+
+/* .Ayudanos-div p{
+   
+    text-align: left;
+} */
 
 
 
