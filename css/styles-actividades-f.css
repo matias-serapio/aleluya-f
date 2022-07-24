@@ -379,3 +379,161 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 
+/* NUEVAS CONVENCIONES */
+
+.grid-container-actividades{
+    display: grid;
+    background-color: cornsilk;
+    padding-top:  15%;
+    position: relative;
+    grid-template-columns: 0px auto 0px;
+}
+
+.difuminada{
+    grid-column: 1 / 4;
+    background:#28A5FF;
+
+}
+
+.nube-slider{}
+
+.nube-slider-text{
+    font-family:'poetsenone-regular';
+    color:#0094FF;
+    font-size:24px;
+}
+
+
+.nube{
+
+    width:0px;  
+    margin-bottom:-242px;
+
+}
+
+.nube-izq{
+  
+}
+
+.nube-der{
+
+}
+
+.nube-divtitle{
+    position:relative;
+    bottom:540px;
+    padding-right: 379px;
+    left:125px;
+}
+
+.nube-title{
+    font-family:'poetsenone-regular';
+    color:#0094FF;
+    font-size: 48px;
+}
+
+.nube-text{
+    font-family:'poetsenone-regular';
+    color:#0094FF;
+    font-size:24px;
+}
+
+.sobrevivir{
+    grid-column: 1 / 4;
+    background:#BC6C24;
+    justify-items:center;
+}
+
+.sobrevivir-title{
+    font-family:'poetsenone-regular';
+    color:white;
+    font-size:70px;
+    font-weight: 100;
+}
+
+.sobrevivir-img{
+
+}
+
+.sobrevivir-text{
+    font-family:'araboto';
+    color:white;
+}
+
+.sobrevivir-seguir-divtitle{
+    display:grid;
+    position:relative;
+     left:18%;
+    width:0px;
+}
+
+.sobrevivir-seguir-text{
+    font-family:'araboto-bold';
+}
+
+.talleres{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+    background:#9E4B00;
+}
+
+.talleres-title{
+    font-family:'poetsenone-regular';
+    color:white;
+    font-size:70px;
+    font-weight: 100;
+}
+
+.talleres-izq{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.talleres-img{
+
+}
+
+.talleres-der{
+
+}
+
+.talleres-text{
+    font-family:'araboto-bold';
+    color:white;
+}
+
+.talleres-conocermas{
+
+}
+
+.conocermas-divtitle{
+
+}
+
+.conocermas-title{
+
+}
+
+.conocermas-seguirleyendo{
+
+}
+
+.conocermas-btn{
+    color: #84341B;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    text-decoration:none;
+    font-stretch:extra-condensed;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #F0CB11;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    margin-top:10px;
+    box-shadow: 3px 3px 0px 3px #87562D;
+}

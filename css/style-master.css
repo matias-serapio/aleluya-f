@@ -25,7 +25,7 @@ body {
     width: 100%;
     grid-column: 1/4;
     /*height: 153px;*/
-    position: absolute;
+   
     z-index: 1;
 }
 
