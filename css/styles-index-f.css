@@ -177,7 +177,7 @@ grid-row: 3;
     align-items: center;
 }
 
-.item8{
+/* .item8{
     grid-column: 1 / 4;
     display: grid;
     border: 0px;
@@ -185,7 +185,7 @@ grid-row: 3;
   
     align-items: center;
     
-}
+} */
 
 /* .item9{
     grid-column: 1 / 4;
@@ -713,7 +713,14 @@ display:flex;
 .section-programa-btn{}
 /********************************************************************/
 
-.section-eventos{}
+.section-eventos{
+    grid-column: 1 / 4;
+    display: grid;
+    border: 0px;
+    background:white;
+  
+    align-items: center;
+}
 
 .section-eventos-ladoizq{}
 
@@ -732,6 +739,14 @@ display:flex;
 .section-eventos-img{}
 
 /***********EXTRAS DE Testimoions***********************/
+
+.item8 div{
+    grid-row: 2;
+    border: 0px;
+    display:block;
+    padding:40px;
+}
+
 .item8 img{
     width: 533px;
     height:498px;
