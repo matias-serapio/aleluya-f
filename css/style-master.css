@@ -21,8 +21,9 @@ body {
     
 }
 
-.foto-de-fondo-ondulado-header img {
+.foto-de-fondo-ondulado-header {
     width: 100%;
+    position: relative;
     grid-column: 1/4;
     /*height: 153px;*/
    

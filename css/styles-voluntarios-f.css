@@ -339,3 +339,54 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 /* al usar padding con width, se traslada el elemento hacia la ubicacion deseada pero va perdiendo espacio el width. Al usar position relative se traslada a la ubicación deseada y se respeta el espacio. Para que no ocupe espacio el padding, aplicarlo en el .item raiz */
+
+/* NUEVAS CONVENCIONES */
+
+.grid-container-voluntarios{
+
+}
+
+.quieres{
+    grid-column: 1 / 4;
+    background:white;
+}
+
+.quieres-title{
+
+}
+
+.quieres-text{
+
+}
+
+.nuestrosTalleres{
+
+}
+
+.nuestrosTalleres-title{
+
+}
+
+.nuestrosTalleres-text{
+
+}
+
+.talleresExamples{
+
+}
+
+.taller-article{}
+
+.taller-bg-derecho{}
+
+.taller-container{}
+
+.taller-left{}
+
+.taller-left-title{}
+
+.taller-text{}
+
+.taller-right{}
+
+.subtaller{}

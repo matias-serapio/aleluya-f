@@ -516,7 +516,8 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 .conocermas-seguirleyendo{
-
+    width:270px;
+    line-height:40px;
 }
 
 .conocermas-btn{
