@@ -454,6 +454,7 @@ article h4{
 } */
 
 .section-hacemos-ladoder{
+    grid-column: 2;
     align-items: center;
 }
 
@@ -466,7 +467,7 @@ article h4{
 }
 
 .section-hacemos-divbtn{
-    grid-column: 2;
+    grid-row: 2;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -494,6 +495,18 @@ article h4{
 
 /***********************************Extras*******************************/
 
+   
+.section-hacemos-Backgroung{
+    display: grid;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin: 52px 70px 50px 70px;
+    border-radius: 250px;
+    justify-items: stretch;
+    align-items: center;
+}
+    
 .section-hacemos .section-hacemos-divbtn{
     display: flex;
     justify-content: right;
@@ -526,6 +539,7 @@ article h4{
 .section-hacemos .section-hacemos-titulo{
     display:flex;
     justify-content: center;
+    grid-column: 1/4;
 }
 
 /* .item6 .titulo-blanco{
@@ -535,10 +549,11 @@ article h4{
 } */
 
 .section-hacemos div{
-    grid-row: 2;
-    border: 0px;
-    display:block;
-    padding:40px;
+    display: grid;
+    /* grid-column: 2; */
+    /* border: 0px; */
+    /* display: block; */
+    padding: 40px;
 }
 
 /* .item6 div{
