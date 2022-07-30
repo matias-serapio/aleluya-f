@@ -1091,7 +1091,10 @@ article h4{
 }
 
 .section-ayudanos-ladoizq{
+    grid-column: 1;
     align-items: center;
+    text-align: left;
+    width: 75%;
 }
 
 .section-ayudanos-divtitulo{
@@ -1111,6 +1114,7 @@ article h4{
 
 .section-ayudanos-ladoder{
     align-items: center;
+    width: 500px;
 }
 
 .section-ayudanos-divbtn{
@@ -1131,10 +1135,10 @@ article h4{
     border-radius: 30px;
     border: 0px;
     background-color: #F0CB11;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 26px;
+    padding-bottom: 24px;
+    padding-left: 85px;
+    padding-right: 85px;
     box-shadow: 3px 20px 10px 3px #87562D;
     margin-top:10px;
 }
@@ -1142,11 +1146,16 @@ article h4{
 /***********EXTRAS DE AYUDANOs***********************/
 
 .section-ayudanos div{
-    grid-row: 2;
+    /* grid-row: 2;
     border: 0px;
     display:block;
     padding:40px;
-    
+     */
+    grid-row: 2;
+    border: 0px;
+    display: block;
+    /* padding: 40px; */
+    margin: 2% 2% 2% 0%;
 }
 
 /* .Ayudanos-div div{
@@ -1159,7 +1168,7 @@ article h4{
 
 .section-ayudanos p{
    
-    text-align: left;
+    text-align: center;
 }
 
 /* .Ayudanos-div p{
