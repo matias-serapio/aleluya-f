@@ -21,7 +21,7 @@ body{
     background-color: cornsilk;
     grid-template-rows: 426px auto 426px;
     grid-template-areas: 'header-grid'
-                         'main-grid'
+                         'index-main-grid'
                 'footer-grid';
     
 }
@@ -34,7 +34,7 @@ body{
     grid-area: header-grid;
 }
 
-.main-grid{
+.index-main-grid{
     background-color: crimson;
     text-align: center;
     border: 1px solid black;
@@ -466,8 +466,8 @@ body{
 
 
 
-.main-grid{
-    grid-area: main-grid;
+.index-main-grid{
+    grid-area: index-main-grid;
     display: grid;
     grid-template-rows: auto auto auto
                         auto auto auto;
