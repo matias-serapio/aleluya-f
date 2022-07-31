@@ -16,15 +16,35 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 
+.body-grid{
+    display: grid;
+    background-color: cornsilk;
+    grid-template-columns: 426px auto 426px;
+    grid-template-areas: 'header-grid header-grid header-grid'
+                         'main-grid main-grid main-grid'
+                'footer-grid footer-grid footer-grid';
+    
+}
 
+.body-grid .header-grid{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}
 
-.section{
+.body-grid .main-grid{
     background-color: crimson;
     text-align: center;
     border: 1px solid black;
 }
 
-
+.body-grid .footer-grid{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}
 
 .quienes{
     grid-area: quienes;
@@ -45,7 +65,9 @@ src: url('./fonts/araboto-bold-400.ttf');
                         'quienes-divbtn';
 }
 
-
+.quienes-title{
+    color:black;
+}
 
 .quienes-text{
     color:black;
@@ -72,13 +94,10 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .quienes-title{
     font-family:'poetsenone-regular';
-    color:black;
-    font-size: 65px;
 }
 
 .quienes-text{
     font-family:'araboto';
-    font-size: 26px;
 }
 
 .quienes-img{
@@ -94,8 +113,7 @@ src: url('./fonts/araboto-bold-400.ttf');
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas: 'hacemos-divtitle'
-                        'hacemos-Backgroung'
-                         'programa';
+                        'hacemos-Backgroung' 'programa';
     
        
 }
@@ -131,13 +149,11 @@ src: url('./fonts/araboto-bold-400.ttf');
 .hacemos-title{
     color:white;
     font-family:'poetsenone-regular';
-    font-size: 65px;
 }
 
 .hacemos-text{
      color: black;
      font-family:'araboto';
-     font-size: 26px;
 }
 
 .hacemos-btn{ 
@@ -177,7 +193,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 .programa-circ{
    grid-area:programa-circ;
    align-content: center;
-  
+   grid-gap:100px;
    display:grid;
    grid-template-rows: auto auto auto;
    grid-template-areas: 'programa-divimg'
@@ -197,7 +213,6 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .programa-text{
     color:black;
-    font-size: 26px;
 }
 
 .programa-img{
@@ -209,7 +224,6 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .programa-text{
     font-family:'araboto';
-    margin:40px;
 }
 
 .programa-btn{
@@ -273,12 +287,10 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .eventos-title{
     font-family:'poetsenone-regular';
-    font-size: 65px;
 }
 
 .eventos-text{
     font-family:'araboto';
-    font-size: 26px;
 }
 
 .eventos-img{
@@ -300,14 +312,18 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .voluntarios-title{
     color:white;
-    font-family:'poetsenone-regular';
-    font-size: 65px;
 }
 
 .voluntarios-text{
     color:white;
+}
+
+.voluntarios-title{
+    font-family:'poetsenone-regular';
+}
+
+.voluntarios-text{
     font-family:'araboto';
-    font-size: 26px;
 }
 
 .voluntarios-btn{
@@ -371,7 +387,6 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .testimonios-title{
     font-family:'poetsenone-regular';
-    font-size: 65px;
 }
 
 .testimonios-nom{
@@ -380,13 +395,10 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 .testimonios-perfil{
     font-family:'araboto';
-    font-size: 20px;
 }
 
 .testimonios-desc{
     font-family:'araboto';
-    font-size: 22px;
-    font-weight:lighter;
 }
 
 
@@ -412,7 +424,6 @@ src: url('./fonts/araboto-bold-400.ttf');
 .ayudanos-title{
     color:white;
     font-family:'poetsenone-regular';
-    font-size: 65px;
 }
 
 .ayudanos-text{
@@ -454,13 +465,14 @@ src: url('./fonts/araboto-bold-400.ttf');
 
 
 
-.section{
-    grid-area: section;
+.main-grid{
+    grid-area: main-grid;
     display: grid;
     grid-template-rows: auto auto auto
                         auto auto auto;
     grid-template-areas: 'quienes'
                          'hacemos'
+                         'programa'
                          'eventos'
                          'voluntarios'
                          'testimonios'
@@ -468,22 +480,21 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 
-.grid-header{
-    grid-area: grid-header;
+.header-grid{
+    grid-area: header-grid;
     
 }
 
 .titulo-body-slider{
-    /* grid-area: header; */
-    grid-column: 1/4;
-    margin: 0px;
+    grid-area: header-grid;
+    
 }
 
 
 
-.footer{
+.footer-grid{
     display:grid;
-    grid-area: footer;
+    grid-area: footer-grid;
     grid-template-columns: auto auto auto;
     grid-template-areas: 'footer1-datos footer2-logo footer3-enlaces';
     
