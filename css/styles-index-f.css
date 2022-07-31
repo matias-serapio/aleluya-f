@@ -31,6 +31,7 @@ body{
     text-align: center;
     color: white;
     border: 1px solid black;
+    grid-area: header-grid;
 }
 
 .main-grid{
@@ -481,7 +482,7 @@ body{
 
 
 .header-grid{
-    grid-area: header-grid;
+    
     
 }
 
