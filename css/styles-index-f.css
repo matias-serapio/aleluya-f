@@ -19,10 +19,10 @@ src: url('./fonts/araboto-bold-400.ttf');
 .body-grid{
     display: grid;
     background-color: cornsilk;
-    grid-template-columns: 426px auto 426px;
-    grid-template-areas: 'header-grid header-grid header-grid'
-                         'main-grid main-grid main-grid'
-                'footer-grid footer-grid footer-grid';
+    grid-template-rows: 426px auto 426px;
+    grid-template-areas: 'header-grid'
+                         'main-grid'
+                'footer-grid';
     
 }
 
