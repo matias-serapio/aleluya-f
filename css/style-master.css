@@ -271,15 +271,13 @@ body {
 /*****************************Slider scc******************************/
 /* Slideshow container */
 .slideshow-container {
-    /* max-width: 1000px; */
-    /* position: relative;
-    margin: auto; */
-
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-    /* top: -101px; */
-    margin: 0px;
+  grid-column: 1/4;
+  /* max-width: 1000px; */
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  /* top: -101px; */
+  margin: 0px;
   }
   
   /* Hide the images by default */
