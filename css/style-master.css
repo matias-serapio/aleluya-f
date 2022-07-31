@@ -200,7 +200,7 @@ body {
  .header-grid{
                 grid-area: header-grid;
                 display:grid;
-                grid-template-columns: 426px auto 426px;
+                grid-template-rows: auto;
                 grid-template-areas: 'grid-navbar'
                                      'grid-slider'
                                      'margin-bottom';
