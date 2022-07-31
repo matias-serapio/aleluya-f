@@ -214,6 +214,8 @@ body {
                     display:grid;
                     grid-template-columns: auto auto auto;
                     grid-template-areas: 'isologo navbar donar-btn';
+                    position: absolute;
+                    top: 0px;
     }
     
     .grid-slider{
@@ -221,6 +223,7 @@ body {
                     display:grid;
                     grid-template-columns: auto auto auto;
                     grid-template-areas: 'back-arrow title-1 next-arrow';
+                    position: relative;
 }
 
 
@@ -269,8 +272,14 @@ body {
 /* Slideshow container */
 .slideshow-container {
     /* max-width: 1000px; */
+    /* position: relative;
+    margin: auto; */
+
+    max-width: 100%;
     position: relative;
     margin: auto;
+    top: -101px;
+    margin: 0px;
   }
   
   /* Hide the images by default */
