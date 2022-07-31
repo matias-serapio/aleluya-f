@@ -16,7 +16,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 }
 
 
-.body-grid{
+body{
     display: grid;
     background-color: cornsilk;
     grid-template-rows: 426px auto 426px;
@@ -26,20 +26,20 @@ src: url('./fonts/araboto-bold-400.ttf');
     
 }
 
-.body-grid .header-grid{
+.header-grid{
     background-color: crimson;
     text-align: center;
     color: white;
     border: 1px solid black;
 }
 
-.body-grid .main-grid{
+.main-grid{
     background-color: crimson;
     text-align: center;
     border: 1px solid black;
 }
 
-.body-grid .footer-grid{
+.footer-grid{
     background-color: crimson;
     text-align: center;
     color: white;
