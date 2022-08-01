@@ -47,7 +47,7 @@ body{
     grid-template-rows: auto auto auto
                         auto auto auto;
     grid-template-areas: 'index-nosotros-grid'
-                         'hacemos'
+                         'index-actividades-grid'
                          'eventos'
                          'voluntarios'
                          'testimonios'
@@ -131,24 +131,24 @@ body{
 }
 
 
-.hacemos{
-    grid-area: hacemos;
+.index-actividades-grid{
+    grid-area: index-actividades-grid;
     border: 1px solid black;
     background: #BC6D2A;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas: 'hacemos-divtitle'
-                        'hacemos-Backgroung' 'programa';
-    
+    grid-template-areas: 'index-actividades-top' 'index-actividades-main' 'index-actividades-bottom';
        
 }
 
-.hacemos-Backgroung{
-    grid-area: hacemos-Backgroung;
+
+
+.index-actividades-Backgroung{
+    
     border: 1px solid black;
     display:grid;
     grid-template-columns:auto auto;
-    grid-template-areas:'hacemos-left hacemos-right';
+    grid-template-areas:'index-actividades-left index-actividades-right';
     display: grid;
     text-align: center;
     justify-items: stretch;
@@ -158,12 +158,12 @@ body{
     align-items: center;
 }
 
-.hacemos-right{
+.index-actividades-right{
     display:grid;
-    grid-area: hacemos-right;
+    grid-area: index-actividades-right;
     grid-template-rows: auto auto;
-    grid-template-areas: 'hacemos-divtext'
-                         'hacemos-divbtn';
+    grid-template-areas: 'index-actividades-divtext'
+                         'index-actividades-divbtn';
     
     align-content:center;
     grid-gap:100px;
@@ -171,17 +171,17 @@ body{
     
 }
 
-.hacemos-title{
+.index-actividades-title{
     color:white;
     font-family:'poetsenone-regular';
 }
 
-.hacemos-text{
+.index-actividades-text{
      color: black;
      font-family:'araboto';
 }
 
-.hacemos-btn{ 
+.index-actividades-btn{ 
     
     color: #84341B;
     font-family:sans-serif;
@@ -202,7 +202,7 @@ body{
     
 }
 
-.hacemos-img{
+.index-actividades-img{
     height:400px;
     margin:30px;
 }
