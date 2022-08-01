@@ -53,10 +53,10 @@ body{
                         auto auto auto;
     grid-template-areas: 'index-nosotros-grid'
                          'index-actividades-grid'
-                         'eventos'
-                         'voluntarios'
+                         'index-eventos-grid'
+                         'index-voluntarios-grid'
                          'testimonios'
-                         'ayudanos';
+                         'index-ayudanos-grid';
 }
 
 
@@ -213,22 +213,22 @@ body{
 }
 
 
-.programa{
-    grid-area: programa;
+.index-actividades-programa{
+    grid-area: index-actividades-programa;
     border: 1px solid black;
     background: #BC6D2A;
     
 }
 
-.programa-circ{
-   grid-area:programa-circ;
+.index-actividades-programa-circ{
+   grid-area:index-actividades-programa-circ;
    align-content: center;
    grid-gap:100px;
    display:grid;
    grid-template-rows: auto auto auto;
-   grid-template-areas: 'programa-divimg'
-                        'programa-divtext'
-                        'programa-divbtn';
+   grid-template-areas: 'index-actividades-programa-divimg'
+                        'index-actividades-programa-divtext'
+                        'index-actividades-programa-divbtn';
     width: 780px;
 	height: 780px;
 	border-radius: 50%;
@@ -241,22 +241,22 @@ body{
    
 }
 
-.programa-text{
+.index-actividades-programa-text{
     color:black;
 }
 
-.programa-img{
+.index-actividades-programa-img{
      width:590px;
     height:250px;
 }
 
 
 
-.programa-text{
+.index-actividades-programa-text{
     font-family:'araboto';
 }
 
-.programa-btn{
+.index-actividades-programa-btn{
     color: black;
     font-family:sans-serif;
     font-weight:bolder;
@@ -276,27 +276,36 @@ body{
     
 }
 
-.eventos{
-    grid-area: eventos;
+.index-eventos-grid{
+    display:grid;
+    grid-area:index-eventos-grid;
+    grid-template-rows:auto auto auto;
+    grid-template-areas: 'index-eventos-top' 'index-eventos-main' 'index-eventos-bottom';
+    background:white;
     border: 1px solid black;
+}
+
+.index-eventos-main{
+    grid-area: index-eventos-main;
+    
     background:white;
     display:grid;
     grid-template-columns: auto auto;
-    grid-template-areas: 'eventos-left eventos-right';
+    grid-template-areas: 'index-eventos-left index-eventos-right';
     
 }
 
-.eventos-left{
-    grid-area: eventos-left;
+.index-eventos-left{
+    grid-area: index-eventos-left;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas:'eventos-divtitle'
-                        'eventos-divtext'
-                        'eventos-divbtn';
+    grid-template-areas:'index-eventos-divtitle'
+                        'index-eventos-divtext'
+                        'index-eventos-divbtn';
     color:black;
 }
 
-.eventos-btn{
+.index-eventos-btn{
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
@@ -315,48 +324,48 @@ body{
     box-shadow: 3px 3px 0px 3px #BFBCBC;
 }
 
-.eventos-title{
+.index-eventos-title{
     font-family:'poetsenone-regular';
 }
 
-.eventos-text{
+.index-eventos-text{
     font-family:'araboto';
 }
 
-.eventos-img{
+.index-eventos-img{
      height:450px;
     width:468px;
 }
 
-.voluntarios{
-    grid-area: voluntarios;
+.index-voluntarios-grid{
+    grid-area: index-voluntarios-grid;
     border: 1px solid black;
     background: #BC6D2A;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas:'voluntarios-divtitle' 'voluntarios-divtext' 'voluntarios-divbtn';
+    grid-template-areas:'index-voluntarios-divtitle' 'index-voluntarios-divtext' 'index-voluntarios-divbtn';
     align-content: center;
     grid-row-gap:100px;
     
 }
 
-.voluntarios-title{
+.index-voluntarios-title{
     color:white;
 }
 
-.voluntarios-text{
+.index-voluntarios-text{
     color:white;
 }
 
-.voluntarios-title{
+.index-voluntarios-title{
     font-family:'poetsenone-regular';
 }
 
-.voluntarios-text{
+.index-voluntarios-text{
     font-family:'araboto';
 }
 
-.voluntarios-btn{
+.index-voluntarios-btn{
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
@@ -374,7 +383,7 @@ body{
     box-shadow: 3px 3px 0px 3px #87562D;
 }
 
-.voluntarios-divbtn{
+.index-voluntarios-divbtn{
     height:100px;
 }
 
@@ -432,50 +441,50 @@ body{
 }
 
 
-.ayudanos{
+.index-ayudanos-grid{
     background: #BC6D2A;
-    grid-area: ayudanos;
+    grid-area: index-ayudanos-grid;
     border: 1px solid black;
     display:grid;
     grid-template-columns: auto auto;
-    grid-template-areas: 'ayudanos-left ayudanos-right';
+    grid-template-areas: 'index-ayudanos-left index-ayudanos-right';
    
 }
 
-.ayudanos-left{
-    grid-area: ayudanos-left;
+.index-ayudanos-left{
+    grid-area: index-ayudanos-left;
     grid-template-rows: auto auto;
-    grid-template-areas: 'ayudanos-divtitle'
-                         'ayudanos-divtext';
+    grid-template-areas: 'index-ayudanos-divtitle'
+                         'index-ayudanos-divtext';
     display:grid;
     
 }
 
-.ayudanos-title{
+.index-ayudanos-title{
     color:white;
     font-family:'poetsenone-regular';
 }
 
-.ayudanos-text{
+.index-ayudanos-text{
     color:white;
     font-family:'araboto';
 }
 
-.ayudanos-left{
+.index-ayudanos-left{
     background: #BC6D2A;
 }
 
-.ayudanos-right{
+.index-ayudanos-right{
     background: #BC6D2A;
 }
 
-.ayudanos-divbtn{
+.index-ayudanos-divbtn{
     height:200px;
     display:grid;
     align-content: center;
 }
 
-.ayudanos-btn{
+.index-ayudanos-btn{
     color: #84341B;
     font-family:sans-serif;
     font-weight:800;
