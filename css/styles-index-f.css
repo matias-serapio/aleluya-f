@@ -19,7 +19,7 @@ src: url('./fonts/araboto-bold-400.ttf');
 body{
     display: grid;
     background-color: cornsilk;
-    grid-template-rows: 426px auto 426px;
+    grid-template-rows: auto auto 426px;
     grid-template-areas: 'header-grid'
                          'index-main-grid'
                          'footer-grid';
@@ -32,12 +32,17 @@ body{
     color: white;
     border: 1px solid black;
     grid-area: header-grid;
+    /* max-height: 1008px; */
+    height: 761px;
+    position: relative;
+
 }
 
 .index-main-grid{
     background-color: crimson;
     text-align: center;
     border: 1px solid black;
+    position: relative;
     
 }
 
@@ -554,11 +559,11 @@ body{
 /* Slideshow container */
 .slideshow-container {
     grid-column: 1/4;
-    max-width: 1000px;
-    max-height: 800px;
-    max-width: 100%;
-    /* position: absolute; */
-    margin: auto;
+    /* max-width: 1920px; */
+    /* max-height: none; */
+    /* max-width: 100%; */
+    position: relative;
+    /* margin: 0; */
     top: 0px;
     margin: 0px;
     z-index: 0;
