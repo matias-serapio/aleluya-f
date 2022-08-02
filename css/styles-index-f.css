@@ -62,10 +62,7 @@ body{
 
 
 .footer-grid{
-    background-color: crimson;
-    text-align: center;
-    color: white;
-    border: 1px solid black;
+   
 }
 
 .index-nosotros-grid{
@@ -518,48 +515,54 @@ body{
 
 
 .footer-grid{
-    display:grid;
     grid-area: footer-grid;
-    grid-template-columns: auto auto auto;
-    grid-template-areas: 'footer1-datos footer2-logo footer3-enlaces';
-    
-}
-
-.footer1-datos{
-    grid-area: footer1-datos;
     display:grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: 'direccion-footer' 'telefono-footer' 'correo-footer' 'mapa';
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'footer-top' 'footer-center' 'footer-bottom';
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
     
 }
 
-.datos{
+.footer-top{
+    grid-area: footer-top;
+    display:grid;  
+}
+
+.footer-center{
     display:grid;
     grid-area: datos;
-    grid-template-columns:auto auto;
-    grid-template-areas: 'footer-left footer-right';
+    grid-template-columns:auto auto auto;
+    grid-template-areas: 'footer-left footer-divisologo footer-right';
     align-content: center;
     justify-content: center;
-    
     height: 200px;
     align-items:center;
 }
 
 
 
-
-.footer2-logo{
-    grid-area: footer2-logo;
-    display:grid;
-    grid-template-rows:auto auto;
-    grid-template-areas: 'logo-footer' 'copyright';
-}
-
-.footer3-enlaces{
+.footer-bottom{
     grid-area: footer3-enlaces;
     display:grid;
     grid-template-rows: auto auto;
     grid-template-areas: 'preguntas-frecuentes' 'siguenos';
+}
+
+.footer-left{
+    grid-area:footer-left;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'footer-divOrgData'  'footer-divmap';
+}
+
+.footer-right{
+    grid-area:footer-right;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'footer-faq' 'footer-followUs';
 }
 
 
