@@ -276,6 +276,7 @@ body {
 
 .footer-grid{
     /* background-color: crimson; */
+    background-color: #bc6d2a;
     text-align: center;
     color: white;
     border: 1px solid black;
@@ -287,11 +288,11 @@ body {
 
 
 footer {
-    justify-content: space-around;
-    display: grid;
-    grid-column: 1 / 4;
-    height: 600px;
-    height: 575spx;
+      /* justify-content: space-around; */
+    /* display: grid; */
+    /* grid-column: 1 / 4; */
+    /* height: 600px; */
+    height: 575px;
     font-family: 'Roboto', sans-serif;
     background-image: url(../img/bg-footer.png);
     background-repeat: no-repeat;
@@ -299,8 +300,7 @@ footer {
     align-items: center;
     z-index: 1;
     position: relative;
-    top: -100px;
-    
+    /* top: -100px;*/
 }
 
 
