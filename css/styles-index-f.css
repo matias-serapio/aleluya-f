@@ -27,17 +27,7 @@ body{
     
 }
 
-.header-grid{
-    background-color: crimson;
-    text-align: center;
-    color: white;
-    border: 1px solid black;
-    grid-area: header-grid;
-    /* max-height: 1008px; */
-    height: 761px;
-    position: relative;
 
-}
 
 .index-main-grid{
     background-color: crimson;
@@ -61,9 +51,7 @@ body{
 }
 
 
-.footer-grid{
-   
-}
+
 
 .index-nosotros-grid{
     grid-area: index-nosotros-grid;
@@ -514,56 +502,7 @@ body{
 
 
 
-.footer-grid{
-    grid-area: footer-grid;
-    display:grid;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 'footer-top' 'footer-center' 'footer-bottom';
-    background-color: crimson;
-    text-align: center;
-    color: white;
-    border: 1px solid black;
-    
-}
 
-.footer-top{
-    grid-area: footer-top;
-    display:grid;  
-}
-
-.footer-center{
-    display:grid;
-    grid-area: datos;
-    grid-template-columns:auto auto auto;
-    grid-template-areas: 'footer-left footer-divisologo footer-right';
-    align-content: center;
-    justify-content: center;
-    height: 200px;
-    align-items:center;
-}
-
-
-
-.footer-bottom{
-    grid-area: footer3-enlaces;
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'preguntas-frecuentes' 'siguenos';
-}
-
-.footer-left{
-    grid-area:footer-left;
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'footer-divOrgData'  'footer-divmap';
-}
-
-.footer-right{
-    grid-area:footer-right;
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'footer-faq' 'footer-followUs';
-}
 
 
 /*****************************Slider scc******************************/
