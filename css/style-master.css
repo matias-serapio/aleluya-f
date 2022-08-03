@@ -232,8 +232,9 @@ body {
     grid-template-columns: auto;
     grid-template-areas: 'margin-bottom';
     position: relative;
-    top: -238px;
+    /* top: -238px; */
     z-index: 4;
+    position: relative;
 }
 
 .index-header-margin-bottom img{
@@ -242,6 +243,7 @@ body {
 }
 
 /*****************************************************************/
+
 .body-grid{
     display: grid;
     background-color: cornsilk;
