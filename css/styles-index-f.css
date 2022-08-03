@@ -27,17 +27,7 @@ body{
     
 }
 
-.header-grid{
-    background-color: crimson;
-    text-align: center;
-    color: white;
-    border: 1px solid black;
-    grid-area: header-grid;
-    /* max-height: 1008px; */
-    height: 761px;
-    position: relative;
 
-}
 
 .index-main-grid{
     background-color: crimson;
@@ -56,17 +46,12 @@ body{
                          'index-actividades-grid'
                          'index-eventos-grid'
                          'index-voluntarios-grid'
-                         'testimonios'
+                         'index-testimonios-grid'
                          'index-ayudanos-grid';
 }
 
 
-.footer-grid{
-    background-color: crimson;
-    text-align: center;
-    color: white;
-    border: 1px solid black;
-}
+
 
 .index-nosotros-grid{
     grid-area: index-nosotros-grid;
@@ -388,56 +373,62 @@ body{
     height:100px;
 }
 
-.testimonios{
+.index-testimonios-grid{
+    grid-area: index-testimonios-grid;
     background:white;
+    display:grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 'index-testimonios-top' 'index-testimonios-divtitle' 'index-testimonios-divmovie' 'index-testimonios-articulos' 'index-testimonios-bottom';
 }
 
 
-.testimonios-articulos{
-    grid-area: testimonios-articulos;
+
+
+.index-testimonios-articulos{
+    grid-area: index-testimonios-articulos;
     border: 1px solid black;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-areas: 'testimonios-art1 testimonios-art2 testimonios-art3';
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas: 'index-testimonios-slider-left index-testimonios-art1 index-testimonios-art2 index-testimonios-art3 index-testimonios-slider-right';
 }
 
-.testimonios-art1{
-    grid-area:testimonios-art1;
-    border: 1px solid black;
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'testimonios-tp' 'testimonios com'
-}
-
-.testimonios-art2{
-    grid-area:testimonios-art2;
+.index-testimonios-art1{
+    grid-area:index-testimonios-art1;
     border: 1px solid black;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'testimonios-tp' 'testimonios com'
+    grid-template-areas: 'index-testimonios-tp' 'index-testimonios com'
 }
 
-.testimonios-art3{
-    grid-area:testimonios-art3;
+.index-testimonios-art2{
+    grid-area:index-testimonios-art2;
     border: 1px solid black;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'testimonios-tp' 'testimonios com';
+    grid-template-areas: 'index-testimonios-tp' 'index-testimonios com'
 }
 
-.testimonios-title{
+.index-testimonios-art3{
+    grid-area:index-testimonios-art3;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'index-testimonios-tp' 'index-testimonios com';
+}
+
+.index-testimonios-title{
     font-family:'poetsenone-regular';
 }
 
-.testimonios-nom{
+.index-testimonios-nom{
     font-family:'araboto';
 }
 
-.testimonios-perfil{
+.index-testimonios-perfil{
     font-family:'araboto';
 }
 
-.testimonios-desc{
+.index-testimonios-desc{
     font-family:'araboto';
 }
 
@@ -504,14 +495,6 @@ body{
 }
 
 
-
-
-
-.header-grid{
-    
-    
-}
-
 .titulo-body-slider{
     grid-area: header-grid;
     
@@ -519,50 +502,7 @@ body{
 
 
 
-.footer-grid{
-    display:grid;
-    grid-area: footer-grid;
-    grid-template-columns: auto auto auto;
-    grid-template-areas: 'footer1-datos footer2-logo footer3-enlaces';
-    
-}
 
-.footer1-datos{
-    grid-area: footer1-datos;
-    display:grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: 'direccion-footer' 'telefono-footer' 'correo-footer' 'mapa';
-    
-}
-
-.datos{
-    display:grid;
-    grid-area: datos;
-    grid-template-columns:auto auto;
-    grid-template-areas: 'footer-left footer-right';
-    align-content: center;
-    justify-content: center;
-    
-    height: 200px;
-    align-items:center;
-}
-
-
-
-
-.footer2-logo{
-    grid-area: footer2-logo;
-    display:grid;
-    grid-template-rows:auto auto;
-    grid-template-areas: 'logo-footer' 'copyright';
-}
-
-.footer3-enlaces{
-    grid-area: footer3-enlaces;
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'preguntas-frecuentes' 'siguenos';
-}
 
 
 /*****************************Slider scc******************************/
