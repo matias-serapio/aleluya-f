@@ -371,10 +371,13 @@ footer {
 }
 
 .footer-right{
-    grid-area:footer-right;
-    display:grid;
+    grid-area: footer-right;
+    display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'footer-faq' 'footer-followUs';
+    grid-template-areas:
+        'footer-faq'
+        'footer-followUs';
+    justify-content: center;
 }
 
 
