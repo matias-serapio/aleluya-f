@@ -288,18 +288,18 @@ body {
 
 
 footer {
-      /* justify-content: space-around; */
+    justify-content: space-around; 
     /* display: grid; */
     /* grid-column: 1 / 4; */
     /* height: 600px; */
-    height: 575px;
+    /* height: 575px; */
     font-family: 'Roboto', sans-serif;
     background-image: url(../img/bg-footer.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    align-items: center;
-    z-index: 1;
-    position: relative;
+    /* align-items: center; */
+    /* z-index: 1; */
+    /* position: relative; */
     /* top: -100px;*/
 }
 
@@ -361,10 +361,13 @@ footer {
 }
 
 .footer-left{
-    grid-area:footer-left;
-    display:grid;
+    grid-area: footer-left;
+    display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'footer-divOrgData'  'footer-divmap';
+    grid-template-areas:
+        'footer-divOrgData'
+        'footer-divmap';
+    justify-content: space-around;
 }
 
 .footer-right{
@@ -374,3 +377,32 @@ footer {
     grid-template-areas: 'footer-faq' 'footer-followUs';
 }
 
+
+/****************/
+.footer-divOrgData{
+    display: grid;
+ 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-divOrgData div{
+    display: grid;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-divOrgData div .lado-izqf{
+   grid-column: 1;
+}
+
+.footer-divOrgData div .lado-derf{
+    grid-column: 2;
+ }
+ .iconos-redes{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto;
+ }
