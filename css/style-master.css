@@ -59,17 +59,7 @@ body {
 /*******************************************************/
 /**************** Header ********************************/
 
- .header-grid{
-    display: grid;
-     grid-column: 1 / 3; 
-    justify-content: space-between;
-     align-items: center; 
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;  */
-     
-}
+ 
 
 .isologo {
      grid-column: 1; 
@@ -199,7 +189,7 @@ body {
 .header-grid{
                 grid-area: header-grid;
                 display:grid;
-                grid-template-rows: auto;
+                grid-template-rows: 100px 426px auto;
                 grid-template-areas: 'grid-navbar'
                                      'grid-slider'
                                      'margin-bottom';
@@ -212,11 +202,13 @@ body {
     color: white;
     border: 1px solid black;
     /* max-height: 1008px; */
-    height: 761px;
+    height: fit-content;
     position: relative;
-
+    display: grid;
+    grid-column: 1 / 3;
+    justify-content: space-between;
+    align-items: stretch;
 }
-
 
 
 .navbar-grid{
@@ -231,28 +223,41 @@ body {
 .index-header-slider-grid{
     grid-area: grid-slider;
     display: grid;
-    grid-template-columns: 200px auto 191px;
+    grid-template-columns: 100px auto 100px;
     grid-template-areas: 'back-arrow title-1 next-arrow';
-    position: relative;
-    justify-content: space-evenly;
+    /* position: relative; */
+    justify-content: space-between;
     z-index: 6;
-    top: -500px;
+    /* top: -500px; */
+    align-items: center;
+    justify-items: stretch;
+
 }
 
 .index-header-margin-bottom{
     grid-area: margin-bottom;
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: auto; */
-    grid-template-areas: 'margin-bottom';
+    /* grid-template-areas: 'margin-bottom'; */
     position: relative;
-    top: -352px;
+    /* top: -352px; */
     z-index: 4;
     position: relative;
+
+      /* width: 100%; */
+      grid-column: 1/4;
+      grid-area: margin-bottom;
+      display: grid;
+      /* grid-template-columns: auto; */
+      /* grid-template-areas: 'margin-bottom'; */
+      /* position: relative; */
+      /* top: -352px; */
+      z-index: 4;
+      position: unset;
 }
 
 .index-header-margin-bottom img{
-    /* width: 100%; */
-    grid-column: 1/4;
+  
 }
 
 /*****************************************************************/
@@ -267,12 +272,6 @@ body {
     
 }
 
-.header-grid{
-    background-color: crimson;
-    text-align: center;
-    color: white;
-    border: 1px solid black;
-}
 
 .footer-grid{
     /* background-color: crimson; */
