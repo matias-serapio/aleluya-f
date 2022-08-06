@@ -23,18 +23,13 @@ body{
     grid-template-areas: 'header-grid'
                          'index-main-grid'
                          'footer-grid';
-    
-    
 }
-
-
 
 .index-main-grid{
     background-color: crimson;
     text-align: center;
-    border: 1px solid black;
-    position: relative;
-    
+        /* border: 1px solid black;*/
+    position: relative;  
 }
 
 .index-main-grid{
@@ -50,12 +45,9 @@ body{
                          'index-ayudanos-grid';
 }
 
-
-
-
 .index-nosotros-grid{
     grid-area: index-nosotros-grid;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: white;
     display:grid;
     grid-template-rows: auto auto auto;
@@ -110,8 +102,6 @@ body{
     box-shadow: 3px 3px 0px 3px #BFBCBC;
 }
 
-
-
 .index-nosotros-img{
      height:450px;
     width:468px;
@@ -121,18 +111,25 @@ body{
     
 }
 
+.index-nosotros-bottom{
+    /* grid-area: index-testimonios-bottom;
+    height: 100%;
+    bottom: -4px;
+    width: 100%;
+    position: relative; */
+    display: grid;
+    }
+    
 
 .index-actividades-grid{
     grid-area: index-actividades-grid;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: #BC6D2A;
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas: 'index-actividades-top' 'index-actividades-main' 'index-actividades-bottom';
        
 }
-
-
 
 .index-actividades-Backgroung{
     
@@ -198,10 +195,9 @@ body{
     margin:30px;
 }
 
-
 .index-actividades-programa{
     grid-area: index-actividades-programa;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: #BC6D2A;
     
 }
@@ -236,8 +232,6 @@ body{
     height:250px;
 }
 
-
-
 .index-actividades-programa-text{
     font-family:'araboto';
 }
@@ -268,7 +262,7 @@ body{
     grid-template-rows:auto auto auto;
     grid-template-areas: 'index-eventos-top' 'index-eventos-main' 'index-eventos-bottom';
     background:white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .index-eventos-main{
@@ -325,7 +319,7 @@ body{
 
 .index-voluntarios-grid{
     grid-area: index-voluntarios-grid;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: #BC6D2A;
     display:grid;
     grid-template-rows: auto auto auto;
@@ -434,14 +428,25 @@ body{
 
 
 
+.index-testimonios-bottom{
+/* grid-area: index-testimonios-bottom;
+height: 100%;
+bottom: -4px;
+width: 100%;
+position: relative; */
+display: grid;
+}
+
+
 
 .index-ayudanos-grid{
     background: #BC6D2A;
     grid-area: index-ayudanos-grid;
-    border: 1px solid black;
-    display:grid;
-    grid-template-columns: auto auto;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 50% auto;
     grid-template-areas: 'index-ayudanos-left index-ayudanos-right';
+    justify-content: space-evenly;
    
 }
 
@@ -465,14 +470,50 @@ body{
 }
 
 .index-ayudanos-left{
-    /* background: #BC6D2A; */
-    width: 75%;
-    align-content: center;
-    margin: 50px;
+    display: grid;
+    /* width: 75%; */
+    align-content: stretch;
+    /* margin: 25px; */
+    /* Vertical-align: Top; */
+    align-items: center;
+    justify-items: start;
+    justify-content: space-evenly;
+    /* Line-height: 150%;*/
 }
 
+.index-ayudanos-divtitle{
+    width: 75%;
+    align-content: center;
+    /* margin: 50px; */
+
+    Font-style: regular;
+    Font-size: 42px;
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align: Top;
+}
+.index-ayudanos-divtext{
+
+    width: 75%;
+    align-content: center;
+    /* margin: 50px; */
+    font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 28px;
+
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align: Top;
+}
+
+
+
+
 .index-ayudanos-right{
-    background: #BC6D2A;
+
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .index-ayudanos-divbtn{
@@ -491,14 +532,17 @@ body{
     border-radius: 30px;
     border: 0px;
     background-color: #F0CB11;
-    padding-top: 40px;
+    /* padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 100px; */
+    padding-top: 30px;
+    padding-bottom: 29px;
+    padding-left: 75px;
+    padding-right: 75px;
     box-shadow: 3px 20px 10px 3px #87562D;
     
 }
-
 
 .titulo-body-slider{
     grid-area: header-grid;
@@ -506,22 +550,16 @@ body{
 }
 
 
-
-
-
-
 /*****************************Slider scc******************************/
 /* Slideshow container */
 .slideshow-container {
-    grid-column: 1/4;
-    /* max-width: 1920px; */
-    /* max-height: none; */
-    /* max-width: 100%; */
-    position: relative;
-    /* margin: 0; */
+    grid-column: 1 / 4;
+    position: absolute;
     top: 0px;
     margin: 0px;
     z-index: 0;
+    width: 100%;
+    height: 100%;
     }
     
     /* Hide the images by default */
