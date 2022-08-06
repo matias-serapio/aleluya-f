@@ -438,7 +438,11 @@
             
           
             <div class="index-testimonios-divmovie">
-                
+                <video width="320" height="240" controls>
+                    <source src="movie5.mp4" type="video/mp4">
+                    <source src="moviesa.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
             </div>
 
             <div class="index-testimonios-articulos">
@@ -698,7 +702,92 @@
     <!-- Codigo script js -->
     <script Languaje="javascript" src="js/scriptshowSlides.js"></script>
 
-
+         <!-- <div class="row">
+       <div class="column">
+         <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+       </div>
+       <div class="column">
+         <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+       </div>
+       <div class="column">
+         <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+       </div>
+       <div class="column">
+         <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+       </div>
+       <div class="column">
+         <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+       </div>    
+       <div class="column">
+         <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+       </div>
+   
+   <script>
+   let slideIndex = 1;
+   showSlides(slideIndex);
+   
+   function plusSlides(n) {
+     showSlides(slideIndex += n);
+   }
+   
+   function currentSlide(n) {
+     showSlides(slideIndex = n);
+   }
+   
+   function showSlides(n) {
+     let i;
+     let slides = document.getElementsByClassName("mySlides");
+     let dots = document.getElementsByClassName("demo");
+     let captionText = document.getElementById("caption");
+     if (n > slides.length) {slideIndex = 1}
+     if (n < 1) {slideIndex = slides.length}
+     
+     for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+     }
+     for (i = 0; i < dots.length; i++) {
+     
+       dots[i].className = dots[i].className.replace(" active", "");
+     
+     }
+     
+      if (n > slides.length) {slideIndex = 1
+     }
+     else{
+     
+     if (n < 1) {slideIndex = slides.length
+     }
+     
+     }
+     
+      if (slideIndex == 1) {
+           dots[slideIndex-1].className += " active";
+              dots[slideIndex].className += " active";
+           dots[slideIndex+1].className += " active";
+     }
+     
+     if (slideIndex ==slides.length-1) {
+           dots[slideIndex-1].className += " active";
+              dots[slideIndex].className += " active";
+           dots[0].className += " active";
+     }
+     
+     if (slideIndex ==slides.length) {
+              dots[slideIndex-1].className += " active";
+           dots[0].className += " active";
+           dots[1].className += " active";
+     }
+     
+     if(slideIndex >1 && slideIndex < slides.length-1){
+             dots[slideIndex-1].className += " active";
+              dots[slideIndex].className += " active";
+           dots[slideIndex+1].className += " active";
+     }    
+     slides[slideIndex-1].style.display = "block";
+     captionText.innerHTML = dots[slideIndex-1].alt;
+   }
+   </script> -->
+  
 </body>
 
 </html>

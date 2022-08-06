@@ -189,7 +189,7 @@ body {
 
 .header-grid{
                 grid-area: header-grid;
-                display:grid;
+                /* display:grid; */
                 grid-template-rows: 100px 426px auto;
                 grid-template-areas: 'grid-navbar'
                                      'grid-slider'
@@ -216,12 +216,14 @@ body {
 .navbar-grid{
                     grid-area: grid-navbar;
                     display:grid;
+                    grid-column: 1/4;
                     grid-template-columns: auto auto auto;
                     grid-template-areas: 'isologo navbar donar-btn';
                      position: absolute; 
                     top: 0px;
-                    
-                   
+                    width: 100%;
+                    justify-content: space-between;
+
 }
     
 .index-header-slider-grid{
@@ -229,6 +231,7 @@ body {
     display: grid;
     grid-template-columns: 100px auto 100px;
     grid-template-areas: 'back-arrow title-1 next-arrow';
+    grid-column: 1/4;
     /* position: relative; */
     justify-content: space-between;
     z-index: 6;
@@ -240,27 +243,21 @@ body {
 
 .index-header-margin-bottom{
     grid-area: margin-bottom;
-    /* display: grid; */
     /* grid-template-columns: auto; */
     /* grid-template-areas: 'margin-bottom'; */
     position: relative;
     /* top: -352px; */
     z-index: 4;
     position: relative;
-
       /* width: 100%; */
       grid-column: 1/4;
-      grid-area: margin-bottom;
       display: grid;
-      /* grid-template-columns: auto; */
-      /* grid-template-areas: 'margin-bottom'; */
-      /* position: relative; */
-      /* top: -352px; */
       z-index: 4;
       position: unset;
 }
 
 .index-header-margin-bottom img{
+
   width:100%;
 }
 
@@ -342,7 +339,7 @@ footer {
 .footer-top{
     grid-area: footer-top;
     display:grid;  
-    height: 100px;
+    height: 4em;
 }
 
 .footer-center{
@@ -357,10 +354,7 @@ footer {
 
 
 .footer-bottom{
-    grid-area: footer3-enlaces;
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'preguntas-frecuentes' 'siguenos';
+    height: 2em;
 }
 
 .footer-left{
