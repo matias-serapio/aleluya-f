@@ -337,7 +337,7 @@ footer {
 .footer-top{
     grid-area: footer-top;
     display:grid;  
-    height: 100px;
+    height: 4em;
 }
 
 .footer-center{
@@ -352,10 +352,7 @@ footer {
 
 
 .footer-bottom{
-    grid-area: footer3-enlaces;
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'preguntas-frecuentes' 'siguenos';
+    height: 2em;
 }
 
 .footer-left{
