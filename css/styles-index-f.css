@@ -397,7 +397,7 @@ body{
     border: 1px solid black;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'index-testimonios-tp' 'index-testimonios com'
+    grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
 }
 
 .index-testimonios-art2{
@@ -405,7 +405,7 @@ body{
     border: 1px solid black;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'index-testimonios-tp' 'index-testimonios com'
+    grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com'
 }
 
 .index-testimonios-art3{
@@ -413,7 +413,7 @@ body{
     border: 1px solid black;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'index-testimonios-tp' 'index-testimonios com';
+    grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
 }
 
 .index-testimonios-title{
@@ -431,6 +431,8 @@ body{
 .index-testimonios-desc{
     font-family:'araboto';
 }
+
+
 
 
 .index-ayudanos-grid{
@@ -602,6 +604,33 @@ body{
       to {opacity: 1}
     }
   /***************************************************************/
+
+
+/* BORDES */
+
+.index-nosotros-margin-top{
+   width:100%; 
+    
+}
+
+.index-nosotros-margin-bottom{
+   width:100%; 
+    
+}
+
+.index-eventos-margin-top{
+   width:100%; 
+    
+}
+
+.index-eventos-margin-bottom{
+   width:100%; 
+    
+}
+
+.index-testimonios-margin-top{
+    width:100%;
+}
 
 
 
