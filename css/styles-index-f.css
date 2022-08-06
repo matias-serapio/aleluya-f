@@ -465,7 +465,10 @@ body{
 }
 
 .index-ayudanos-left{
-    background: #BC6D2A;
+    /* background: #BC6D2A; */
+    width: 75%;
+    align-content: center;
+    margin: 50px;
 }
 
 .index-ayudanos-right{
