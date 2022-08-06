@@ -19,6 +19,7 @@ body {
     /* left: -3px; */
     /* top: 0px;*/
     
+    
 }
 
 .foto-de-fondo-ondulado-header {
@@ -95,7 +96,7 @@ body {
 
 .navbar {
     
-    grid-column: 2; 
+    grid-column: 2;
     justify-content: center;
     width: 60%;
 
@@ -218,11 +219,11 @@ body {
                     grid-column: 1/4;
                     grid-template-columns: auto auto auto;
                     grid-template-areas: 'isologo navbar donar-btn';
-                    position: absolute;
+                     position: absolute; 
                     top: 0px;
                     width: 100%;
                     justify-content: space-between;
-                
+
 }
     
 .index-header-slider-grid{
@@ -256,7 +257,8 @@ body {
 }
 
 .index-header-margin-bottom img{
-    width: 100%;
+
+  width:100%;
 }
 
 /*****************************************************************/
