@@ -695,7 +695,8 @@ display: grid;
 }
 
 .index-testimonios-slider-left{
-   align-items: center; 
+   align-items: center;
+
 }
 
 .index-testimonios-slider-right{
@@ -716,10 +717,16 @@ display: grid;
 
 .index-testimonios-articulos{
     align-content: center;
+    
 }
 
+.index-testimonios-slider-back-arrow{
+    width:50px;
+}
 
-
+.index-testimonios-slider-next-arrow{
+    width:27px;
+}
 
 
 
