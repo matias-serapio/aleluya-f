@@ -449,17 +449,17 @@
                 
                 <div class="index-testimonios-slider-left">
                     
-                    <img class="index-testimonios-slider-back-arrow" src="./img/slider-izq-index-testimonios.png">
+                    <img class="index-testimonios-slider-back-arrow prev" src="./img/slider-izq-index-testimonios.png"  onclick="plusSlidesTestimonios(-1)">
                     
                 </div>
                 
                 
-                <article class="index-testimonios-art1">
+                <article class="index-testimonios-art1 demoTestimonios">
 
                     <div class="index-testimonios-tp">
                         <img class="index-testimonios-img-1" src="./img/index/Img-Testimonio-1.png">
                         <h2 class="index-testimonios-nom">Juan Gonzales</h2>
-                        <h5 class="index-testimonios-perfil">ex-alumno</h5>
+                        <h5 class="index-testimonios-perfil">ex-alumno-1°Testimonio</h5>
 
 
                     </div>
@@ -479,12 +479,12 @@
 
                 </article>
 
-                <article class="index-testimonios-art2">
+                <article class="index-testimonios-art2 demoTestimonios">
 
                     <div class="index-testimonios-tp">
                         <img class="index-testimonio-img-2" src="./img/index/Img-Testimonio-2.png">
                         <h2 class="index-testimonios-nom">Gabriela Perez</h2>
-                        <h5 class="index-testimonios-perfil">ex-alumna</h5>
+                        <h5 class="index-testimonios-perfil">ex-alumna 2°Testimonio</h5>
 
 
                     </div>
@@ -503,12 +503,37 @@
 
                 </article>
 
-                <article class="index-testimonios-art3">
+                <article class="index-testimonios-art3 demoTestimonios">
 
                     <div class="index-testimonios-tp">
                         <img class="index-testimonio-img-3" src="./img/index/Img-Testimonio-3.png">
                         <h2 class="index-testimonios-nom">Romina García</h2>
-                        <h5 class="index-testimonios-perfil">ex-alumna</h5>
+                        <h5 class="index-testimonios-perfil">ex-alumna-3°Testimonio</h5>
+
+
+                    </div>
+
+                    <div class="index-testimonios-com">
+
+                        <h4 class="index-testimonios-desc">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Cras id euismod felis. Sed
+                            congue posuere tellus sed
+                            rhoncus. Proin fringilla purus
+                            eu nunc ornare ultrices. Nunc
+                            tellus est, viverra a ex ut, “</h4>
+
+                    </div>
+
+
+                </article>
+
+                <article class="index-testimonios-art4 demoTestimonios">
+
+                    <div class="index-testimonios-tp">
+                        <img class="index-testimonio-img-3" src="./img/index/Img-Testimonio-3.png">
+                        <h2 class="index-testimonios-nom">Romina García</h2>
+                        <h5 class="index-testimonios-perfil">ex-alumna-4°Testimonio</h5>
 
 
                     </div>
@@ -528,9 +553,9 @@
 
                 </article>
                 
-                <div class="index-testimonios-slider-right">
+                <div class="index-testimonios-slider-right next">
                     
-                    <img class="index-testimonios-slider-next-arrow" src="./img/slider-der-index-testimonios.png">
+                    <img class="index-testimonios-slider-next-arrow" src="./img/slider-der-index-testimonios.png"  onclick="plusSlidesTestimonios(1)">
                     
                 </div>
 
@@ -721,72 +746,9 @@
        <div class="column">
          <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
        </div>
-   
    <script>
-   let slideIndex = 1;
-   showSlides(slideIndex);
-   
-   function plusSlides(n) {
-     showSlides(slideIndex += n);
-   }
-   
-   function currentSlide(n) {
-     showSlides(slideIndex = n);
-   }
-   
-   function showSlides(n) {
-     let i;
-     let slides = document.getElementsByClassName("mySlides");
-     let dots = document.getElementsByClassName("demo");
-     let captionText = document.getElementById("caption");
-     if (n > slides.length) {slideIndex = 1}
-     if (n < 1) {slideIndex = slides.length}
-     
-     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-     }
-     for (i = 0; i < dots.length; i++) {
-     
-       dots[i].className = dots[i].className.replace(" active", "");
-     
-     }
-     
-      if (n > slides.length) {slideIndex = 1
-     }
-     else{
-     
-     if (n < 1) {slideIndex = slides.length
-     }
-     
-     }
-     
-      if (slideIndex == 1) {
-           dots[slideIndex-1].className += " active";
-              dots[slideIndex].className += " active";
-           dots[slideIndex+1].className += " active";
-     }
-     
-     if (slideIndex ==slides.length-1) {
-           dots[slideIndex-1].className += " active";
-              dots[slideIndex].className += " active";
-           dots[0].className += " active";
-     }
-     
-     if (slideIndex ==slides.length) {
-              dots[slideIndex-1].className += " active";
-           dots[0].className += " active";
-           dots[1].className += " active";
-     }
-     
-     if(slideIndex >1 && slideIndex < slides.length-1){
-             dots[slideIndex-1].className += " active";
-              dots[slideIndex].className += " active";
-           dots[slideIndex+1].className += " active";
-     }    
-     slides[slideIndex-1].style.display = "block";
-     captionText.innerHTML = dots[slideIndex-1].alt;
-   }
    </script> -->
+   <script Languaje="javascript" src="js/scriptShowSliderTestimonio.js"></script>
   
 </body>
 
