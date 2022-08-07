@@ -373,6 +373,7 @@ body{
     display:grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 'index-testimonios-top' 'index-testimonios-divtitle' 'index-testimonios-divmovie' 'index-testimonios-articulos' 'index-testimonios-bottom';
+    grid-row-gap:200px;
 }
 
 
@@ -692,19 +693,21 @@ display: grid;
     align-items: center;
 }
 
+.index-testimonios-art1 img{
+    width:200px;
+}
 
+.index-testimonios-art2 img{
+    width:200px;
+}
 
+.index-testimonios-art3 img{
+    width:200px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.index-testimonios-articulos{
+    align-content: center;
+}
 
 
 
