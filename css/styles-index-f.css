@@ -373,7 +373,7 @@ body{
     display:grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 'index-testimonios-top' 'index-testimonios-divtitle' 'index-testimonios-divmovie' 'index-testimonios-articulos' 'index-testimonios-bottom';
-    grid-row-gap:200px;
+    grid-row-gap:150px;
 }
 
 
@@ -725,8 +725,9 @@ display: grid;
 }
 
 .index-testimonios-slider-next-arrow{
-    width:27px;
+    width:20px;
 }
+
 
 
 
