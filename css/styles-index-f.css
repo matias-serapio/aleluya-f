@@ -380,7 +380,7 @@ body{
 
 .index-testimonios-articulos{
     grid-area: index-testimonios-articulos;
-    border: 1px solid black;
+    
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-areas: 'index-testimonios-slider-left index-testimonios-art1 index-testimonios-art2 index-testimonios-art3 index-testimonios-slider-right';
@@ -388,7 +388,7 @@ body{
 
 .index-testimonios-art1{
     grid-area:index-testimonios-art1;
-    border: 1px solid black;
+    
     display: grid;
     grid-template-rows: auto auto;
     grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
@@ -396,7 +396,7 @@ body{
 
 .index-testimonios-art2{
     grid-area:index-testimonios-art2;
-    border: 1px solid black;
+    
     display: grid;
     grid-template-rows: auto auto;
     grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com'
@@ -404,7 +404,7 @@ body{
 
 .index-testimonios-art3{
     grid-area:index-testimonios-art3;
-    border: 1px solid black;
+    
     display: grid;
     grid-template-rows: auto auto;
     grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
@@ -693,7 +693,13 @@ display: grid;
     width:100%;    
 }
 
+.index-testimonios-slider-left{
+   align-items: center; 
+}
 
+.index-testimonios-slider-right{
+    align-items: center;
+}
 
 
 
