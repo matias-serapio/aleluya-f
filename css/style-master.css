@@ -396,6 +396,8 @@ footer {
     grid-column: 2;
  }
 
+
+
  .iconos-redes{
     display: grid;
     justify-content: space-evenly;
@@ -496,4 +498,22 @@ footer {
     grid-template-areas: 'correo-lado-izqf correo-lado-derf';
     grid-column-gap:30px;
     
+}
+
+.footer-divmap {
+      /* width: 368px; */
+    /* height: 253px; */
+    /* left: 127px; */
+    /* top: 597px; */
+    /* border-radius: 45px;*/
+}
+.footer-divmap iframe {
+   
+   /* position: relative; */
+    width: 301px;
+    height: 186px;
+    /* left: 127px; */
+    /* top: 601px; */
+    border-radius: 45px;
+    margin: 16px 0px 0px 0px;
 }
