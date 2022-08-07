@@ -213,6 +213,7 @@ body {
 }
 
 
+
 .navbar-grid{
     grid-area: grid-navbar;
     display: grid;
@@ -224,7 +225,7 @@ body {
     width: 100%;
     justify-content: space-between;
 
-}
+} 
     
 .index-header-slider-grid{
     grid-area: grid-slider;
