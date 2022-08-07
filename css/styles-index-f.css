@@ -410,6 +410,15 @@ body{
     grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
 }
 
+
+.index-testimonios-art4 {
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        'index-testimonios-tp'
+        'index-testimonios-com';
+} 
 .index-testimonios-title{
     font-family:'poetsenone-regular';
 }
