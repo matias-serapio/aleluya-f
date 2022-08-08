@@ -160,6 +160,17 @@ body {
     padding: 18px;
 }
 
+.center-nav a:hover{
+ content:'';
+ color: #7B3C00;
+    background-color: white;
+    border-radius: 50px;
+    line-height: 25px;
+    padding: 18px;
+}
+
+
+
 .donar-btn {
       /* display: flex; */
     display: grid;
@@ -538,3 +549,6 @@ footer {
     border-radius: 45px;
     margin: 16px 0px 0px 0px;
 }
+
+/* HOOVER */
+
