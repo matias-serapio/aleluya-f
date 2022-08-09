@@ -146,13 +146,11 @@ body {
        border-radius: 50px;
        line-height: 25px;
        padding: 18px;
-       
        width:100%;
    }
 
 
-.menu .center-nav:hover::after{
-    color: #7B3C00;
+.menu .center-nav:hover{
     background-color: white;
     border-radius: 50px;
     padding:18px;
@@ -174,6 +172,7 @@ body {
    /* padding: 18px; */
    
 }
+
 
 
 
