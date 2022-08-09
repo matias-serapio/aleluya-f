@@ -98,7 +98,7 @@ body {
     
     grid-column: 2;
     justify-content: center;
-    width: 60%;
+    width: 70%;
 
     /* display: flex;
     flex-direction: row;
@@ -149,8 +149,9 @@ body {
    }
 
 
-.menu a:hover{
+.menu li :hover{
     background-color: white;
+    background-size: 500px 29px;
     border-radius: 50px;
     padding:18px;
     opacity: 0.8;
@@ -167,11 +168,14 @@ body {
     /* margin-top: -11px; */
     /* justify-content: center; */
     /* filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.25)); */
-    /* padding-left: 17px; */
-    /* padding-right: 17px; */
-   /* padding: 18px; */
    
 }
+.center-nav a:hover{
+    padding-right:0px;
+    padding-left: 0px;
+    align-items: center;
+}
+
 
 .donar-btn {
       /* display: flex; */
@@ -273,6 +277,23 @@ body {
     /* top: -500px; */
     align-items: center;
     justify-items: stretch;
+
+}
+
+.title-1{
+    /* grid-area: grid-slider; */
+    /* display: grid; */
+    /* grid-template-columns: 100px auto 100px; */
+    /* grid-template-areas: 'back-arrow title-1 next-arrow'; */
+    /* grid-column: 1/4; */
+    position: relative;
+    /* z-index: 6; */
+    /* top: 178px; */
+    align-items: end;
+    justify-items: start;
+    bottom: -25%;
+    align-content: center;
+    /* bottom: -29px;*/
 
 }
 
