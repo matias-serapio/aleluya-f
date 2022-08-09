@@ -585,19 +585,21 @@ display: grid;
   
     /* Next & previous buttons */
     .prev, .next {
-      cursor: pointer;
-      position: relative;
-      top: 30%;
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      z-index: 5;
+        cursor: pointer;
+        position: relative;
+        top: 30%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        z-index: 5;
+        font-size: 50px;
+        -webkit-text-stroke: 1px beige;
     }
     
     /* Position the "next button" to the right */
