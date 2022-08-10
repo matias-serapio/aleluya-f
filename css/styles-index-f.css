@@ -205,26 +205,30 @@ body{
 }
 
 .index-actividades-programa-circ{
-   grid-area:index-actividades-programa-circ;
-   align-content: center;
-   grid-gap:100px;
-   display:grid;
-   grid-template-rows: auto auto auto;
-   grid-template-areas: 'index-actividades-programa-divimg'
-                        'index-actividades-programa-divtext'
-                        'index-actividades-programa-divbtn';
+    grid-area: index-actividades-programa-circ;
+    grid-gap: 100px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        'index-actividades-programa-divimg'
+        'index-actividades-programa-divtext'
+        'index-actividades-programa-divbtn';
     width: 780px;
-	height: 780px;
-	border-radius: 50%;
-	background: white;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    margin:0px auto;
-  
+    height: 780px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    margin: 0px auto;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
    
 }
-
+.index-actividades-programa-divtext{
+  
+    padding-left: 2%;
+    padding-right: 2%;
+}
 .index-actividades-programa-text{
     color:black;
     font-size: large;
@@ -440,7 +444,9 @@ body{
 }
 
 .index-testimonios-desc{
-    font-family:'araboto';
+    font-family: 'araboto';
+    padding: 27px;
+    text-align: justify;
 }
 
 
@@ -464,6 +470,7 @@ display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: 'index-ayudanos-left index-ayudanos-right';
     justify-content: space-evenly;
+    padding-top: 2%;
     padding-bottom: 5%;
    
 }
@@ -613,7 +620,7 @@ display: grid;
     
     /* Position the "next button" to the right */
     .next {
-      right: 40px;
+      /* right: 40px; */
       border-radius: 3px 0 0 3px;
     }
     
@@ -738,11 +745,13 @@ display: grid;
 }
 
 .index-eventos-margin-top{
+ 
    width:100%; 
     
 }
 
-.index-eventos-margin-bottom{
+.index-eventos-margin-bottom{  
+ display: grid;
    width:100%; 
     
 }
@@ -756,11 +765,13 @@ display: grid;
 }
 
 .index-testimonios-slider-left{
+    grid-area:index-testimonios-slider-left ;
    align-items: center;
 
 }
 
 .index-testimonios-slider-right{
+    grid-area: index-testimonios-slider-right;
     align-items: center;
 }
 
@@ -784,11 +795,13 @@ display: grid;
 /* REVISAR TAMAÑOS */
 
 .index-testimonios-slider-back-arrow{
+
     width:50px;
 }
 
 .index-testimonios-slider-next-arrow{
-    width:20px;
+
+    width:50px;
 }
 
 
