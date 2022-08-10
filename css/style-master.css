@@ -149,7 +149,7 @@ body {
    }
 
 
-.menu li :hover{
+.menu .center-nav :hover{
     background-color: white;
     background-size: 500px 29px;
     border-radius: 50px;
