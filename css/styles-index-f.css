@@ -81,6 +81,7 @@ body{
 .index-nosotros-text{
     color:black;
     font-family:'araboto';
+    font-size: large;
 }
 
 .index-nosotros-btn{
@@ -167,6 +168,7 @@ body{
 .index-actividades-text{
      color: black;
      font-family:'araboto';
+     font-size: large;
 }
 
 .index-actividades-btn{ 
@@ -225,6 +227,7 @@ body{
 
 .index-actividades-programa-text{
     color:black;
+    font-size: large;
 }
 
 .index-actividades-programa-img{
@@ -234,6 +237,7 @@ body{
 
 .index-actividades-programa-text{
     font-family:'araboto';
+    font-size: large;
 }
 
 .index-actividades-programa-btn{
@@ -310,6 +314,7 @@ body{
 
 .index-eventos-text{
     font-family:'araboto';
+    font-size: large;
 }
 
 .index-eventos-img{
@@ -335,6 +340,7 @@ body{
 
 .index-voluntarios-text{
     color:white;
+    font-size: large;
 }
 
 .index-voluntarios-title{
@@ -343,6 +349,7 @@ body{
 
 .index-voluntarios-text{
     font-family:'araboto';
+    font-size: large;
 }
 
 .index-voluntarios-btn{
@@ -478,6 +485,7 @@ display: grid;
 .index-ayudanos-text{
     color:white;
     font-family:'araboto';
+    font-size: large;
 }
 
 .index-ayudanos-left{
