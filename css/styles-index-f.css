@@ -62,6 +62,8 @@ body{
     display:grid;
     grid-template-columns:auto auto;
     grid-template-areas:'index-nosotros-left index-nosotros-right';
+    justify-content:center;
+    grid-column-gap:90px;
 }
 
 .index-nosotros-left{
@@ -71,17 +73,25 @@ body{
     grid-template-areas:'index-nosotros-divtitle'
                         'index-nosotros-divtext'
                         'index-nosotros-divbtn';
+    justify-content: center;
+    align-content: center;
+    grid-row-gap:50px;
 }
 
 .index-nosotros-title{
     color:black;
     font-family:'poetsenone-regular';
+    font-size:60px;
+    font-weight: 500;
 }
 
 .index-nosotros-text{
     color:black;
     font-family:'araboto';
     font-size: large;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .index-nosotros-btn{
