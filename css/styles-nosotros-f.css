@@ -172,7 +172,7 @@ body{
 .grid-container-nosotros{
     display: grid;
     background-color: cornsilk;
-    padding-top:  15%;
+  
     position: relative;
     grid-template-columns: auto auto auto ;
 }
