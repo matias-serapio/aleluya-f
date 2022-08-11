@@ -333,12 +333,13 @@ body{
 
 .index-eventos-main{
     grid-area: index-eventos-main;
-    
-    background:white;
-    display:grid;
+    background: white;
+    display: grid;
     grid-template-columns: auto auto;
     grid-template-areas: 'index-eventos-left index-eventos-right';
-    
+    grid-column-gap: 90px;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .index-eventos-left{
@@ -350,6 +351,19 @@ body{
                         'index-eventos-divbtn';
     color:black;
 }
+
+.index-eventos-right{
+     /* grid-area: index-eventos-left; */
+     display: grid;
+     /* grid-template-rows: auto auto auto; */
+     /* grid-template-areas:
+         'index-eventos-divtitle'
+         'index-eventos-divtext'
+         'index-eventos-divbtn'; */
+     /* color: black; */
+     margin-right: 50px;
+}
+
 
 .index-eventos-btn{
     color: #84341B;
@@ -372,11 +386,12 @@ body{
 
 .index-eventos-title{
     font-family:'poetsenone-regular';
+    font-size: 60px;
 }
 
 .index-eventos-text{
     font-family:'araboto';
-    font-size: large;
+    font-size: x-large;
 }
 
 .index-eventos-img{
@@ -395,6 +410,16 @@ body{
     grid-row-gap:100px;
     
 }
+.index-voluntarios-grid div{
+    display: grid;
+    /* grid-column-gap: 199px; */
+    /* margin-right: 40px; */
+    /* margin-left: 40px; */
+    justify-content: space-around;
+    justify-items: center;
+
+}
+
 
 .index-voluntarios-title{
     color:white;
@@ -407,11 +432,14 @@ body{
 
 .index-voluntarios-title{
     font-family:'poetsenone-regular';
+    font-size: 60px;
 }
 
 .index-voluntarios-text{
-    font-family:'araboto';
-    font-size: large;
+    font-family: 'araboto';
+    font-size: x-large;
+    width: 85%;
+    text-align: center;
 }
 
 .index-voluntarios-btn{
@@ -454,6 +482,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-areas: 'index-testimonios-slider-left index-testimonios-art1 index-testimonios-art2 index-testimonios-art3 index-testimonios-slider-right';
+
 }
 
 .index-testimonios-art1{
@@ -491,7 +520,7 @@ body{
 } 
 .index-testimonios-title{
     font-family:'poetsenone-regular';
-    font-size: xx-large;
+    font-size: 60px;
 }
 
 .index-testimonios-nom{
@@ -848,7 +877,8 @@ display: grid;
 
 .index-testimonios-articulos{
     align-content: center;
-    
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* REVISAR TAMAÑOS */
