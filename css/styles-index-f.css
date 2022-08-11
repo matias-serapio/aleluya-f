@@ -473,6 +473,12 @@ body{
     grid-row-gap:150px;
 }
 
+.index-testimonios-divmovie-content{
+
+    border-radius: 50px;
+    width: 1296px;
+    height: 420px;
+}
 
 
 
@@ -877,8 +883,8 @@ display: grid;
 
 .index-testimonios-articulos{
     align-content: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* REVISAR TAMAÑOS */
