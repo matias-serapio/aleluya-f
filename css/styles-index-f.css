@@ -178,7 +178,8 @@ body{
 .index-actividades-right .index-actividades-divbtn{
     display:grid;
     align-content: center;
-    
+    justify-content: end;
+    margin-right:60px;
 }
 
 
