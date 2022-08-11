@@ -239,7 +239,7 @@ body{
 
 .index-actividades-programa-circ{
     grid-area: index-actividades-programa-circ;
-    grid-gap: 100px;
+    
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-areas:
@@ -252,30 +252,55 @@ body{
     background: white;
     text-align: center;
     margin: 0px auto;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-   
+
 }
+
+
+
 .index-actividades-programa-divtext{
     
     padding-left: 2%;
     padding-right: 2%;
+    margin-left:80px;
+    margin-right:80px;
 }
 .index-actividades-programa-text{
     color:black;
-    font-size: large;
+    line-height: 30px;
+    font-family:'araboto';
+    font-size:27px;
+    text-align: center;
+    
 }
 
 .index-actividades-programa-img{
      width:590px;
     height:250px;
+   
 }
 
-.index-actividades-programa-text{
-    font-family:'araboto';
-    font-size: large;
+.index-actividades-programa-divimg{
+    align-content:end;
+    justify-content: center;
+    display:grid;
+    margin-top:40px;
 }
+
+.index-actividades-programa-divtext{
+    align-content:center;
+    justify-content: center;
+    display:grid;
+}
+
+.index-actividades-programa-divbtn{
+    align-content:center;
+    justify-content: center;
+    margin-bottom:30px;
+    display:grid;
+}
+
+
+
 
 .index-actividades-programa-btn{
     color: black;
@@ -292,7 +317,7 @@ body{
     padding-right: 70px;
     border-radius: 30px;
     border: 0px;
-    margin-top:10px; 
+    margin-top:10px;
     box-shadow: 3px 3px 3px 3px #BFBCBC;
     
 }
