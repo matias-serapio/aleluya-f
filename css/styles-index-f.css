@@ -154,7 +154,7 @@ body{
     background-color: white;
     margin: 52px 70px 50px 70px;
     border-radius: 250px;
-    align-items: center;
+    
 }
 
 .index-actividades-right{
@@ -164,21 +164,41 @@ body{
     grid-template-areas: 'index-actividades-divtext'
                          'index-actividades-divbtn';
     
-    align-content:center;
-    grid-gap:100px;
-    margin-right:50px;
+    
+    margin-right:60px;
+   
     
 }
+
+.index-actividades-right .index-actividades-divtext{
+    display:grid;
+    align-content: end;
+}
+
+.index-actividades-right .index-actividades-divbtn{
+    display:grid;
+    align-content: center;
+    
+}
+
+
 
 .index-actividades-title{
     color:white;
     font-family:'poetsenone-regular';
+    font-size:60px;
+    font-weight: 500;
+  
 }
 
 .index-actividades-text{
      color: black;
      font-family:'araboto';
      font-size: large;
+     font-size: 27px;
+    line-height: 30px;
+    text-align: justify;
+    
 }
 
 .index-actividades-btn{ 
@@ -206,6 +226,8 @@ body{
     height:400px;
     margin:30px;
 }
+
+
 
 .index-actividades-programa{
     grid-area: index-actividades-programa;
@@ -235,7 +257,7 @@ body{
    
 }
 .index-actividades-programa-divtext{
-  
+    
     padding-left: 2%;
     padding-right: 2%;
 }
