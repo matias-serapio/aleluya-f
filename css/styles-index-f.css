@@ -387,16 +387,24 @@ body{
 .index-eventos-title{
     font-family:'poetsenone-regular';
     font-size: 60px;
+    text-align: left;
 }
 
 .index-eventos-text{
     font-family:'araboto';
     font-size: x-large;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .index-eventos-img{
      height:450px;
     width:468px;
+}
+
+.index-eventos-divtext{
+    margin-right:70px;
+    
 }
 
 .index-voluntarios-grid{
