@@ -882,9 +882,13 @@ display: grid;
 }
 
 .index-testimonios-articulos{
-    align-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+       /* width: 80%; */
+       display: grid;
+       align-content: center;
+       justify-items: center;
+       justify-content: space-around;
+       margin-left: 5%;
+       margin-right: 5%;
 }
 
 /* REVISAR TAMAÑOS */
