@@ -546,9 +546,11 @@ body{
 }
 
 .index-testimonios-desc{
-    font-family: 'araboto';
+    
     padding: 27px;
     text-align: justify;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 
