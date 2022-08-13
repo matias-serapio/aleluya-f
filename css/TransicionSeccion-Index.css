@@ -1,0 +1,19 @@
+.animado{
+opacity: 0;
+transition: all 0.5s;
+}
+
+.mostrarArriba{
+    animation: mostrararriba 1s;
+}
+@keyframes mostrararriba {
+    
+    0%{
+        transform: translateY(30px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+    
+}
