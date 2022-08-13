@@ -1,5 +1,7 @@
 let animado =document.querySelectorAll(".animado");
 
+let animadoHorizontal =document.querySelectorAll(".animadoHorizontal");
+
 function mostrarScroll()
 {
     let scrollTop=document.documentElement.scrollTop;
@@ -12,5 +14,19 @@ function mostrarScroll()
             animado[i].classList.add("mostrarArriba")   
         }
     }
+
+ /****Para mostrar varios elementos para Actividades*****/
+ for(var i=0;i<animadoHorizontal.length;i++)
+ { let alturaAnimado=animadoHorizontal[i].offsetTop;
+/************Ajuste manual del scroll para que no deba llegar al tope superior para mostrarse */
+     if(alturaAnimado-50<scrollTop){
+        animadoHorizontal[i].style.opacity=1;
+
+        animadoHorizontal[i].classList.add("mostrarIzquierda")   
+        animadoHorizontal[i].classList.add("fots")   
+        animadoHorizontal[i].classList.add("fo")   
+     }
+ }
+
 }
 window.addEventListener('scroll',mostrarScroll);
