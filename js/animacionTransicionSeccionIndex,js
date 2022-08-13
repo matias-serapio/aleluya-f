@@ -23,8 +23,7 @@ function mostrarScroll()
         animadoHorizontal[i].style.opacity=1;
 
         animadoHorizontal[i].classList.add("mostrarIzquierda")   
-        animadoHorizontal[i].classList.add("fots")   
-        animadoHorizontal[i].classList.add("fo")   
+
      }
  }
 
