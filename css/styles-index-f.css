@@ -387,16 +387,24 @@ body{
 .index-eventos-title{
     font-family:'poetsenone-regular';
     font-size: 60px;
+    text-align: left;
 }
 
 .index-eventos-text{
     font-family:'araboto';
     font-size: x-large;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .index-eventos-img{
      height:450px;
     width:468px;
+}
+
+.index-eventos-divtext{
+    margin-right:70px;
+    
 }
 
 .index-voluntarios-grid{
@@ -476,7 +484,7 @@ body{
 .index-testimonios-divmovie-content{
 
     border-radius: 50px;
-    width: 1296px;
+    width: 1080px;
     height: 420px;
 }
 
@@ -538,9 +546,11 @@ body{
 }
 
 .index-testimonios-desc{
-    font-family: 'araboto';
+    
     padding: 27px;
     text-align: justify;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 
