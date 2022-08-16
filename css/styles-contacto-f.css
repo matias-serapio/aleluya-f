@@ -303,16 +303,15 @@ form.form_contact input[type="submit"]:hover {
     opacity: 1;
   }
 /**Footer*/
-.ondulado-footer img {
+/* .ondulado-footer img {
     width: 110%;
-    /* height: 777px; */
     position: relative;
     z-index: 9;
     top: -246px;
 
-}
+} */
 
-footer{
+/* footer{
 position: relative;
     justify-content: space-around;
     display: grid;
@@ -322,11 +321,8 @@ position: relative;
     background-image: url(../img/bg-footer.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* background-size: 100% 130%; */
-    /* top: 8.27px; */
-    /* padding-right: 26px; */
-    align-items: center;
+     align-items: center;
     z-index: 20;
     bottom: 69px;
     height: 500px;
-}
+} */
