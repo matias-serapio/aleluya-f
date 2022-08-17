@@ -98,7 +98,7 @@
 
                 <div class="user_info">
              
-                        <div class="name_nick">
+                    <div class="name_nick">
                         <p>
                             <label for="names">Nombres *</label>
                             <input type="text" id="names" name="nombre" required>
@@ -112,17 +112,27 @@
                     </div>
              
               
-
-                    <label for="email">E - Mail*</label>
+                <div class="email-form">
+                       <label for="email">E - Mail*</label>
                     <input type="text" id="email" name="correo" required>
 
-                    <label for="email">Asunto*</label>
-                    <input type="text" id="Asunto" name="asunto" required>
+                </div>
+                 
 
+                <div class="asunto-form">
+                    <label for="Asunto">Asunto*</label>
+                    <input type="text" id="Asunto" name="asunto" required>
+                </div>
+
+                <div class="mensaje-form">
                     <label for="mensaje">Mensaje *</label>
                     <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
 
-                    <input type="submit" value="Enviar" id="btnSend">
+           <div class="botonEnviar">
+               <input type="submit" value="Enviar" id="btnSend">
+           </div>
+                 
                 </div>
             </form>
 

@@ -29,6 +29,7 @@
 
 
 .item5{
+    grid-area: contacto-form;
     grid-column: 1;
 
     height: auto;
@@ -40,6 +41,7 @@
     padding-top: 300px;
 }
 .item6{
+    grid-area: contacto;
     grid-column-start: 2;
     grid-column-end: 4;
     height: 2000PX;
@@ -123,9 +125,10 @@ h3{
 .grid-container{
     display: grid;
     background-color: cornsilk;
-    padding-top: 350px;
-    position: relative; 
-    
+    /* padding-top: 350px; */
+    position: relative;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'contacto-form contacto';
 }
 
 /* Formulario de contacto*/
