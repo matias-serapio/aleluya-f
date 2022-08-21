@@ -254,6 +254,13 @@ body {
 }
 
 
+.donar-btn .boton-donar:hover{
+    background-color:#FFFF11;
+    
+}
+
+
+
 /* NUEVO HEADER */
 
 .header-grid {
@@ -609,3 +616,6 @@ footer {
 }
 
 /* HOOVER */
+
+
+

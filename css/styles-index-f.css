@@ -913,10 +913,46 @@ display: grid;
     width:50px;
 }
 
+/* HOOVERS */
 
+.index-nosotros-divbtn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
 
+}
 
+.index-actividades-divbtn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
 
+}
 
+.index-actividades-programa-divbtn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
 
+}
 
+.index-eventos-divbtn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
+
+}
+
+.index-voluntarios-divbtn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
+
+}
+
+.index-ayudanos-divbtn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
+
+}
