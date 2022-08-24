@@ -389,9 +389,10 @@ z-index: 3;
     display: grid;
     background-color: cornsilk;
     grid-template-rows: auto auto auto;
-    grid-template-areas: 'header-grid'
-        'main-grid'
-        'footer-grid';
+    grid-template-areas: 
+    'header-grid'
+    'main-grid'
+    'footer-grid';
 
 }
 
@@ -441,7 +442,6 @@ footer {
     grid-area: footer-grid;
     grid-template-rows: auto auto auto;
     grid-template-areas: 'footer-top''footer-center''footer-bottom';
-    text-align: center;
     color: white;
 }
 
@@ -464,6 +464,7 @@ footer {
 
 .footer-bottom {
     height: 2em;
+    text-align: center;
 }
 
 .footer-left {
