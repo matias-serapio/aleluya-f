@@ -147,7 +147,8 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-family: 'calibri', 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -229,6 +230,8 @@ body {
     border-radius: 10px;
 }
 
+
+
 .boton-donar {
     z-index: 1;
     display: grid;
@@ -242,7 +245,7 @@ body {
 .boton-donar a {
     color: #7B3C00;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'calibri', 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
     font-weight: bold;
     
     font-size: 26px;
@@ -264,7 +267,7 @@ body {
    
     color: #000000;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'calibri', 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
     font-weight: bold;
     /* font-size: 26px; */
     justify-content: center;
