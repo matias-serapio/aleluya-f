@@ -492,6 +492,7 @@ footer {
 /****************/
 .footer-divOrgData {
     display: grid;
+    grid-area: 'footer-divOrgData';
     grid-template-rows: auto auto auto;
     grid-template-areas: 'direccion-footer''telefono-footer''correo-footer';
     justify-content: space-between;
