@@ -480,7 +480,7 @@ body{
     display:grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 'index-testimonios-top' 'index-testimonios-divtitle' 'index-testimonios-divmovie' 'index-testimonios-articulos' 'index-testimonios-bottom';
-    grid-row-gap:150px;
+    grid-row-gap:50px;
 }
 
 .index-testimonios-divmovie-content{
@@ -488,6 +488,7 @@ body{
     border-radius: 50px;
     width: 1080px;
     height: 420px;
+    margin-bottom:90px;
 }
 
 
@@ -553,6 +554,7 @@ body{
     text-align: justify;
     font-weight: lighter;
     font-size: 20px;
+    margin-bottom: 60px;
 }
 
 
