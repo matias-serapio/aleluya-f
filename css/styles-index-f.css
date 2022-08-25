@@ -170,6 +170,8 @@ body{
     
 }
 
+/*
+
 .index-actividades-right .index-actividades-divtext{
     display:grid;
     align-content: end;
@@ -181,6 +183,8 @@ body{
     justify-content: end;
     margin-right:60px;
 }
+
+*/
 
 
 
@@ -254,7 +258,7 @@ body{
 
 }
 
-
+/*
 
 .index-actividades-programa-divtext{
     
@@ -263,6 +267,9 @@ body{
     margin-left:80px;
     margin-right:80px;
 }
+
+*/
+
 .index-actividades-programa-text{
     color:black;
     line-height: 30px;
@@ -277,6 +284,9 @@ body{
     height:250px;
    
 }
+
+
+/*
 
 .index-actividades-programa-divimg{
     align-content:end;
@@ -297,6 +307,8 @@ body{
     margin-bottom:30px;
     display:grid;
 }
+
+*/
 
 
 
@@ -404,10 +416,14 @@ body{
     width:468px;
 }
 
+/*
+
 .index-eventos-divtext{
    margin-right:70px;
     
 }
+
+*/
 
 .index-voluntarios-grid{
     grid-area: index-voluntarios-grid;
@@ -420,15 +436,21 @@ body{
     grid-row-gap:100px;
     
 }
+
+
+/*
+
 .index-voluntarios-grid div{
     display: grid;
-    /* grid-column-gap: 199px; */
-    /* margin-right: 40px; */
-    /* margin-left: 40px; */
+     grid-column-gap: 199px; 
+     margin-right: 40px; 
+     margin-left: 40px; 
     justify-content: space-around;
-    justify-items: center;
+    justify-items: center; 
 
 }
+
+*/
 
 .index-voluntarios-title{
     grid-area: index-voluntarios-title;
@@ -476,9 +498,13 @@ body{
     box-shadow: 3px 3px 0px 3px #87562D;
 }
 
+/*
+
 .index-voluntarios-divbtn{
     height:100px;
 }
+
+*/
 
 .index-testimonios-grid{
     grid-area: index-testimonios-grid;
@@ -489,12 +515,16 @@ body{
     grid-row-gap:50px;
 }
 
+/*
+
 .index-testimonios-divmovie-content{
     border-radius: 50px;
     width: 1080px;
     height: 420px;
     margin-bottom:90px;
 }
+
+*/
 
 
 
@@ -625,11 +655,14 @@ display: grid;
     align-content: space-between;
 }
 
+
+
+/*
 .index-ayudanos-divtext{
 
     width: 75%;
     align-content: center;
-    /* margin: 50px; */
+     margin: 50px; 
     font-family: Roboto;
     Font-style: Medium;
     Font-size: 28px;
@@ -638,7 +671,7 @@ display: grid;
     text-align: Left;
     Vertical-align: Top;
 }
-
+*/
 
 
 
@@ -919,6 +952,8 @@ display: grid;
 
 /* HOOVERS */
 
+/*
+
 .index-nosotros-divbtn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
@@ -960,3 +995,5 @@ display: grid;
     color: black;
 
 }
+
+*/
