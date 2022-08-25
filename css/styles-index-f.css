@@ -164,10 +164,9 @@ body{
     grid-template-areas: 'index-actividades-text'
                          'index-actividades-btn';
     
-    
     margin-right:60px;
-   
-    
+    grid-row-gap:100px; 
+    justify-items:end;
 }
 
 /*
@@ -223,8 +222,18 @@ body{
     border-radius: 30px;
     margin-top:10px;
     box-shadow: 3px 3px 0px 3px #87562D; 
+   
     
 }
+
+.index-actividades-right .index-actividades-text{
+    display:grid;  
+    align-items: center;
+}
+
+
+
+
 
 .index-actividades-img{
     height:400px;
@@ -255,6 +264,8 @@ body{
     background: white;
     text-align: center;
     margin: 0px auto;
+    justify-content: center;
+    align-content: center;
 
 }
 
