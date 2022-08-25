@@ -345,7 +345,7 @@ body{
     grid-area: index-eventos-left;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas:'index-eventos-divtitle'
+    grid-template-areas:'index-eventos-title'
                         'index-eventos-divtext'
                         'index-eventos-divbtn';
     color:black;
@@ -385,7 +385,7 @@ body{
 
 .index-eventos-title{
     display: grid;
-    grid-area: 'index-eventos-divtitle';
+    grid-area: index-eventos-title;
     font-family:'poetsenone-regular';
     font-size: 60px;
     justify-content: left;
@@ -415,7 +415,7 @@ body{
     background: #BC6D2A;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas:'index-voluntarios-divtitle' 'index-voluntarios-divtext' 'index-voluntarios-divbtn';
+    grid-template-areas:'index-voluntarios-title' 'index-voluntarios-divtext' 'index-voluntarios-divbtn';
     align-content: center;
     grid-row-gap:100px;
     
@@ -430,19 +430,25 @@ body{
 
 }
 
-
 .index-voluntarios-title{
+    grid-area: index-voluntarios-title;
+    justify-content: left;
     color:white;
+    font-family:'poetsenone-regular';
+    font-size: 60px;
 }
+
+/*
+.index-voluntarios-title{
+    display: grid;
+    grid-area: 'index-voluntarios-divtitle';
+    justify-content: left;
+    color:white;
+}*/
 
 .index-voluntarios-text{
     color:white;
     font-size: large;
-}
-
-.index-voluntarios-title{
-    font-family:'poetsenone-regular';
-    font-size: 60px;
 }
 
 .index-voluntarios-text{
@@ -592,11 +598,17 @@ display: grid;
 }
 
 .index-ayudanos-title{
+    display: grid;
+    grid-area: index-ayudanos-divtitle;
     color:white;
     font-family:'poetsenone-regular';
+    Font-size: 60px;
+    justify-content: right;
 }
 
 .index-ayudanos-text{
+    grid-area: index-ayudanos-divtext;
+    justify-content: right;
     color:white;
     font-family:'araboto';
     font-size: x-large;
@@ -613,17 +625,6 @@ display: grid;
     align-content: space-between;
 }
 
-.index-ayudanos-divtitle{
-    width: 75%;
-    align-content: center;
-    /* margin: 50px; */
-
-    Font-style: regular;
-    Font-size: 42px;
-    Line-height: 100%;
-    text-align: Left;
-    Vertical-align: Top;
-}
 .index-ayudanos-divtext{
 
     width: 75%;
