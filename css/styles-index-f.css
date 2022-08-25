@@ -70,9 +70,9 @@ body{
     grid-area: index-nosotros-left;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas:'index-nosotros-divtitle'
-                        'index-nosotros-divtext'
-                        'index-nosotros-divbtn';
+    grid-template-areas:'index-nosotros-title'
+                        'index-nosotros-text'
+                        'index-nosotros-btn';
     justify-content: center;
     align-content: center;
     grid-row-gap:50px;
@@ -161,8 +161,8 @@ body{
     display:grid;
     grid-area: index-actividades-right;
     grid-template-rows: auto auto;
-    grid-template-areas: 'index-actividades-divtext'
-                         'index-actividades-divbtn';
+    grid-template-areas: 'index-actividades-text'
+                         'index-actividades-btn';
     
     
     margin-right:60px;
@@ -242,9 +242,9 @@ body{
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-areas:
-        'index-actividades-programa-divimg'
-        'index-actividades-programa-divtext'
-        'index-actividades-programa-divbtn';
+        'index-actividades-programa-img'
+        'index-actividades-programa-text'
+        'index-actividades-programa-btn';
     width: 780px;
     height: 780px;
     border-radius: 50%;
@@ -346,8 +346,8 @@ body{
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas:'index-eventos-title'
-                        'index-eventos-divtext'
-                        'index-eventos-divbtn';
+                        'index-eventos-text'
+                        'index-eventos-btn';
     color:black;
 }
 
@@ -415,7 +415,7 @@ body{
     background: #BC6D2A;
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-areas:'index-voluntarios-title' 'index-voluntarios-divtext' 'index-voluntarios-divbtn';
+    grid-template-areas:'index-voluntarios-title' 'index-voluntarios-text' 'index-voluntarios-btn';
     align-content: center;
     grid-row-gap:100px;
     
@@ -485,7 +485,7 @@ body{
     background:white;
     display:grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: 'index-testimonios-top' 'index-testimonios-divtitle' 'index-testimonios-divmovie' 'index-testimonios-articulos' 'index-testimonios-bottom';
+    grid-template-areas: 'index-testimonios-top' 'index-testimonios-title' 'index-testimonios-movie' 'index-testimonios-articulos' 'index-testimonios-bottom';
     grid-row-gap:50px;
 }
 
@@ -591,15 +591,15 @@ display: grid;
 .index-ayudanos-left{
     grid-area: index-ayudanos-left;
     grid-template-rows: auto auto;
-    grid-template-areas: 'index-ayudanos-divtitle'
-                         'index-ayudanos-divtext';
+    grid-template-areas: 'index-ayudanos-title'
+                         'index-ayudanos-text';
     display:grid;
     
 }
 
 .index-ayudanos-title{
     display: grid;
-    grid-area: index-ayudanos-divtitle;
+    grid-area: index-ayudanos-title;
     color:white;
     font-family:'poetsenone-regular';
     Font-size: 60px;
@@ -607,7 +607,7 @@ display: grid;
 }
 
 .index-ayudanos-text{
-    grid-area: index-ayudanos-divtext;
+    grid-area: index-ayudanos-text;
     justify-content: right;
     color:white;
     font-family:'araboto';
