@@ -79,6 +79,7 @@ body{
 }
 
 .index-nosotros-title{
+    grid-area: index-nosotros-title;
     color:black;
     font-family:'poetsenone-regular';
     font-size:60px;
@@ -86,6 +87,7 @@ body{
 }
 
 .index-nosotros-text{
+    grid-area: index-nosotros-text;
     color:black;
     font-family:'araboto';
     font-size: large;
@@ -119,10 +121,12 @@ body{
 }
 
 .index-nosotros-margin-top{
-    
+    grid-area: index-nosotros-margin-top;
+    display:grid;
 }
 
 .index-nosotros-bottom{
+    grid-area: index-nosotros-bottom;
     /* grid-area: index-testimonios-bottom;
     height: 100%;
     bottom: -4px;
@@ -139,7 +143,12 @@ body{
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas: 'index-actividades-top' 'index-actividades-main' 'index-actividades-bottom';
-       
+    justify-items: center;
+}
+
+.index-actividades-top{
+    grid-area: index-actividades-top;
+    display: grid;
 }
 
 .index-actividades-Backgroung{
@@ -169,6 +178,11 @@ body{
     justify-items:end;
 }
 
+.index-actividades-bottom{
+    grid-area: index-actividades-bottom;
+    display: grid;
+}
+
 /*
 
 .index-actividades-right .index-actividades-divtext{
@@ -187,7 +201,10 @@ body{
 
 
 
+
+
 .index-actividades-title{
+    grid-area: index-actividades-title;
     color:white;
     font-family:'poetsenone-regular';
     font-size:60px;
@@ -195,7 +212,9 @@ body{
   
 }
 
+
 .index-actividades-text{
+    grid-area: index-actividades-text;
     color: black;
     font-family:'araboto';
     font-size: x-large;
@@ -205,7 +224,7 @@ body{
 }
 
 .index-actividades-btn{ 
-    
+    grid-area: index-actividades-btn;
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
@@ -264,10 +283,10 @@ body{
     background: white;
     text-align: center;
     margin: 0px auto;
-    justify-content: center;
-    align-content: center;
-
+    
+    
 }
+
 
 /*
 
@@ -282,6 +301,8 @@ body{
 */
 
 .index-actividades-programa-text{
+    grid-area: index-actividades-programa-text;
+    display: grid;
     color:black;
     line-height: 30px;
     font-family: 'araboto';
@@ -291,6 +312,8 @@ body{
 }
 
 .index-actividades-programa-img{
+    grid-area: index-actividades-programa-img;
+    display:grid;
      width:590px;
     height:250px;
    
@@ -325,6 +348,7 @@ body{
 
 
 .index-actividades-programa-btn{
+    grid-area: index-actividades-programa-btn;
     color: black;
     font-family:sans-serif;
     font-weight:bolder;
@@ -353,6 +377,16 @@ body{
     /* border: 1px solid black; */
 }
 
+.index-eventos-top{
+    grid-area: index-eventos-top;
+    display: grid;
+}
+
+.index-eventos-bottom{
+    grid-area: index-eventos-bottom;
+    display: grid;
+}
+
 .index-eventos-main{
     grid-area: index-eventos-main;
     background: white;
@@ -375,6 +409,7 @@ body{
 }
 
 .index-eventos-right{
+    grid-area: index-eventos-right;
      /* grid-area: index-eventos-left; */
      display: grid;
      /* grid-template-rows: auto auto auto; */
@@ -388,6 +423,7 @@ body{
 
 
 .index-eventos-btn{
+    grid-area: index-eventos-btn;
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
@@ -404,6 +440,7 @@ body{
     border-radius: 30px;
     margin-top:10px;
     box-shadow: 3px 3px 0px 3px #BFBCBC;
+    
 }
 
 .index-eventos-title{
@@ -416,6 +453,7 @@ body{
 }
 
 .index-eventos-text{
+    grid-area: index-eventos-text;
     font-family:'araboto';
     font-size: x-large;
     text-align: justify;
@@ -445,7 +483,7 @@ body{
     grid-template-areas:'index-voluntarios-title' 'index-voluntarios-text' 'index-voluntarios-btn';
     align-content: center;
     grid-row-gap:100px;
-    
+    justify-items: center;
 }
 
 
@@ -485,13 +523,17 @@ body{
 }
 
 .index-voluntarios-text{
+    grid-area: index-voluntarios-text;
     font-family: 'araboto';
     font-size: x-large;
     width: 85%;
     text-align: center;
 }
 
+
+
 .index-voluntarios-btn{
+    grid-area: index-voluntarios-btn;
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
@@ -507,6 +549,7 @@ body{
     padding-right: 70px;
     border-radius: 30px;
     box-shadow: 3px 3px 0px 3px #87562D;
+    display:grid;
 }
 
 /*
@@ -523,7 +566,7 @@ body{
     display:grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 'index-testimonios-top' 'index-testimonios-title' 'index-testimonios-movie' 'index-testimonios-articulos' 'index-testimonios-bottom';
-    grid-row-gap:50px;
+    
 }
 
 /*
@@ -623,9 +666,10 @@ display: grid;
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: 'index-ayudanos-left index-ayudanos-right';
-    justify-content: space-evenly;
     padding-top: 2%;
     padding-bottom: 5%;
+    justify-content: space-around;
+   
    
 }
 
@@ -635,8 +679,10 @@ display: grid;
     grid-template-areas: 'index-ayudanos-title'
                          'index-ayudanos-text';
     display:grid;
-    
+      
 }
+
+
 
 .index-ayudanos-title{
     display: grid;
@@ -644,7 +690,8 @@ display: grid;
     color:white;
     font-family:'poetsenone-regular';
     Font-size: 60px;
-    justify-content: right;
+   
+    
 }
 
 .index-ayudanos-text{
@@ -653,18 +700,10 @@ display: grid;
     color:white;
     font-family:'araboto';
     font-size: x-large;
+    text-align: justify;
+    display:grid;
 }
 
-.index-ayudanos-left{
-    display: grid;
-    /* width: 75%; */
-  
-    align-items: center;
-    justify-items: start;
-    justify-content: space-evenly;
-  
-    align-content: space-between;
-}
 
 
 
@@ -687,19 +726,16 @@ display: grid;
 
 
 .index-ayudanos-right{
-
+    grid-area: index-ayudanos-right;
     display: grid;
     align-items: center;
     justify-content: space-around;
 }
 
-.index-ayudanos-divbtn{
-    height:200px;
-    display:grid;
-    align-content: center;
-}
+
 
 .index-ayudanos-btn{
+    grid-area: index-ayudanos-btn;
     color: #84341B;
     font-family: sans-serif;
     font-weight: 800;
