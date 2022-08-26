@@ -425,6 +425,7 @@ footer {
 }
 
 .footer-divisologo {
+    grid-area: footer-divisologo;
     display: grid;
     justify-content: center;
 }
@@ -454,17 +455,21 @@ footer {
 .footer-center {
     display: grid;
     grid-area: datos;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% auto 30%;
     grid-template-areas: 'footer-left footer-divisologo footer-right';
     align-items: center;
-
+    grid-column-gap: 5px;
 }
 
 
-
 .footer-bottom {
+    grid-area: footer-bottom;
     height: 2em;
     text-align: center;
+    display: grid;
+    justify-content: space-around;
+    justify-items: stretch;
+    align-items: center;
 }
 
 .footer-left {
@@ -523,6 +528,7 @@ footer {
     align-items: center;
     justify-items: center;
     grid-template-columns: auto auto;
+    grid-column-gap: 20px;
 }
 
 .footer-followUs {
@@ -547,12 +553,12 @@ footer {
     padding-top: 70px;
 }*/
 
-.footer-followUs div {
+/* .footer-followUs div {
     padding-right: 40px;
     display: grid;
     justify-content: start;
     align-items: stretch;
-}
+} */
 
 .iconos-redes div {
     /* padding-right: 40px; */
@@ -567,7 +573,7 @@ footer {
     padding-right: 40px;
 }*/
 
-.iconos-redes div img {
+.iconos-redes img {
     width: 55px;
     height: 55px;
 }
