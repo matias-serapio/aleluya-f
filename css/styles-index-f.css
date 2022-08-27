@@ -285,7 +285,7 @@ body{
     margin: 0px auto;
     align-items:center;
     justify-items: center;
-    grid-row-gap:30px;
+    grid-row-gap:20px;
 }
 
 
@@ -360,8 +360,8 @@ body{
     font-stretch:extra-condensed;
     border: 0px;
     background-color: white;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     padding-left: 70px;
     padding-right: 70px;
     border-radius: 30px;
