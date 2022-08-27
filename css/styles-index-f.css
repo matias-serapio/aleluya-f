@@ -36,7 +36,7 @@ body{
     grid-area: index-main-grid;
     display: grid;
     grid-template-rows: auto auto auto
-                        auto auto auto;
+                        450px auto 300px;
     grid-template-areas: 'index-nosotros-grid'
                          'index-actividades-grid'
                          'index-eventos-grid'
@@ -106,10 +106,10 @@ body{
     border: 0px;
     border-radius: 10px;
     background-color: #F0CB11;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 30px;
     margin-top:10px;
     box-shadow: 3px 3px 0px 3px #BFBCBC;
@@ -161,7 +161,7 @@ body{
     text-align: center;
     justify-items: stretch;
     background-color: white;
-    margin: 52px 70px 50px 70px;
+    margin: 45px 70px 50px 70px;
     border-radius: 250px;
     
 }
@@ -172,34 +172,27 @@ body{
     grid-template-rows: auto auto;
     grid-template-areas: 'index-actividades-text'
                          'index-actividades-btn';
+    margin-right:100px;
+    margin-top: 100px;
+    margin-bottom:40px;
+    align-items: end;
+    justify-items: end;
+}
+
+.index-actividades-right .index-actividades-btn{
+   display:grid;
+   
+}
+
+.index-actividades-right .index-actividades-text{
+  display:grid;
     
-    margin-right:60px;
-    grid-row-gap:100px; 
-    justify-items:end;
 }
 
 .index-actividades-bottom{
     grid-area: index-actividades-bottom;
     display: grid;
 }
-
-/*
-
-.index-actividades-right .index-actividades-divtext{
-    display:grid;
-    align-content: end;
-}
-
-.index-actividades-right .index-actividades-divbtn{
-    display:grid;
-    align-content: center;
-    justify-content: end;
-    margin-right:60px;
-}
-
-*/
-
-
 
 
 
@@ -224,7 +217,6 @@ body{
 }
 
 .index-actividades-btn{ 
-    grid-area: index-actividades-btn;
     color: #84341B;
     font-family:sans-serif;
     font-weight:bolder;
@@ -234,21 +226,18 @@ body{
     border: 0px;
     border-radius: 10px;
     background-color: #F0CB11;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 30px;
-    margin-top:10px;
-    box-shadow: 3px 3px 0px 3px #87562D; 
-   
+    box-shadow: 3px 3px 0px 3px #BFBCBC;
+    margin-right:50px;
+    
     
 }
 
-.index-actividades-right .index-actividades-text{
-    display:grid;  
-    align-items: center;
-}
+
 
 
 
@@ -379,6 +368,7 @@ body{
     grid-template-areas: 'index-eventos-top' 'index-eventos-main' 'index-eventos-bottom';
     background:white;
     /* border: 1px solid black; */
+    grid-row-gap: 130px;
 }
 
 .index-eventos-top{
@@ -410,6 +400,7 @@ body{
                         'index-eventos-text'
                         'index-eventos-btn';
     color:black;
+    
 }
 
 .index-eventos-right{
@@ -437,10 +428,10 @@ body{
     border: 0px;
     border-radius: 10px;
     background-color: #F0CB11;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 30px;
     margin-top:10px;
     box-shadow: 3px 3px 0px 3px #BFBCBC;
@@ -485,9 +476,10 @@ body{
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas:'index-voluntarios-title' 'index-voluntarios-text' 'index-voluntarios-btn';
-    align-content: center;
-    grid-row-gap:100px;
+    align-items: center;
+    grid-row-gap:0px;
     justify-items: center;
+    
 }
 
 
@@ -507,10 +499,12 @@ body{
 
 .index-voluntarios-title{
     grid-area: index-voluntarios-title;
-    justify-content: left;
+    display:grid;
+    
     color:white;
     font-family:'poetsenone-regular';
     font-size: 60px;
+    
 }
 
 /*
@@ -524,14 +518,16 @@ body{
 .index-voluntarios-text{
     color:white;
     font-size: large;
+    
 }
 
 .index-voluntarios-text{
     grid-area: index-voluntarios-text;
     font-family: 'araboto';
     font-size: x-large;
-    width: 85%;
+    width: 55%;
     text-align: center;
+    
 }
 
 
@@ -547,13 +543,15 @@ body{
     border: 0px;
     border-radius: 10px;
     background-color: #F0CB11;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 30px;
     box-shadow: 3px 3px 0px 3px #87562D;
     display:grid;
+    margin-bottom:10px;
+    
 }
 
 /*
@@ -569,15 +567,32 @@ body{
     background:white;
     display:grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: 'index-testimonios-top' 'index-testimonios-title' 'index-testimonios-movie' 'index-testimonios-articulos' 'index-testimonios-bottom';
+    grid-template-areas: 'index-testimonios-top' 'index-testimonios-main' 'index-testimonios-bottom';
+    
     
 }
+
+.index-testimonios-main{
+    grid-area: index-testimonios-main;
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'index-testimions-title' 'index-testimonios-movie' 'index-testimonios-articulos';
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+
+/*
+'index-testimonios-title' 'index-testimonios-movie' 'index-testimonios-articulos'
+*/
+
 
 .index-testimonios-divmovie-content{
     border-radius: 50px;
     width: 1080px;
     height: 420px;
     margin-bottom:90px;
+   
+    display:grid;
 }
 
 
@@ -656,6 +671,7 @@ bottom: -4px;
 width: 100%;
 position: relative; */
 display: grid;
+    
 }
 
 
@@ -670,7 +686,7 @@ display: grid;
     padding-top: 2%;
     padding-bottom: 5%;
     justify-content: space-around;
-   
+    
    
 }
 
@@ -680,7 +696,7 @@ display: grid;
     grid-template-areas: 'index-ayudanos-title'
                          'index-ayudanos-text';
     display:grid;
-      
+    grid-row-gap:25px;  
 }
 
 
@@ -691,7 +707,7 @@ display: grid;
     color:white;
     font-family:'poetsenone-regular';
     Font-size: 60px;
-   
+    justify-items: left;
     
 }
 
@@ -703,6 +719,9 @@ display: grid;
     font-size: x-large;
     text-align: justify;
     display:grid;
+    margin-right: 300px;
+    line-height: 30px;
+    
 }
 
 
