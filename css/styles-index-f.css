@@ -36,7 +36,7 @@ body{
     grid-area: index-main-grid;
     display: grid;
     grid-template-rows: auto auto auto
-                        auto auto 380px;
+                        450px auto 300px;
     grid-template-areas: 'index-nosotros-grid'
                          'index-actividades-grid'
                          'index-eventos-grid'
@@ -477,7 +477,7 @@ body{
     grid-template-rows: auto auto auto;
     grid-template-areas:'index-voluntarios-title' 'index-voluntarios-text' 'index-voluntarios-btn';
     align-items: center;
-    grid-row-gap:60px;
+    grid-row-gap:0px;
     justify-items: center;
     
 }
@@ -696,7 +696,7 @@ display: grid;
     grid-template-areas: 'index-ayudanos-title'
                          'index-ayudanos-text';
     display:grid;
-      
+    grid-row-gap:25px;  
 }
 
 
@@ -707,7 +707,7 @@ display: grid;
     color:white;
     font-family:'poetsenone-regular';
     Font-size: 60px;
-   
+    justify-items: left;
     
 }
 
@@ -719,6 +719,9 @@ display: grid;
     font-size: x-large;
     text-align: justify;
     display:grid;
+    margin-right: 300px;
+    line-height: 30px;
+    
 }
 
 
