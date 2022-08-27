@@ -476,9 +476,10 @@ body{
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas:'index-voluntarios-title' 'index-voluntarios-text' 'index-voluntarios-btn';
-    align-content: center;
+    
     grid-row-gap:100px;
     justify-items: center;
+    
 }
 
 
@@ -502,6 +503,7 @@ body{
     color:white;
     font-family:'poetsenone-regular';
     font-size: 60px;
+    
 }
 
 /*
@@ -523,6 +525,7 @@ body{
     font-size: x-large;
     width: 85%;
     text-align: center;
+    
 }
 
 
@@ -545,6 +548,8 @@ body{
     border-radius: 30px;
     box-shadow: 3px 3px 0px 3px #87562D;
     display:grid;
+    margin-bottom:10px;
+    
 }
 
 /*
@@ -560,15 +565,32 @@ body{
     background:white;
     display:grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: 'index-testimonios-top' 'index-testimonios-title' 'index-testimonios-movie' 'index-testimonios-articulos' 'index-testimonios-bottom';
+    grid-template-areas: 'index-testimonios-top' 'index-testimonios-main' 'index-testimonios-bottom';
+    
     
 }
+
+.index-testimonios-main{
+    grid-area: index-testimonios-main;
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'index-testimions-title' 'index-testimonios-movie' 'index-testimonios-articulos';
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+
+/*
+'index-testimonios-title' 'index-testimonios-movie' 'index-testimonios-articulos'
+*/
+
 
 .index-testimonios-divmovie-content{
     border-radius: 50px;
     width: 1080px;
     height: 420px;
     margin-bottom:90px;
+   
+    display:grid;
 }
 
 
