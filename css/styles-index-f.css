@@ -607,31 +607,28 @@ body{
 
 }
 
-.index-testimonios-art1{
-    grid-area:index-testimonios-art1;
-    
+.index-testimonios-art{
     display: grid;
     grid-template-rows: auto auto;
     grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
+}
+
+.index-testimonios-art1{
+    grid-area:index-testimonios-art1;
+    
 }
 
 .index-testimonios-art2{
     grid-area:index-testimonios-art2;
     
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com'
 }
 
 .index-testimonios-art3{
     grid-area:index-testimonios-art3;
     
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'index-testimonios-tp' 'index-testimonios-com';
 }
 
-
+/* 
 .index-testimonios-art4 {
     border: 1px solid black;
     display: grid;
@@ -639,7 +636,8 @@ body{
     grid-template-areas:
         'index-testimonios-tp'
         'index-testimonios-com';
-} 
+}  */
+
 .index-testimonios-title{
     font-family:'poetsenone-regular';
     font-size: 60px;
