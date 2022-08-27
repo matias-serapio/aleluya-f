@@ -36,7 +36,7 @@ body{
     grid-area: index-main-grid;
     display: grid;
     grid-template-rows: auto auto auto
-                        auto auto auto;
+                        auto auto 380px;
     grid-template-areas: 'index-nosotros-grid'
                          'index-actividades-grid'
                          'index-eventos-grid'
@@ -161,7 +161,7 @@ body{
     text-align: center;
     justify-items: stretch;
     background-color: white;
-    margin: 52px 70px 50px 70px;
+    margin: 45px 70px 50px 70px;
     border-radius: 250px;
     
 }
@@ -368,7 +368,7 @@ body{
     grid-template-areas: 'index-eventos-top' 'index-eventos-main' 'index-eventos-bottom';
     background:white;
     /* border: 1px solid black; */
-    grid-row-gap: 160px;
+    grid-row-gap: 130px;
 }
 
 .index-eventos-top{
@@ -476,8 +476,8 @@ body{
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-areas:'index-voluntarios-title' 'index-voluntarios-text' 'index-voluntarios-btn';
-    
-    grid-row-gap:100px;
+    align-items: center;
+    grid-row-gap:60px;
     justify-items: center;
     
 }
@@ -499,7 +499,8 @@ body{
 
 .index-voluntarios-title{
     grid-area: index-voluntarios-title;
-    justify-content: left;
+    display:grid;
+    
     color:white;
     font-family:'poetsenone-regular';
     font-size: 60px;
@@ -517,13 +518,14 @@ body{
 .index-voluntarios-text{
     color:white;
     font-size: large;
+    
 }
 
 .index-voluntarios-text{
     grid-area: index-voluntarios-text;
     font-family: 'araboto';
     font-size: x-large;
-    width: 85%;
+    width: 55%;
     text-align: center;
     
 }
@@ -669,6 +671,7 @@ bottom: -4px;
 width: 100%;
 position: relative; */
 display: grid;
+    
 }
 
 
@@ -683,7 +686,7 @@ display: grid;
     padding-top: 2%;
     padding-bottom: 5%;
     justify-content: space-around;
-   
+    
    
 }
 
