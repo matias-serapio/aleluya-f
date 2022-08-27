@@ -272,7 +272,7 @@ body{
     grid-area: index-actividades-programa-circ;
     
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto 0px auto;
     grid-template-areas:
         'index-actividades-programa-img'
         'index-actividades-programa-text'
@@ -283,8 +283,9 @@ body{
     background: white;
     text-align: center;
     margin: 0px auto;
-    
-    
+    align-items:center;
+    justify-items: center;
+    grid-row-gap:30px;
 }
 
 
@@ -307,8 +308,8 @@ body{
     line-height: 30px;
     font-family: 'araboto';
     font-size: x-large;
-    text-align: center;
-    
+    margin-left:120px;
+    margin-right:120px;
 }
 
 .index-actividades-programa-img{
@@ -318,6 +319,8 @@ body{
     height:250px;
    
 }
+
+
 
 
 /*
@@ -365,6 +368,7 @@ body{
     border: 0px;
     margin-top:10px;
     box-shadow: 3px 3px 3px 3px #BFBCBC;
+    
     
 }
 
