@@ -929,12 +929,8 @@ display: grid;
     }
     /***********************************************/
   /***********************Slide Testimonios****************************************/
-  .mySlides {
-  
-  }
-
-  
-    .demoTestimonios{
+   
+.demoTestimonios{
    display: none;
     }
 /* BORDES */
@@ -1016,7 +1012,6 @@ display: grid;
 
 /* HOOVERS */
 
-/*
 
 .index-nosotros-divbtn a:hover {
     background-color: #FFFF11;
@@ -1053,11 +1048,11 @@ display: grid;
 
 }
 
-.index-ayudanos-divbtn a:hover {
+.index-ayudanos-divbtn :hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-*/
+
