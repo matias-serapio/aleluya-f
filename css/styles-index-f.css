@@ -673,14 +673,14 @@ display: grid;
 .index-ayudanos-grid{
     background: #BC6D2A;
     grid-area: index-ayudanos-grid;
-
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 40% 40%;
     grid-template-areas: 'index-ayudanos-left index-ayudanos-right';
-    padding-top: 2%;
-    padding-bottom: 5%;
-    justify-content: space-around;
-    
+    /* padding-top: 2%; */
+    /* padding-bottom: 5%; */
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
    
 }
 
@@ -705,51 +705,36 @@ display: grid;
     
 }
 
-.index-ayudanos-text{
-    grid-area: index-ayudanos-text;
-    justify-content: right;
-    color:white;
-    font-family:'araboto';
-    font-size: x-large;
-    text-align: justify;
-    display:grid;
-    margin-right: 300px;
-    line-height: 30px;
-    
-}
 
-
-
-
-/*
 .index-ayudanos-divtext{
-
+    grid-area: index-ayudanos-text;
+    display: grid;
     width: 75%;
     align-content: center;
-     margin: 50px; 
-    font-family: Roboto;
-    Font-style: Medium;
-    Font-size: 28px;
-
-    Line-height: 100%;
-    text-align: Left;
-    Vertical-align: Top;
+    justify-content: start;
 }
-*/
 
+.index-ayudanos-text{
+
+    justify-content: right;
+    color: white;
+    font-family: 'araboto';
+    font-size: x-large;
+    text-align: justify;  
+    line-height: 30px; 
+}
 
 
 .index-ayudanos-right{
     grid-area: index-ayudanos-right;
     display: grid;
+    justify-content: end;
     align-items: center;
-    justify-content: space-around;
 }
 
 
 
 .index-ayudanos-btn{
-    grid-area: index-ayudanos-btn;
     color: #84341B;
     font-family: sans-serif;
     font-weight: 800;
@@ -761,10 +746,10 @@ display: grid;
     background-color: #F0CB11;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
     box-shadow: 3px 20px 10px 3px #87562d;
-    
+    width: 300px;
+    justify-self: end;
+    /* display: grid;*/
 }
 
 .titulo-body-slider{
@@ -1044,14 +1029,14 @@ display: grid;
 
 }
 
-.index-voluntarios-btn a:hover {
+.index-voluntarios-btn:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-ayudanos-btn a:hover {
+.index-ayudanos-btn:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
