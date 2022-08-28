@@ -340,12 +340,20 @@ z-index: 3;
 
 }
 
+.back-arrow{
+    display: grid;
+    grid-area: back-arrow;
+    border-radius: 100%;
+}
+
 .title-1 {
     /* grid-area: grid-slider; */
     /* display: grid; */
     /* grid-template-columns: 100px auto 100px; */
     /* grid-template-areas: 'back-arrow title-1 next-arrow'; */
     /* grid-column: 1/4; */
+    grid-area: title-1;
+    display: grid;
     position: relative;
     /* z-index: 6; */
     /* top: 178px; */
@@ -355,6 +363,12 @@ z-index: 3;
     align-content: center;
     /* bottom: -29px;*/
 
+}
+
+.next-arrow{
+    display: grid;
+    grid-area: next-arrow;
+    border-radius: 100%;
 }
 
 .index-header-margin-bottom {
