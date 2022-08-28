@@ -97,7 +97,7 @@ body{
 }
 
 .index-nosotros-btn{
-    color: #84341B;
+    color: #83331b;
     font-family:sans-serif;
     font-weight:bolder;
     font-size: 40px;
@@ -817,22 +817,21 @@ display: grid;
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
         user-select: none;
         z-index: 5;
         font-size: 50px;
+        border-radius: 15%;
         -webkit-text-stroke: 1px beige;
     }
     
     /* Position the "next button" to the right */
     .next {
       /* right: 40px; */
-      border-radius: 3px 0 0 3px;
     }
     
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
+      background-color: #BC6D2A;
     }
     
     /* Caption text */
@@ -1007,12 +1006,12 @@ display: grid;
 
 .index-testimonios-slider-back-arrow{
 
-    width:50px;
+    width:70%;
 }
 
 .index-testimonios-slider-next-arrow{
 
-    width:50px;
+    width:70%;
 }
 
 /* HOOVERS */
