@@ -204,13 +204,23 @@ body{
     background: white;
     text-align: center;
     margin: 0px auto;
-    align-items:center;
+    
     justify-items: center;
-    grid-row-gap:20px;
+    grid-row-gap:0px;
     
 }
 
+.index-actividades-bottom .index-actividades-programa-divimg{
+    display:grid;
+    align-items: flex-end;
+}
 
+
+
+.index-actividades-bottom .index-actividades-programa-divtext{
+    display:grid;
+    
+}
 
 .index-actividades-title{
     grid-area: index-actividades-title;
@@ -524,9 +534,13 @@ body{
     width: 55%;
     text-align: center;
     
+    display: grid;
 }
 
-
+.index-voluntarios-divtext{
+    display:grid;
+    justify-items:center;
+}
 
 .index-voluntarios-btn{
     grid-area: index-voluntarios-btn;
@@ -994,14 +1008,14 @@ display: grid;
 /* HOOVERS */
 
 
-.index-nosotros-btn a:hover {
+.index-nosotros-divbtn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-actividades-btn a:hover {
+.index-actividades-divbtn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
@@ -1015,14 +1029,14 @@ display: grid;
 
 }
 
-.index-actividades-programa-btn a:hover {
+.index-actividades-programa-divbtn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-eventos-btn a:hover {
+.index-eventos-divbtn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
