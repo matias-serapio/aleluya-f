@@ -480,7 +480,7 @@ width: 100%;
     grid-template-areas: 'footer-left footer-divisologo footer-right';
     align-items: center;
     grid-column-gap: 5px;
-    
+    background-color: #894A00;
 }
 
 
@@ -492,7 +492,7 @@ width: 100%;
     justify-content: space-around;
     justify-items: stretch;
     align-items: center;
-    
+    background-color: #894A00;
 }
 
 .footer-left {
