@@ -111,6 +111,7 @@ body {
     height: 97px;
     position: relative;
     left: 20px;
+    top: 20px;
     z-index: 9;
 }
 
@@ -343,7 +344,6 @@ z-index: 3;
 .back-arrow{
     display: grid;
     grid-area: back-arrow;
-    border-radius: 100%;
 }
 
 .title-1 {
@@ -368,7 +368,6 @@ z-index: 3;
 .next-arrow{
     display: grid;
     grid-area: next-arrow;
-    border-radius: 100%;
 }
 
 .index-header-margin-bottom {

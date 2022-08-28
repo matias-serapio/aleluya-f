@@ -97,7 +97,7 @@ body{
 }
 
 .index-nosotros-btn{
-    color: #84341B;
+    color: #83331b;
     font-family:sans-serif;
     font-weight:bolder;
     font-size: 40px;
@@ -820,7 +820,7 @@ display: grid;
         user-select: none;
         z-index: 5;
         font-size: 50px;
-        border-radius: 100%;
+        border-radius: 15%;
         -webkit-text-stroke: 1px beige;
     }
     
@@ -831,7 +831,7 @@ display: grid;
     
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
-      background-color: rgba(159, 61, 0, 0.8);
+      background-color: #BC6D2A;
     }
     
     /* Caption text */
