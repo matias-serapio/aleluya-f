@@ -925,12 +925,8 @@ display: grid;
     }
     /***********************************************/
   /***********************Slide Testimonios****************************************/
-  .mySlides {
-  
-  }
-
-  
-    .demoTestimonios{
+   
+.demoTestimonios{
    display: none;
     }
 /* BORDES */
@@ -1012,48 +1008,54 @@ display: grid;
 
 /* HOOVERS */
 
-/*
 
-.index-nosotros-divbtn a:hover {
+.index-nosotros-btn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-actividades-divbtn a:hover {
+.index-actividades-btn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-actividades-programa-divbtn a:hover {
+.index-actividades-btn:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-eventos-divbtn a:hover {
+.index-actividades-programa-btn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-voluntarios-divbtn a:hover {
+.index-eventos-btn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-.index-ayudanos-divbtn a:hover {
+.index-voluntarios-btn a:hover {
     background-color: #FFFF11;
     opacity: 0.8;
     color: black;
 
 }
 
-*/
+.index-ayudanos-btn a:hover {
+    background-color: #FFFF11;
+    opacity: 0.8;
+    color: black;
+
+}
+
+
