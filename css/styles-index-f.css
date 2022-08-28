@@ -192,6 +192,22 @@ body{
 .index-actividades-bottom{
     grid-area: index-actividades-bottom;
     display: grid;
+    
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        'index-actividades-programa-img'
+        'index-actividades-programa-text'
+        'index-actividades-programa-btn';
+    width: 780px;
+    height: 780px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    margin: 0px auto;
+    align-items:center;
+    justify-items: center;
+    grid-row-gap:20px;
+    
 }
 
 
@@ -250,31 +266,11 @@ body{
 
 
 
-.index-actividades-programa{
-    grid-area: index-actividades-programa;
-    /* border: 1px solid black; */
-    background: #BC6D2A;
-    
-}
 
 .index-actividades-programa-circ{
     grid-area: index-actividades-programa-circ;
     
-    display: grid;
-    grid-template-rows: auto 0px auto;
-    grid-template-areas:
-        'index-actividades-programa-img'
-        'index-actividades-programa-text'
-        'index-actividades-programa-btn';
-    width: 780px;
-    height: 780px;
-    border-radius: 50%;
-    background: white;
-    text-align: center;
-    margin: 0px auto;
-    align-items:center;
-    justify-items: center;
-    grid-row-gap:20px;
+    
 }
 
 
